@@ -1,0 +1,16 @@
+{
+  "empresa": "Regalos Premium",
+  "sitio": "https://regalospremium.cl",
+  "categorias": [
+    { "nombre": "Tecnología", "ejemplo": "Power Bank, accesorios electrónicos" },
+    { "nombre": "Mochilas", "ejemplo": "Mochilas urbanas, porta notebook" },
+    { "nombre": "Llaveros", "ejemplo": "Llaveros metálicos, en cuero" },
+    { "nombre": "Cuadernos", "ejemplo": "Libretas, memos, sets de escritura" },
+    { "nombre": "Sets de Regalo", "ejemplo": "Combos ejecutivos, onboarding" },
+    { "nombre": "Bolsas de Algodón", "ejemplo": "Bolsas publicitarias ecológicas" },
+    { "nombre": "Bolsas TNT", "ejemplo": "Bolsas publicitarias no tejidas" },
+    { "nombre": "Mugs, Botellas y Termos", "ejemplo": "Botellas térmicas, mugs corporativos" },
+    { "nombre": "Ropa Publicitaria", "ejemplo": "Textil corporativo personalizado" },
+    { "nombre": "Herramientas y Asado", "ejemplo": "Sets de herramientas, accesorios de asado" }
+  ]
+}
