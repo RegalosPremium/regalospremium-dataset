@@ -1,0 +1,32 @@
+{
+  "source": "Informe de palabras clave de búsqueda.csv",
+  "source_rows": 3376,
+  "unique_keyword_keys": 3362,
+  "duplicates_collapsed": 14,
+  "ad_groups": 33,
+  "intent_counts": {
+    "DESCARTAR": 7,
+    "USO_CAMPAÑA": 721,
+    "PRODUCTO": 2634
+  },
+  "confidence_counts": {
+    "HIGH": 2385,
+    "MEDIUM": 977
+  },
+  "url_reference_status_counts": {
+    "LEGACY_VIRTUEMART": 51,
+    "CURRENT_FORMAT": 2207,
+    "WWW_VARIANT": 351,
+    "INVALID": 2,
+    "INTERNAL_SEARCH": 4
+  },
+  "unique_url_status_counts": {
+    "LEGACY_VIRTUEMART": 4,
+    "CURRENT_FORMAT": 40,
+    "WWW_VARIANT": 2,
+    "INVALID": 2,
+    "INTERNAL_SEARCH": 2
+  },
+  "unique_historical_urls": 50,
+  "url_conflicts": 1
+}

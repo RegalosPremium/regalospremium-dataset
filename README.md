@@ -47,3 +47,9 @@ Datos publicados bajo CC BY 4.0. Se permite su uso y referencia con atribución 
 ## Sincronización de URLs con Google Ads
 
 Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se procesan con `scripts/ads_url_sync.py`. El sincronizador opera en modo dry-run por defecto, actualiza anuncios, keywords y Asset Groups, y recrea de forma segura sitelinks cuando corresponde. Véase `docs/ADS_URL_SYNC.md`.
+### Google Ads y ecosistema de URLs
+
+- `data/ads/ads_intent_mapping.csv`: mapeo histórico de keywords a intención y familia.
+- `data/ads/ads_campaign_blueprint.csv`: blueprint que cubre las 49 familias y las intenciones transversales.
+- `scripts/ads_url_sync.py`: sincronizador de cambios de URL con Google Ads, dry-run por defecto.
+- `scripts/validate_ads_mapping.py`: validación de consistencia Ads/taxonomía.
