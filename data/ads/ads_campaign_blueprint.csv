@@ -1,60 +1,60 @@
-campaign,ad_group,entity_key,intent_class,macroarea,familia,theme,keyword_count,landing_source,activation_state
-RP | Search | Bolsos y Viaje,Accesorios de Viaje,family:accesorios-de-viaje,PRODUCTO,Bolsos y Viaje,Accesorios de Viaje,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Bolsos y Viaje,Bananos,family:bananos,PRODUCTO,Bolsos y Viaje,Bananos,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Bolsos y Viaje,Billeteras y Portadocumentos,family:billeteras-y-portadocumentos,PRODUCTO,Bolsos y Viaje,Billeteras y Portadocumentos,,3,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Bolsos y Viaje,Bolsas,family:bolsas,PRODUCTO,Bolsos y Viaje,Bolsas,,385,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Bolsos y Viaje,Bolsos,family:bolsos,PRODUCTO,Bolsos y Viaje,Bolsos,,26,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Bolsos y Viaje,Bolsos de Viaje,family:bolsos-de-viaje,PRODUCTO,Bolsos y Viaje,Bolsos de Viaje,,6,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Bolsos y Viaje,Coolers,family:coolers,PRODUCTO,Bolsos y Viaje,Coolers,,6,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Bolsos y Viaje,Maletines y Fundas,family:maletines-y-fundas,PRODUCTO,Bolsos y Viaje,Maletines y Fundas,,5,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Bolsos y Viaje,Mochilas,family:mochilas,PRODUCTO,Bolsos y Viaje,Mochilas,,93,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Herramientas y Outdoor,Accesorios de Automóvil,family:accesorios-de-automovil,PRODUCTO,Herramientas y Outdoor,Accesorios de Automóvil,,41,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Herramientas y Outdoor,Artículos Deportivos,family:articulos-deportivos,PRODUCTO,Herramientas y Outdoor,Artículos Deportivos,,8,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Herramientas y Outdoor,Herramientas,family:herramientas,PRODUCTO,Herramientas y Outdoor,Herramientas,,139,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Hogar y Bebidas,Accesorios de Vino,family:accesorios-de-vino,PRODUCTO,Hogar y Bebidas,Accesorios de Vino,,15,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Hogar y Bebidas,Botellas,family:botellas,PRODUCTO,Hogar y Bebidas,Botellas,,136,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Hogar y Bebidas,Cuidado Personal,family:cuidado-personal,PRODUCTO,Hogar y Bebidas,Cuidado Personal,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Hogar y Bebidas,Difusores y Aromatizadores,family:difusores-y-aromatizadores,PRODUCTO,Hogar y Bebidas,Difusores y Aromatizadores,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Hogar y Bebidas,Hogar y Cocina,family:hogar-y-cocina,PRODUCTO,Hogar y Bebidas,Hogar y Cocina,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Hogar y Bebidas,Mugs y Tazas,family:mugs-y-tazas,PRODUCTO,Hogar y Bebidas,Mugs y Tazas,,315,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Hogar y Bebidas,Termos,family:termos,PRODUCTO,Hogar y Bebidas,Termos,,9,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Oficina y Escritura,Carpetas y Portafolios,family:carpetas-y-portafolios,PRODUCTO,Oficina y Escritura,Carpetas y Portafolios,,5,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Oficina y Escritura,Libretas y Cuadernos,family:libretas-y-cuadernos,PRODUCTO,Oficina y Escritura,Libretas y Cuadernos,,345,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Oficina y Escritura,Lápices y Bolígrafos,family:lapices-y-boligrafos,PRODUCTO,Oficina y Escritura,Lápices y Bolígrafos,,397,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Oficina y Escritura,Oficina,family:oficina,PRODUCTO,Oficina y Escritura,Oficina,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Packaging,Packaging,family:packaging,PRODUCTO,Packaging,Packaging,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Premios y Reconocimientos,"Medallas, Trofeos y Galvanos",family:medallas-trofeos-y-galvanos,PRODUCTO,Premios y Reconocimientos,"Medallas, Trofeos y Galvanos",,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Promocionales,Abanicos,family:abanicos,PRODUCTO,Promocionales,Abanicos,,7,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Antiestrés,family:antiestres,PRODUCTO,Promocionales,Antiestrés,,29,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Imanes,family:imanes,PRODUCTO,Promocionales,Imanes,,3,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Juegos,family:juegos,PRODUCTO,Promocionales,Juegos,,5,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Lanyards,family:lanyards,PRODUCTO,Promocionales,Lanyards,,150,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Llaveros,family:llaveros,PRODUCTO,Promocionales,Llaveros,,222,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Paraguas,family:paraguas,PRODUCTO,Promocionales,Paraguas,,5,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Promocionales,Pelotas,family:pelotas,PRODUCTO,Promocionales,Pelotas,,9,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Sets de Regalo,Sets de Regalo,family:sets-de-regalo,PRODUCTO,Sets de Regalo,Sets de Regalo,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Tecnología,Audífonos y Auriculares,family:audifonos-y-auriculares,PRODUCTO,Tecnología,Audífonos y Auriculares,,35,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Cables y Adaptadores,family:cables-y-adaptadores,PRODUCTO,Tecnología,Cables y Adaptadores,,6,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Cargadores,family:cargadores,PRODUCTO,Tecnología,Cargadores,,12,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Linternas,family:linternas,PRODUCTO,Tecnología,Linternas,,10,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Mouse y Teclados,family:mouse-y-teclados,PRODUCTO,Tecnología,Mouse y Teclados,,4,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Parlantes,family:parlantes,PRODUCTO,Tecnología,Parlantes,,21,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Pendrives,family:pendrives,PRODUCTO,Tecnología,Pendrives,,81,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Power Banks,family:power-banks,PRODUCTO,Tecnología,Power Banks,,60,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Relojes,family:relojes,PRODUCTO,Tecnología,Relojes,,3,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Tecnología,Soportes para Dispositivos,family:soportes-para-dispositivos,PRODUCTO,Tecnología,Soportes para Dispositivos,,1,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Textil,Chaquetas y Polar,family:chaquetas-y-polar,PRODUCTO,Textil,Chaquetas y Polar,,0,PRESTASHOP_FAMILY,HOLD_NO_HISTORICAL_KEYWORDS
-RP | Search | Textil,Delantales,family:delantales,PRODUCTO,Textil,Delantales,,30,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Textil,Gorras y Sombreros,family:gorras-y-sombreros,PRODUCTO,Textil,Gorras y Sombreros,,5,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Textil,Poleras,family:poleras,PRODUCTO,Textil,Poleras,,1,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Textil,Toallas y Textil Hogar,family:toallas-y-textil-hogar,PRODUCTO,Textil,Toallas y Textil Hogar,,1,PRESTASHOP_FAMILY,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Bamboo,intent:bamboo,USO_CAMPAÑA,,,Bamboo,107,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Bebidas,intent:bebidas,USO_CAMPAÑA,Hogar y Bebidas,,Bebidas,5,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Día de la Madre,intent:dia-de-la-madre,USO_CAMPAÑA,,,Día de la Madre,3,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Fin de Año,intent:fin-de-ano,USO_CAMPAÑA,,,Fin de Año,29,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Genérico corporativo,intent:generico-corporativo,USO_CAMPAÑA,,,Genérico corporativo,13,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Ocio y Pasatiempo,intent:ocio-y-pasatiempo,USO_CAMPAÑA,,,Ocio y Pasatiempo,1,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Promocionales,intent:promocionales,USO_CAMPAÑA,,,Promocionales,183,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Regalos corporativos,intent:regalos-corporativos,USO_CAMPAÑA,,,Regalos corporativos,333,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Tecnología,intent:tecnologia,USO_CAMPAÑA,Tecnología,,Tecnología,8,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
-RP | Search | Intención,Verano,intent:verano,USO_CAMPAÑA,,,Verano,39,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL
+campaign,ad_group,entity_key,intent_class,macroarea,familia,theme,keyword_count,landing_source,activation_state,resolved_url,resolution_method
+RP | Search | Bolsos y Viaje,Accesorios de Viaje,family:accesorios-de-viaje,PRODUCTO,Bolsos y Viaje,Accesorios de Viaje,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Bolsos y Viaje,Bananos,family:bananos,PRODUCTO,Bolsos y Viaje,Bananos,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Bolsos y Viaje,Billeteras y Portadocumentos,family:billeteras-y-portadocumentos,PRODUCTO,Bolsos y Viaje,Billeteras y Portadocumentos,,3,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/billeteras-y-porta-documentos/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Bolsos y Viaje,Bolsas,family:bolsas,PRODUCTO,Bolsos y Viaje,Bolsas,,385,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/bolsas-publicitarias-con-logotipo/,ADS_HISTORICAL_DOMINANT
+RP | Search | Bolsos y Viaje,Bolsos,family:bolsos,PRODUCTO,Bolsos y Viaje,Bolsos,,26,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/bolsos-y-mochilas-publicitarios/,PRESTASHOP_ACTIVE_BROADER_CATEGORY_SITEMAP
+RP | Search | Bolsos y Viaje,Bolsos de Viaje,family:bolsos-de-viaje,PRODUCTO,Bolsos y Viaje,Bolsos de Viaje,,6,DECISION_REGISTRY,HOLD_NO_SAFE_LANDING,,HOLD_CATEGORY_ROOT_NOT_IN_SITEMAP
+RP | Search | Bolsos y Viaje,Coolers,family:coolers,PRODUCTO,Bolsos y Viaje,Coolers,,6,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/coolers-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Bolsos y Viaje,Maletines y Fundas,family:maletines-y-fundas,PRODUCTO,Bolsos y Viaje,Maletines y Fundas,,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/maletines-y-fundas/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Bolsos y Viaje,Mochilas,family:mochilas,PRODUCTO,Bolsos y Viaje,Mochilas,,93,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/bolsos-y-mochilas-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Herramientas y Outdoor,Accesorios de Automóvil,family:accesorios-de-automovil,PRODUCTO,Herramientas y Outdoor,Accesorios de Automóvil,,41,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios-para-automovil/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Herramientas y Outdoor,Artículos Deportivos,family:articulos-deportivos,PRODUCTO,Herramientas y Outdoor,Artículos Deportivos,,8,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/publicitarios-belleza-y-salud/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Herramientas y Outdoor,Herramientas,family:herramientas,PRODUCTO,Herramientas y Outdoor,Herramientas,,139,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/herramientas-y-asado/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Hogar y Bebidas,Accesorios de Vino,family:accesorios-de-vino,PRODUCTO,Hogar y Bebidas,Accesorios de Vino,,15,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/hogar-gourmet-sommelier/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Hogar y Bebidas,Botellas,family:botellas,PRODUCTO,Hogar y Bebidas,Botellas,,136,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/botellas-metalicas-publicitarias/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Hogar y Bebidas,Cuidado Personal,family:cuidado-personal,PRODUCTO,Hogar y Bebidas,Cuidado Personal,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/publicitarios-belleza-y-salud/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Hogar y Bebidas,Difusores y Aromatizadores,family:difusores-y-aromatizadores,PRODUCTO,Hogar y Bebidas,Difusores y Aromatizadores,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/audio-publicitario/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Hogar y Bebidas,Hogar y Cocina,family:hogar-y-cocina,PRODUCTO,Hogar y Bebidas,Hogar y Cocina,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Hogar y Bebidas,Mugs y Tazas,family:mugs-y-tazas,PRODUCTO,Hogar y Bebidas,Mugs y Tazas,,315,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/mugs-botellas-termos/,ADS_HISTORICAL_DOMINANT
+RP | Search | Hogar y Bebidas,Termos,family:termos,PRODUCTO,Hogar y Bebidas,Termos,,9,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/botellas-metalicas-publicitarias/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Oficina y Escritura,Carpetas y Portafolios,family:carpetas-y-portafolios,PRODUCTO,Oficina y Escritura,Carpetas y Portafolios,,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/carpetas-y-portafolios-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Oficina y Escritura,Libretas y Cuadernos,family:libretas-y-cuadernos,PRODUCTO,Oficina y Escritura,Libretas y Cuadernos,,345,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Oficina y Escritura,Lápices y Bolígrafos,family:lapices-y-boligrafos,PRODUCTO,Oficina y Escritura,Lápices y Bolígrafos,,397,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/boligrafos-y-lapices-publicitarios/,ADS_HISTORICAL_DOMINANT
+RP | Search | Oficina y Escritura,Oficina,family:oficina,PRODUCTO,Oficina y Escritura,Oficina,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Packaging,Packaging,family:packaging,PRODUCTO,Packaging,Packaging,,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-packaging-publicitario/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Premios y Reconocimientos,"Medallas, Trofeos y Galvanos",family:medallas-trofeos-y-galvanos,PRODUCTO,Premios y Reconocimientos,"Medallas, Trofeos y Galvanos",,0,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Abanicos,family:abanicos,PRODUCTO,Promocionales,Abanicos,,7,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios-de-verano/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Antiestrés,family:antiestres,PRODUCTO,Promocionales,Antiestrés,,29,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalo-publicitario-antistress/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Imanes,family:imanes,PRODUCTO,Promocionales,Imanes,,3,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Juegos,family:juegos,PRODUCTO,Promocionales,Juegos,,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios-ocio-y-pasatiempo/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Lanyards,family:lanyards,PRODUCTO,Promocionales,Lanyards,,150,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/lanyards-e-identificacion-empresa/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Llaveros,family:llaveros,PRODUCTO,Promocionales,Llaveros,,222,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-llaveros-promocionales/,ADS_HISTORICAL_DOMINANT
+RP | Search | Promocionales,Paraguas,family:paraguas,PRODUCTO,Promocionales,Paraguas,,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/paraguas-y-capas-de-agua/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Promocionales,Pelotas,family:pelotas,PRODUCTO,Promocionales,Pelotas,,9,DECISION_REGISTRY,HOLD_SPLIT_INTENT,,HOLD_SPLIT_INTENT
+RP | Search | Sets de Regalo,Sets de Regalo,family:sets-de-regalo,PRODUCTO,Sets de Regalo,Sets de Regalo,,0,DECISION_REGISTRY,HOLD_NO_SAFE_LANDING,,HOLD_DISTRIBUTED_NO_DEDICATED_LANDING
+RP | Search | Tecnología,Audífonos y Auriculares,family:audifonos-y-auriculares,PRODUCTO,Tecnología,Audífonos y Auriculares,,35,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/audio-publicitario/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Cables y Adaptadores,family:cables-y-adaptadores,PRODUCTO,Tecnología,Cables y Adaptadores,,6,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/accesorios-usb-promocional/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Cargadores,family:cargadores,PRODUCTO,Tecnología,Cargadores,,12,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-promocionales-tecnologicos/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Linternas,family:linternas,PRODUCTO,Tecnología,Linternas,,10,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/linternas-led-publicitaria/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Mouse y Teclados,family:mouse-y-teclados,PRODUCTO,Tecnología,Mouse y Teclados,,4,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/publicitarios-para-computacion/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Parlantes,family:parlantes,PRODUCTO,Tecnología,Parlantes,,21,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/audio-publicitario/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Pendrives,family:pendrives,PRODUCTO,Tecnología,Pendrives,,81,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/pendrive-publicitario/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Power Banks,family:power-banks,PRODUCTO,Tecnología,Power Banks,,60,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/power-bank-y-accesorios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Tecnología,Relojes,family:relojes,PRODUCTO,Tecnología,Relojes,,3,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/relojes-y-calculadoras-publicitarios/,PRESTASHOP_EXACT_ACTIVE_CATEGORY_SITEMAP
+RP | Search | Tecnología,Soportes para Dispositivos,family:soportes-para-dispositivos,PRODUCTO,Tecnología,Soportes para Dispositivos,,1,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/promocionales-para-celular/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Textil,Chaquetas y Polar,family:chaquetas-y-polar,PRODUCTO,Textil,Chaquetas y Polar,,0,DECISION_REGISTRY,HOLD_NO_SAFE_LANDING,,HOLD_SPLIT_CATEGORIES_NO_HISTORICAL_KEYWORDS
+RP | Search | Textil,Delantales,family:delantales,PRODUCTO,Textil,Delantales,,30,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Textil,Gorras y Sombreros,family:gorras-y-sombreros,PRODUCTO,Textil,Gorras y Sombreros,,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Textil,Poleras,family:poleras,PRODUCTO,Textil,Poleras,,1,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/poleras-y-shorts-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Textil,Toallas y Textil Hogar,family:toallas-y-textil-hogar,PRODUCTO,Textil,Toallas y Textil Hogar,,1,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY
+RP | Search | Intención,Bamboo,intent:bamboo,USO_CAMPAÑA,,,Bamboo,107,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Bebidas,intent:bebidas,USO_CAMPAÑA,Hogar y Bebidas,,Bebidas,5,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Día de la Madre,intent:dia-de-la-madre,USO_CAMPAÑA,,,Día de la Madre,3,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Fin de Año,intent:fin-de-ano,USO_CAMPAÑA,,,Fin de Año,29,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Genérico corporativo,intent:generico-corporativo,USO_CAMPAÑA,,,Genérico corporativo,13,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Ocio y Pasatiempo,intent:ocio-y-pasatiempo,USO_CAMPAÑA,,,Ocio y Pasatiempo,1,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Promocionales,intent:promocionales,USO_CAMPAÑA,,,Promocionales,183,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Regalos corporativos,intent:regalos-corporativos,USO_CAMPAÑA,,,Regalos corporativos,333,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Tecnología,intent:tecnologia,USO_CAMPAÑA,Tecnología,,Tecnología,8,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Verano,intent:verano,USO_CAMPAÑA,,,Verano,39,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,

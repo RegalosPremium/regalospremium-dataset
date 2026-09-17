@@ -1,0 +1,50 @@
+entity_key,familia,resolved_url,resolution_method,activation_state,evidence_note
+family:abanicos,Abanicos,https://regalospremium.cl/regalos-publicitarios-de-verano/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:accesorios-de-automovil,Accesorios de Automóvil,https://regalospremium.cl/regalos-publicitarios-para-automovil/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:accesorios-de-viaje,Accesorios de Viaje,https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:accesorios-de-vino,Accesorios de Vino,https://regalospremium.cl/hogar-gourmet-sommelier/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:antiestres,Antiestrés,https://regalospremium.cl/regalo-publicitario-antistress/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:articulos-deportivos,Artículos Deportivos,https://regalospremium.cl/publicitarios-belleza-y-salud/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:audifonos-y-auriculares,Audífonos y Auriculares,https://regalospremium.cl/audio-publicitario/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:bananos,Bananos,https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:billeteras-y-portadocumentos,Billeteras y Portadocumentos,https://regalospremium.cl/billeteras-y-porta-documentos/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:bolsas,Bolsas,https://regalospremium.cl/bolsas-publicitarias-con-logotipo/,ADS_HISTORICAL_DOMINANT,READY_URL,Ecosystem resolution validated 2026-09-17
+family:bolsos,Bolsos,https://regalospremium.cl/bolsos-y-mochilas-publicitarios/,PRESTASHOP_ACTIVE_BROADER_CATEGORY_SITEMAP,READY_URL,Active PrestaShop category; root present in sitemap
+family:bolsos-de-viaje,Bolsos de Viaje,,HOLD_CATEGORY_ROOT_NOT_IN_SITEMAP,HOLD_NO_SAFE_LANDING,Category exists in PrestaShop but category root is absent from sitemap
+family:botellas,Botellas,https://regalospremium.cl/botellas-metalicas-publicitarias/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:cables-y-adaptadores,Cables y Adaptadores,https://regalospremium.cl/accesorios-usb-promocional/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:cargadores,Cargadores,https://regalospremium.cl/regalos-promocionales-tecnologicos/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:carpetas-y-portafolios,Carpetas y Portafolios,https://regalospremium.cl/carpetas-y-portafolios-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:chaquetas-y-polar,Chaquetas y Polar,,HOLD_SPLIT_CATEGORIES_NO_HISTORICAL_KEYWORDS,HOLD_NO_SAFE_LANDING,Products split across winter categories; exact Polar/Chaquetas category inactive; zero historical keywords
+family:coolers,Coolers,https://regalospremium.cl/coolers-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:cuidado-personal,Cuidado Personal,https://regalospremium.cl/publicitarios-belleza-y-salud/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:delantales,Delantales,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:difusores-y-aromatizadores,Difusores y Aromatizadores,https://regalospremium.cl/audio-publicitario/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:gorras-y-sombreros,Gorras y Sombreros,https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:herramientas,Herramientas,https://regalospremium.cl/herramientas-y-asado/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:hogar-y-cocina,Hogar y Cocina,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:imanes,Imanes,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:juegos,Juegos,https://regalospremium.cl/regalos-publicitarios-ocio-y-pasatiempo/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:lanyards,Lanyards,https://regalospremium.cl/lanyards-e-identificacion-empresa/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:libretas-y-cuadernos,Libretas y Cuadernos,https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:linternas,Linternas,https://regalospremium.cl/linternas-led-publicitaria/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:llaveros,Llaveros,https://regalospremium.cl/cotizar-llaveros-promocionales/,ADS_HISTORICAL_DOMINANT,READY_URL,Ecosystem resolution validated 2026-09-17
+family:lapices-y-boligrafos,Lápices y Bolígrafos,https://regalospremium.cl/boligrafos-y-lapices-publicitarios/,ADS_HISTORICAL_DOMINANT,READY_URL,Ecosystem resolution validated 2026-09-17
+family:maletines-y-fundas,Maletines y Fundas,https://regalospremium.cl/maletines-y-fundas/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:medallas-trofeos-y-galvanos,"Medallas, Trofeos y Galvanos",https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:mochilas,Mochilas,https://regalospremium.cl/bolsos-y-mochilas-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:mouse-y-teclados,Mouse y Teclados,https://regalospremium.cl/publicitarios-para-computacion/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:mugs-y-tazas,Mugs y Tazas,https://regalospremium.cl/mugs-botellas-termos/,ADS_HISTORICAL_DOMINANT,READY_URL,Ecosystem resolution validated 2026-09-17
+family:oficina,Oficina,https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:packaging,Packaging,https://regalospremium.cl/cotizar-packaging-publicitario/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:paraguas,Paraguas,https://regalospremium.cl/paraguas-y-capas-de-agua/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:parlantes,Parlantes,https://regalospremium.cl/audio-publicitario/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:pelotas,Pelotas,,HOLD_SPLIT_INTENT,HOLD_SPLIT_INTENT,Historical keywords split between beach balls and anti-stress balls
+family:pendrives,Pendrives,https://regalospremium.cl/pendrive-publicitario/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:poleras,Poleras,https://regalospremium.cl/poleras-y-shorts-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:power-banks,Power Banks,https://regalospremium.cl/power-bank-y-accesorios/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:relojes,Relojes,https://regalospremium.cl/relojes-y-calculadoras-publicitarios/,PRESTASHOP_EXACT_ACTIVE_CATEGORY_SITEMAP,READY_URL,Exact active PrestaShop category; root present in sitemap
+family:sets-de-regalo,Sets de Regalo,,HOLD_DISTRIBUTED_NO_DEDICATED_LANDING,HOLD_NO_SAFE_LANDING,Products distributed across many categories; zero historical keywords; no dedicated landing
+family:soportes-para-dispositivos,Soportes para Dispositivos,https://regalospremium.cl/promocionales-para-celular/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:termos,Termos,https://regalospremium.cl/botellas-metalicas-publicitarias/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
+family:toallas-y-textil-hogar,Toallas y Textil Hogar,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17

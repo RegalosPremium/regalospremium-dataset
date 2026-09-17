@@ -70,7 +70,7 @@ def main():
   db.execute('INSERT INTO url_registry VALUES(?,?,?,?,?,1)',(r['url'],'GITHUB','PRODUCT',f'product:{pid}','CANONICAL'))
  with (ROOT/'data/ads/ads_campaign_blueprint.csv').open(encoding='utf-8',newline='') as f: bp=list(csv.DictReader(f))
  for r in bp:
-  db.execute('INSERT INTO ads_blueprint VALUES(?,?,?,?,?,?,?,?,?,?,NULL,NULL)',(r['entity_key'],r['campaign'],r['ad_group'],r['intent_class'],r['macroarea'],r['familia'],r['theme'],int(r['keyword_count']),r['landing_source'],r['activation_state']))
+  db.execute('INSERT INTO ads_blueprint VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',(r['entity_key'],r['campaign'],r['ad_group'],r['intent_class'],r['macroarea'],r['familia'],r['theme'],int(r['keyword_count']),r['landing_source'],r['activation_state'],r.get('resolved_url') or None,r.get('resolution_method') or None))
  with (ROOT/'data/ads/ads_intent_mapping.csv').open(encoding='utf-8',newline='') as f: kw=list(csv.DictReader(f))
  for r in kw:
   ek=None
@@ -90,7 +90,7 @@ def main():
   for _,fam,cid,cname,curl,n in rows:
    db.execute('INSERT INTO family_category_candidates VALUES(?,?,?,?,?,?,?,?)',(ek,fam,cid or 0,cname or '',curl,n,n/totals[ek],1 if n==maxn else 0))
  # Resolve blueprint only when a dominant family category is unique and >50% representative.
- for ek, in db.execute("SELECT entity_key FROM ads_blueprint WHERE intent_class='PRODUCTO'").fetchall():
+ for ek, in db.execute("SELECT entity_key FROM ads_blueprint WHERE intent_class='PRODUCTO' AND activation_state LIKE 'WAIT_%'").fetchall():
   cands=db.execute('SELECT category_url,share FROM family_category_candidates WHERE family_entity_key=? AND is_dominant=1 ORDER BY share DESC',(ek,)).fetchall()
   if len(cands)==1 and cands[0][0] and cands[0][1]>0.5:
    db.execute('UPDATE ads_blueprint SET resolved_url=?,resolution_method=? WHERE entity_key=?',(cands[0][0],'PRESTASHOP_DOMINANT_CATEGORY',ek))
@@ -103,8 +103,8 @@ def main():
    if u.rstrip('/')=='https://regalospremium.cl' or '/busqueda?' in u or 'index.php?' in u or '?' in u or 'bamboohttps' in u: continue
    hist[ek][u]+=1
  for ek,counter in hist.items():
-  row=db.execute('SELECT resolved_url FROM ads_blueprint WHERE entity_key=?',(ek,)).fetchone()
-  if not row or row[0] or not counter: continue
+  row=db.execute('SELECT resolved_url,activation_state FROM ads_blueprint WHERE entity_key=?',(ek,)).fetchone()
+  if not row or row[0] or not row[1].startswith('WAIT_') or not counter: continue
   total=sum(counter.values()); top_url,top_n=counter.most_common(1)[0]
   if total>=20 and top_n/total>=0.60:
    db.execute('UPDATE ads_blueprint SET resolved_url=?,resolution_method=? WHERE entity_key=?',(top_url,'ADS_HISTORICAL_DOMINANT',ek))
@@ -119,7 +119,8 @@ def main():
  db.commit()
  report={**counts,'status':status,'github_not_prestashop':missing_ps,'active_prestashop_not_github':missing_gh,'db':str(out),
          'resolved_product_landings':db.execute("SELECT COUNT(*) FROM ads_blueprint WHERE intent_class='PRODUCTO' AND resolved_url IS NOT NULL").fetchone()[0],
-         'unresolved_product_families':[r[0] for r in db.execute("SELECT family FROM ads_blueprint WHERE intent_class='PRODUCTO' AND resolved_url IS NULL ORDER BY family")],
+         'unresolved_product_families':[r[0] for r in db.execute("SELECT family FROM ads_blueprint WHERE intent_class='PRODUCTO' AND activation_state LIKE 'WAIT_%' ORDER BY family")],
+         'held_product_families':[r[0] for r in db.execute("SELECT family FROM ads_blueprint WHERE intent_class='PRODUCTO' AND activation_state LIKE 'HOLD_%' ORDER BY family")],
          'anomalies':dict(db.execute('SELECT anomaly_type,COUNT(*) FROM prestashop_anomalies GROUP BY anomaly_type').fetchall())}
  rp=Path(a.report); rp.parent.mkdir(parents=True,exist_ok=True); rp.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print(json.dumps(report,ensure_ascii=False,indent=2))

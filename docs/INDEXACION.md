@@ -38,3 +38,13 @@ Antes de desplegarlo en producción debe validarse y reflejar información visib
 ## Anti-sobresegmentación
 
 La taxonomía pública distingue familias por objeto real. Material, color, capacidad, Bluetooth/TWS, bambú, metal, plástico, sublimación, temporadas y campañas no generan automáticamente nuevas familias ni URLs SEO.
+
+## Estado live del sitemap (17-09-2026)
+
+- `1_index_sitemap.xml` referencia un único sitemap hijo: `1_es_0_sitemap.xml`.
+- El sitemap servido fue modificado por última vez el 26-06-2026.
+- Cubre 1.221 de 1.289 productos activos por slug.
+- 68 productos activos no aparecen en el sitemap live.
+- `dist/sitemap-products.xml` contiene 1.285 URLs canónicas únicas del catálogo actual.
+
+La regeneración del sitemap nativo de PrestaShop debe preceder al envío/actualización en Google Search Console.
