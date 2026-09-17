@@ -8,3 +8,4 @@ reports/*.csv
 !reports/.gitkeep
 var/
 config/prestashop-mysql.cnf
+config/prestashop-webservice.key

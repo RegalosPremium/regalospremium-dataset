@@ -58,4 +58,5 @@ Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se pro
 - `schema/ecosystem.sqlite.sql`: schema de la BBDD central local.
 - `scripts/build_ecosystem_db.py`: poblador read-only desde PrestaShop + GitHub + Ads.
 - `scripts/validate_ecosystem_db.py`: QA de sincronización y drift.
+- `scripts/sync_prestashop_live.py`: refresco live read-only mediante Webservice PrestaShop.
 - `reports/prestashop/ecosystem_sync_latest.json`: último estado auditado.

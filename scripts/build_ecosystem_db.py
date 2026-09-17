@@ -27,6 +27,7 @@ def main():
  ap.add_argument('--defaults-extra-file')
  ap.add_argument('--shop-id',type=int,default=1); ap.add_argument('--lang-id',type=int,default=1)
  ap.add_argument('--output',default=str(ROOT/'var/ecosystem.db'))
+ ap.add_argument('--report',default=str(ROOT/'reports/prestashop/ecosystem_sync_latest.json'))
  a=ap.parse_args(); out=Path(a.output);out.parent.mkdir(parents=True,exist_ok=True)
  if out.exists(): out.unlink()
  db=sqlite3.connect(out); db.executescript((ROOT/'schema/ecosystem.sqlite.sql').read_text(encoding='utf-8'))
@@ -116,6 +117,11 @@ def main():
  db.execute('INSERT INTO sync_runs(started_at,source,products_total,products_active,github_products,status,notes) VALUES(?,?,?,?,?,?,?)',(datetime.now(timezone.utc).isoformat(),'PRESTASHOP+GITHUB+ADS',counts['products_total'],counts['products_active'],counts['github_products'],status,json.dumps({'github_not_prestashop':missing_ps,'active_prestashop_not_github':missing_gh})))
  for k,v in counts.items(): db.execute('INSERT INTO meta VALUES(?,?)',(k,str(v)))
  db.commit()
- print(json.dumps({**counts,'status':status,'github_not_prestashop':missing_ps,'active_prestashop_not_github':missing_gh,'db':str(out)},ensure_ascii=False,indent=2))
+ report={**counts,'status':status,'github_not_prestashop':missing_ps,'active_prestashop_not_github':missing_gh,'db':str(out),
+         'resolved_product_landings':db.execute("SELECT COUNT(*) FROM ads_blueprint WHERE intent_class='PRODUCTO' AND resolved_url IS NOT NULL").fetchone()[0],
+         'unresolved_product_families':[r[0] for r in db.execute("SELECT family FROM ads_blueprint WHERE intent_class='PRODUCTO' AND resolved_url IS NULL ORDER BY family")],
+         'anomalies':dict(db.execute('SELECT anomaly_type,COUNT(*) FROM prestashop_anomalies GROUP BY anomaly_type').fetchall())}
+ rp=Path(a.report); rp.parent.mkdir(parents=True,exist_ok=True); rp.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ print(json.dumps(report,ensure_ascii=False,indent=2))
  db.close()
 if __name__=='__main__': main()

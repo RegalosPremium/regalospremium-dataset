@@ -1,10 +1,20 @@
 {
   "products_total": 1325,
   "products_active": 1289,
-  "taxonomy_products": 1289,
-  "families": 49,
+  "github_products": 1289,
+  "categories": 92,
+  "orphan_category_ids": [
+    26,
+    28,
+    90
+  ],
+  "prestashop_anomalies": 21,
   "ads_keywords": 3362,
   "ads_blueprint": 59,
+  "status": "PASS",
+  "github_not_prestashop": [],
+  "active_prestashop_not_github": [],
+  "db": "var/ecosystem.db",
   "resolved_product_landings": 43,
   "unresolved_product_families": [
     "Bolsos",
@@ -17,11 +27,5 @@
   "anomalies": {
     "MISSING_DEFAULT_CATEGORY": 11,
     "ORPHAN_PRODUCT_CATEGORY_LINK": 10
-  },
-  "missing_default_category_ids": [
-    26,
-    28,
-    90
-  ],
-  "sync_status": "PASS"
+  }
 }

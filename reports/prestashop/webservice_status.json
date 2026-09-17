@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-09-17",
+  "webservice_enabled": true,
+  "active_accounts": 1,
+  "get_permissions": ["products", "combinations", "images", "image_types"],
+  "api_alias": "REDIRECTS_TO_HOME",
+  "direct_dispatcher": "PASS_JSON_200",
+  "category_read_permission": false
+}

@@ -33,3 +33,15 @@ Después ejecutar:
 - Categorías borradas y relaciones huérfanas se registran en `prestashop_anomalies`.
 - Las landings Ads sólo se resuelven automáticamente con evidencia dominante de PrestaShop o Ads histórico.
 - La sincronización de Google Ads permanece dry-run hasta uso explícito de `--apply`.
+## Sincronización live por Webservice
+
+Producción tiene Webservice habilitado con una cuenta GET para `products`, `combinations`, `images` e `image_types`.
+En la verificación del 17-09-2026 la ruta amigable `/api/...` redirigió a la home, por lo que el conector usa directamente `webservice/dispatcher.php`.
+
+La clave se entrega mediante `PRESTASHOP_WS_KEY` o `config/prestashop-webservice.key`; ambos mecanismos evitan guardar el secreto en Git.
+
+`python3 scripts/sync_prestashop_live.py`
+
+El sync live sólo hace GET y actualiza el espejo local. Si detecta un producto activo fuera de GitHub o uno de GitHub inactivo en PrestaShop, marca `DRIFT` y no modifica el catálogo versionado automáticamente.
+
+La cuenta Webservice actual no tiene GET de `categories`; por eso categorías y relaciones se cargan desde el snapshot MySQL y los productos se refrescan live.

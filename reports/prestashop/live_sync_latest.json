@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "fetched_products": 1325,
+  "active_products": 1289,
+  "github_products": 1289,
+  "api_products": 1325,
+  "new_products": [],
+  "activated": [],
+  "deactivated": [],
+  "active_prestashop_not_github": [],
+  "github_not_active_prestashop": [],
+  "unknown_category_ids": []
+}
