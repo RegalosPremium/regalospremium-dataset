@@ -4,7 +4,7 @@ Fecha de referencia: 2026-09-17.
 
 ## Resultado
 
-- Productos: **1288**.
+- Productos: **1289**.
 - Familias reales: **49**.
 - Productos en `REVIEW_UNCLASSIFIED`: **45**.
 - URLs únicas: **1284**.

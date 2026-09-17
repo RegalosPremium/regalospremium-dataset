@@ -53,3 +53,9 @@ Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se pro
 - `data/ads/ads_campaign_blueprint.csv`: blueprint que cubre las 49 familias y las intenciones transversales.
 - `scripts/ads_url_sync.py`: sincronizador de cambios de URL con Google Ads, dry-run por defecto.
 - `scripts/validate_ads_mapping.py`: validación de consistencia Ads/taxonomía.
+### PrestaShop → ecosistema
+
+- `schema/ecosystem.sqlite.sql`: schema de la BBDD central local.
+- `scripts/build_ecosystem_db.py`: poblador read-only desde PrestaShop + GitHub + Ads.
+- `scripts/validate_ecosystem_db.py`: QA de sincronización y drift.
+- `reports/prestashop/ecosystem_sync_latest.json`: último estado auditado.

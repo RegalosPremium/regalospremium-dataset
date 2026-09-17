@@ -6,3 +6,5 @@ config/google-ads.yaml
 reports/*.json
 reports/*.csv
 !reports/.gitkeep
+var/
+config/prestashop-mysql.cnf

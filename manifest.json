@@ -5,7 +5,7 @@
   "market": "Chile",
   "business_model": "B2B",
   "since": 2015,
-  "products": 1288,
+  "products": 1289,
   "real_families": 49,
   "entry_points": {
     "organization": "data/empresa.json",
