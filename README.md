@@ -44,3 +44,6 @@ WhatsApp comercial: https://wa.me/56944280900
 ## Licencia
 
 Datos publicados bajo CC BY 4.0. Se permite su uso y referencia con atribución a Regalos Premium.
+## Sincronización de URLs con Google Ads
+
+Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se procesan con `scripts/ads_url_sync.py`. El sincronizador opera en modo dry-run por defecto, actualiza anuncios, keywords y Asset Groups, y recrea de forma segura sitelinks cuando corresponde. Véase `docs/ADS_URL_SYNC.md`.

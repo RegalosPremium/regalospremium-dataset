@@ -1,0 +1,8 @@
+.venv-ads/
+__pycache__/
+*.pyc
+config/google-ads.yaml
+.env
+reports/*.json
+reports/*.csv
+!reports/.gitkeep
