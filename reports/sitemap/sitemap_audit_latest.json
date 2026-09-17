@@ -4,14 +4,14 @@
     {
       "url": "https://regalospremium.cl/1_es_0_sitemap.xml",
       "http_status": 200,
-      "last_modified": "Fri, 26 Jun 2026 20:16:40 GMT",
-      "url_count": 1355
+      "last_modified": "Thu, 17 Sep 2026 22:54:47 GMT",
+      "url_count": 1372
     }
   ],
-  "live_urls": 1355,
-  "live_unique_urls": 1352,
+  "live_urls": 1372,
+  "live_unique_urls": 1370,
   "catalog_products": 1289,
   "catalog_unique_urls": 1285,
-  "covered_by_slug": 1221,
-  "missing_by_slug": 68
+  "covered_by_slug": 1289,
+  "missing_by_slug": 0
 }
