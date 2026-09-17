@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://regalospremium.cl/#organization",
+  "name": "Regalos Premium",
+  "alternateName": "Regalos Premium®",
+  "url": "https://regalospremium.cl",
+  "foundingDate": "2015",
+  "description": "Regalos corporativos y merchandising promocional B2B personalizados para empresas. Dando identidad corporativa a empresas desde 2015.",
+  "knowsAbout": [
+    "Regalos corporativos",
+    "Merchandising corporativo",
+    "Artículos promocionales",
+    "Personalización con logo",
+    "Power banks corporativos",
+    "Pendrives personalizados",
+    "Mugs corporativos",
+    "Botellas corporativas",
+    "Llaveros promocionales",
+    "Lanyards corporativos"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Ventas y cotizaciones B2B",
+    "telephone": "+56 9 4428 0900",
+    "url": "https://wa.me/56944280900",
+    "availableLanguage": "es"
+  },
+  "sameAs": [
+    "https://github.com/RegalosPremium/regalospremium-dataset"
+  ]
+}

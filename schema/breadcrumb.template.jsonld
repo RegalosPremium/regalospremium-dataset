@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://regalospremium.cl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{macroarea}}",
+      "item": "{{macroarea_url}}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{family}}",
+      "item": "{{family_url}}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "{{product_name}}",
+      "item": "{{canonical_url}}"
+    }
+  ]
+}

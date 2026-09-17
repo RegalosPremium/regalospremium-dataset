@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{product_name}}",
+  "url": "{{canonical_url}}",
+  "sku": "{{reference}}",
+  "category": "{{macroarea}} > {{family}}",
+  "description": "{{description}}",
+  "image": [
+    "{{image_url}}"
+  ]
+}

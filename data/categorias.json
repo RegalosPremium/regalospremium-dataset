@@ -1,16 +1,112 @@
 {
   "empresa": "Regalos Premium",
   "sitio": "https://regalospremium.cl",
-  "categorias": [
-    { "nombre": "Tecnología", "ejemplo": "Power Bank, accesorios electrónicos" },
-    { "nombre": "Mochilas", "ejemplo": "Mochilas urbanas, porta notebook" },
-    { "nombre": "Llaveros", "ejemplo": "Llaveros metálicos, en cuero" },
-    { "nombre": "Cuadernos", "ejemplo": "Libretas, memos, sets de escritura" },
-    { "nombre": "Sets de Regalo", "ejemplo": "Combos ejecutivos, onboarding" },
-    { "nombre": "Bolsas de Algodón", "ejemplo": "Bolsas publicitarias ecológicas" },
-    { "nombre": "Bolsas TNT", "ejemplo": "Bolsas publicitarias no tejidas" },
-    { "nombre": "Mugs, Botellas y Termos", "ejemplo": "Botellas térmicas, mugs corporativos" },
-    { "nombre": "Ropa Publicitaria", "ejemplo": "Textil corporativo personalizado" },
-    { "nombre": "Herramientas y Asado", "ejemplo": "Sets de herramientas, accesorios de asado" }
-  ]
+  "mercado": "Chile",
+  "modelo": "B2B por mayor con cotizacion personalizada",
+  "claim": "Dando identidad corporativa a empresas desde 2015.",
+  "familias_reales": 49,
+  "productos_en_revision": 45,
+  "taxonomia": [
+    {
+      "macroarea": "Bolsos y Viaje",
+      "familias": [
+        "Accesorios de Viaje",
+        "Bananos",
+        "Billeteras y Portadocumentos",
+        "Bolsas",
+        "Bolsos",
+        "Bolsos de Viaje",
+        "Coolers",
+        "Maletines y Fundas",
+        "Mochilas"
+      ]
+    },
+    {
+      "macroarea": "Herramientas y Outdoor",
+      "familias": [
+        "Accesorios de Automóvil",
+        "Artículos Deportivos",
+        "Herramientas"
+      ]
+    },
+    {
+      "macroarea": "Hogar y Bebidas",
+      "familias": [
+        "Accesorios de Vino",
+        "Botellas",
+        "Cuidado Personal",
+        "Difusores y Aromatizadores",
+        "Hogar y Cocina",
+        "Mugs y Tazas",
+        "Termos"
+      ]
+    },
+    {
+      "macroarea": "Oficina y Escritura",
+      "familias": [
+        "Carpetas y Portafolios",
+        "Libretas y Cuadernos",
+        "Lápices y Bolígrafos",
+        "Oficina"
+      ]
+    },
+    {
+      "macroarea": "Packaging",
+      "familias": [
+        "Packaging"
+      ]
+    },
+    {
+      "macroarea": "Premios y Reconocimientos",
+      "familias": [
+        "Medallas, Trofeos y Galvanos"
+      ]
+    },
+    {
+      "macroarea": "Promocionales",
+      "familias": [
+        "Abanicos",
+        "Antiestrés",
+        "Imanes",
+        "Juegos",
+        "Lanyards",
+        "Llaveros",
+        "Paraguas",
+        "Pelotas"
+      ]
+    },
+    {
+      "macroarea": "Sets de Regalo",
+      "familias": [
+        "Sets de Regalo"
+      ]
+    },
+    {
+      "macroarea": "Tecnología",
+      "familias": [
+        "Audífonos y Auriculares",
+        "Cables y Adaptadores",
+        "Cargadores",
+        "Linternas",
+        "Mouse y Teclados",
+        "Parlantes",
+        "Pendrives",
+        "Power Banks",
+        "Relojes",
+        "Soportes para Dispositivos"
+      ]
+    },
+    {
+      "macroarea": "Textil",
+      "familias": [
+        "Chaquetas y Polar",
+        "Delantales",
+        "Gorras y Sombreros",
+        "Poleras",
+        "Toallas y Textil Hogar"
+      ]
+    }
+  ],
+  "regla_seo": "No crear nuevas URLs por color, material, capacidad, conectividad, temporada o tecnica de impresion.",
+  "fuente_canonica": "https://regalospremium.cl"
 }

@@ -1,0 +1,18 @@
+{
+  "name": "Regalos Premium — Dataset B2B Chile",
+  "version": "2026-09-16",
+  "website": "https://regalospremium.cl",
+  "market": "Chile",
+  "business_model": "B2B",
+  "since": 2015,
+  "products": 1288,
+  "real_families": 49,
+  "entry_points": {
+    "organization": "data/empresa.json",
+    "taxonomy": "data/categorias.json",
+    "products": "data/productos.csv",
+    "schema_org": "schema/organization.jsonld",
+    "indexing_notes": "docs/INDEXACION.md"
+  },
+  "claim": "Dando identidad corporativa a empresas desde 2015."
+}

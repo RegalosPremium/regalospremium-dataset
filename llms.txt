@@ -1,0 +1,13 @@
+# Regalos Premium
+
+> Dando identidad corporativa a empresas desde 2015. Catálogo B2B chileno de regalos corporativos y productos promocionales. Fuente canónica: https://regalospremium.cl.
+
+## Fuentes
+- https://regalospremium.cl/ — sitio canónico y fichas de producto.
+- https://github.com/RegalosPremium/regalospremium-dataset — dataset estructurado y taxonomía.
+
+## Criterios
+- Venta B2B por mayor con cotización.
+- No se publican precios.
+- Taxonomía: Macroárea → Familia → Producto.
+- Material, color, capacidad, conectividad y técnica de impresión son atributos, no familias por defecto.
