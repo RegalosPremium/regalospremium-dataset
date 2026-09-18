@@ -1,7 +1,8 @@
 # Copiar como config/google-ads.yaml. NO versionar credenciales.
-developer_token: INSERT_DEVELOPER_TOKEN
+# Desde 2026-09-09 el acceso API se gestiona por proyecto de Google Cloud.
 client_id: INSERT_OAUTH_CLIENT_ID
 client_secret: INSERT_OAUTH_CLIENT_SECRET
 refresh_token: INSERT_REFRESH_TOKEN
+# Sólo si se usa una cuenta Manager/MCC:
 login_customer_id: INSERT_MANAGER_CUSTOMER_ID_IF_USED
 use_proto_plus: true

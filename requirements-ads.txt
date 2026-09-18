@@ -1,1 +1,1 @@
-google-ads==31.2.0
+google-ads==32.0.0
