@@ -9,3 +9,8 @@ reports/*.csv
 var/
 config/prestashop-mysql.cnf
 config/prestashop-webservice.key
+
+# Google Ads automatic ingest
+data/ads/inbox/
+data/ads/processed/
+reports/ads/live/
