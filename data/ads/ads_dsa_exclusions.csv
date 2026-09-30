@@ -1,0 +1,5 @@
+rule_type,value,reason
+URL_PREFIX,https://regalospremium.cl/publicitarios-bamboo/,Obsoleto: 301 a Bamboo nuevo
+URL_CONTAINS,?,Excluir URLs parametrizadas
+URL_CONTAINS,/buscar,Excluir búsqueda interna
+URL_CONTAINS,404,Excluir errores

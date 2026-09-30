@@ -1,0 +1,4 @@
+old_url,new_url,http_code,status,effective_date,reason
+https://regalospremium.cl/publicitarios-bamboo/,https://regalospremium.cl/regalos-corporativos-bambu/,301,APPLIED,2026-09-30,Consolidación de categoría Bamboo
+https://regalospremium.cl/publicitarios-bamboo/*,https://regalospremium.cl/regalos-corporativos-bambu/*,301,APPLIED,2026-09-30,Consolidación del subárbol Bamboo
+https://regalospremium.cl/regalos-corporativos-bambu/set-de-escritura-de-bamboo.html,https://regalospremium.cl/regalos-corporativos-bambu/,301,QUARANTINE,2026-09-30,B47/ID1362 activo en datos pero 404 en frontend

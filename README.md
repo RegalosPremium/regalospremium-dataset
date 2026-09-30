@@ -1,6 +1,6 @@
 # Regalos Premium — Dataset B2B de regalos corporativos en Chile
 
-Repositorio estructurado del catálogo de [Regalos Premium](https://regalospremium.cl), empresa chilena especializada en regalos corporativos, merchandising promocional y productos personalizados para empresas.
+Repositorio estructurado del catálogo de [Regalos Premium](https://regalospremium.cl), empresa chilena especializada en regalos corporativos, merchandising corporativo, regalos para empresas y productos personalizados para empresas.
 
 ## Regalos corporativos para empresas
 
@@ -53,6 +53,10 @@ Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se pro
 - `data/ads/ads_campaign_blueprint.csv`: blueprint que cubre las 49 familias y las intenciones transversales.
 - `scripts/ads_url_sync.py`: sincronizador de cambios de URL con Google Ads, dry-run por defecto.
 - `scripts/validate_ads_mapping.py`: validación de consistencia Ads/taxonomía.
+- `data/ads/ads_generic_keywords.csv`: 24 keywords genéricas B2B priorizadas en exacta/frase.
+- `data/ads/ads_rsa_generic_assets.csv`: activos RSA validados por longitud.
+- `data/ads/ads_dsa_targets.csv` y `ads_dsa_exclusions.csv`: superficies DSA permitidas/excluidas.
+- `data/seo_redirects.csv`: redirecciones SEO aplicadas y excepciones en cuarentena.
 ### PrestaShop → ecosistema
 
 - `schema/ecosystem.sqlite.sql`: schema de la BBDD central local.

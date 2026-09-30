@@ -48,13 +48,13 @@ RP | Search | Textil,Delantales,family:delantales,PRODUCTO,Textil,Delantales,,30
 RP | Search | Textil,Gorras y Sombreros,family:gorras-y-sombreros,PRODUCTO,Textil,Gorras y Sombreros,,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
 RP | Search | Textil,Poleras,family:poleras,PRODUCTO,Textil,Poleras,,1,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/poleras-y-shorts-publicitarios/,PRESTASHOP_DOMINANT_CATEGORY
 RP | Search | Textil,Toallas y Textil Hogar,family:toallas-y-textil-hogar,PRODUCTO,Textil,Toallas y Textil Hogar,,1,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY
-RP | Search | Intención,Bamboo,intent:bamboo,USO_CAMPAÑA,,,Bamboo,107,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
-RP | Search | Intención,Bebidas,intent:bebidas,USO_CAMPAÑA,Hogar y Bebidas,,Bebidas,5,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Bamboo,intent:bamboo,USO_CAMPAÑA,,,Bamboo,107,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-corporativos-bambu/,SEO_CANONICAL_CONSOLIDATED
+RP | Search | Intención,Bebidas,intent:bebidas,USO_CAMPAÑA,Hogar y Bebidas,,Bebidas,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/mugs-botellas-termos/,SEO_B2B_LANDING
 RP | Search | Intención,Día de la Madre,intent:dia-de-la-madre,USO_CAMPAÑA,,,Día de la Madre,3,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
 RP | Search | Intención,Fin de Año,intent:fin-de-ano,USO_CAMPAÑA,,,Fin de Año,29,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
-RP | Search | Intención,Genérico corporativo,intent:generico-corporativo,USO_CAMPAÑA,,,Genérico corporativo,13,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Genérico corporativo,intent:generico-corporativo,USO_CAMPAÑA,,,Genérico corporativo,13,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/,CANONICAL_HOME_B2B
 RP | Search | Intención,Ocio y Pasatiempo,intent:ocio-y-pasatiempo,USO_CAMPAÑA,,,Ocio y Pasatiempo,1,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
 RP | Search | Intención,Promocionales,intent:promocionales,USO_CAMPAÑA,,,Promocionales,183,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
-RP | Search | Intención,Regalos corporativos,intent:regalos-corporativos,USO_CAMPAÑA,,,Regalos corporativos,333,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Regalos corporativos,intent:regalos-corporativos,USO_CAMPAÑA,,,Regalos corporativos,333,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/,CANONICAL_HOME_B2B
 RP | Search | Intención,Tecnología,intent:tecnologia,USO_CAMPAÑA,Tecnología,,Tecnología,8,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
 RP | Search | Intención,Verano,intent:verano,USO_CAMPAÑA,,,Verano,39,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,

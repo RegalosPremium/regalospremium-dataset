@@ -30,10 +30,11 @@ blue_product=[r for r in blueprint if r['intent_class']=='PRODUCTO']
 blue_families={(r['macroarea'],r['familia']) for r in blue_product}
 if blue_families!=pairs: errors.append('blueprint does not cover all taxonomy families')
 if len(blue_families)!=tax['familias_reales']: errors.append('blueprint family count mismatch')
-if len(decisions)!=tax['familias_reales']: errors.append('landing decision count mismatch')
+family_decisions=[r for r in decisions if r['entity_key'].startswith('family:')]
+if len(family_decisions)!=tax['familias_reales']: errors.append('landing family decision count mismatch')
 if len({r['entity_key'] for r in decisions})!=len(decisions): errors.append('duplicate landing decision entity_key')
-decision_keys={r['entity_key'] for r in decisions}; blue_keys={r['entity_key'] for r in blue_product}
-if decision_keys!=blue_keys: errors.append('landing decisions do not cover product blueprint exactly')
+decision_keys={r['entity_key'] for r in family_decisions}; blue_keys={r['entity_key'] for r in blue_product}
+if decision_keys!=blue_keys: errors.append('landing family decisions do not cover product blueprint exactly')
 for r in decisions:
  state=r['activation_state']; u=r['resolved_url'].strip(); method=r['resolution_method'].strip()
  if state=='READY_URL':
