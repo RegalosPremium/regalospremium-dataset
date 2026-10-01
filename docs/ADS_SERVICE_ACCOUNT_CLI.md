@@ -1,69 +1,94 @@
 # Google Ads CLI con service account impersonada
 
-## Ruta vigente: keyless impersonation
+## Ruta vigente: gcloud keyless + proyecto Explorer
 
-La organización de Google Cloud bloquea la creación de claves JSON de service account. La ruta vigente es, por tanto, **Service Account Impersonation**: `ventas@regalospremium.cl` obtiene credenciales de corta duración para `rp-google-ads-cli@regalospremium-ads-api.iam.gserviceaccount.com` mediante IAM Credentials API, con el scope `https://www.googleapis.com/auth/adwords`.
+La integración productiva usa **Google Cloud CLI oficial** y credenciales temporales impersonadas. No se usa JSON key ni refresh token manual.
 
-El token OAuth Cloud local es privado y nunca debe versionarse, imprimirse ni pegarse en comandos. Este repositorio no lee secretos para validarlos: sólo comprueba que el archivo exista y tenga `chmod 600`; la librería de Google lo consume internamente al crear las credenciales.
+Proyecto Google Cloud con acceso Google Ads **Explorer**:
 
-Desde el 2026-09-09, Google Ads ya no requiere developer token. Con `google-ads` 33.0.0 (y desde la versión 32.0.0), `developer_token` es opcional y no debe añadirse a la configuración nueva. El acceso depende del proyecto Cloud `regalospremium-ads-api`, de la IAM Credentials API y de los permisos IAM y Google Ads asignados a las identidades.
+- project_id: `able-marking-493221-m5`
+- project_number: `234610997699`
+- service account: `rp-google-ads-cli@able-marking-493221-m5.iam.gserviceaccount.com`
+- usuario gcloud propietario: `max.daguzan@gmail.com`
+- cuenta Google Ads: `592-182-2090`
 
-La IAM Credentials API debe permanecer habilitada y `ventas@regalospremium.cl` debe mantener `roles/iam.serviceAccountTokenCreator` sobre la service account destino. Además, esa identidad debe disponer de acceso de sólo lectura a Google Ads `592-182-2090`, o al MCC correspondiente.
+La service account está agregada a Google Ads con nivel **Estándar** y `max.daguzan@gmail.com` tiene `roles/iam.serviceAccountTokenCreator` sobre esa service account. La IAM Credentials API y Google Ads API están habilitadas en el proyecto Explorer.
+
+La service account anterior `rp-google-ads-cli@regalospremium-ads-api.iam.gserviceaccount.com` queda como legado/rollback y no debe usarse para producción porque su proyecto sólo tenía acceso de prueba.
+
+Desde el 2026-09-09 Google Ads no requiere developer token. Con `google-ads` 33.0.0 el campo es opcional.
+
+## Instalación de gcloud
+
+Google Cloud CLI está instalado sólo para el usuario local:
+
+```bash
+/home/maxdaguzan/.local/gcloud-install/google-cloud-sdk/bin/gcloud
+```
+
+La configuración aislada usada para Ads es:
+
+```bash
+~/.config/gcloud-rp-explorer
+```
+
+Compruebe la identidad activa:
+
+```bash
+CLOUDSDK_CONFIG=~/.config/gcloud-rp-explorer ~/.local/gcloud-install/google-cloud-sdk/bin/gcloud auth list
+```
 
 ## Configuración privada
 
-Prepare el directorio una vez y conserve permisos restrictivos:
-
-```bash
-install -d -m 700 ~/.config/regalospremium
-cp config/google-ads.example.yaml ~/.config/regalospremium/google-ads.yaml
-chmod 600 ~/.config/regalospremium/google-ads.yaml
-chmod 600 ~/.config/regalospremium/gcp-user-token.json
-```
-
-La configuración keyless vigente no requiere developer token:
-
 ```yaml
-auth_mode: impersonated_service_account
-target_service_account: rp-google-ads-cli@regalospremium-ads-api.iam.gserviceaccount.com
-source_user_token_path: /home/USUARIO/.config/regalospremium/gcp-user-token.json
+auth_mode: gcloud_impersonation
+target_service_account: rp-google-ads-cli@able-marking-493221-m5.iam.gserviceaccount.com
+gcloud_path: /home/USUARIO/.local/gcloud-install/google-cloud-sdk/bin/gcloud
+gcloud_config_dir: /home/USUARIO/.config/gcloud-rp-explorer
 customer_id: "5921822090"
-# login_customer_id: "MCC_SI_CORRESPONDE"
 use_proto_plus: true
 ```
 
-`login_customer_id`, si existe, es el ID del MCC, no el cliente final. No añada `client_id`, `client_secret` ni `refresh_token` al YAML.
+El archivo real vive en:
 
-El modo heredado `service_account_json` se conserva sólo como fallback para instalaciones que ya cuenten con una JSON key permitida. En esta organización no es la ruta soportada ni debe intentarse crear una clave para usarlo.
+```bash
+~/.config/regalospremium/google-ads.yaml
+```
 
-## Entorno y operaciones de sólo lectura
+y debe conservar `chmod 600`.
 
-Instale las dependencias únicamente cuando sea necesario:
+## Entorno Python
 
 ```bash
 python3 -m venv .venv-ads
-.venv-ads/bin/python -m pip install --upgrade pip
 .venv-ads/bin/pip install -r requirements-ads.txt
 ```
 
-Verifique acceso sin mutaciones:
+Versión validada: `google-ads==33.0.0`.
+
+## QA de sólo lectura
 
 ```bash
 .venv-ads/bin/python scripts/ads_readonly_check.py
 ```
 
-El comando valida localmente el modo y permisos del token, solicita credenciales impersonadas y sólo ejecuta `listAccessibleCustomers` y una consulta GAQL de campañas. No llama servicios `mutate` y nunca imprime access tokens ni refresh tokens.
+El probe productivo validado devuelve acceso a `5921822090` mediante `gcloud_impersonation`.
 
-Antes de una futura escritura autorizada, cree un snapshot local ignorado por Git:
-
-```bash
-.venv-ads/bin/python scripts/ads_snapshot.py --output reports/ads/live/prewrite-$(date +%Y%m%d-%H%M%S).json
-```
-
-También puede validar los CSV sin red:
+Antes de cualquier mutación:
 
 ```bash
-.venv-ads/bin/python scripts/ads_generic_dry_run.py --output reports/ads/generic-dry-run.json
+.venv-ads/bin/python scripts/ads_snapshot.py   --output reports/ads/live/prewrite-$(date +%Y%m%d-%H%M%S).json
 ```
 
-No hay `--apply`: cualquier escritura posterior requiere decisión explícita sobre campaña, presupuesto, puja, red, ubicación, idioma y exclusiones DSA.
+## Cambios B2B aplicados
+
+La campaña `23529944814 / Regalos Premium B2B` permanece **PAUSED**.
+
+- `scripts/ads_apply_generic_b2b.py`: completa las 24 keywords prioritarias exacta/frase y actualiza el RSA genérico a 15 titulares + 4 descripciones.
+- `scripts/ads_apply_dsa_b2b.py`: habilita DSA en la campaña y crea el grupo `DSA | Canonicales B2B`, también **PAUSED**, con siete targets canónicos.
+- La home no se usa como target DSA para evitar que un criterio URL raíz abarque todo el dominio.
+- La campaña no debe activarse hasta cerrar QA comercial, exclusiones y estado de facturación.
+
+## Rollback y seguridad
+
+Los snapshots `reports/ads/live/prewrite-*.json` y `post-*.json` permiten comparar el estado antes/después. No se almacenan access tokens, refresh tokens, client secrets ni JSON keys en Git.

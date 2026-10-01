@@ -1,16 +1,20 @@
-# Plantilla SIN secretos para Google Ads por impersonation keyless (modo vigente).
-# Copiar fuera del repositorio, preferentemente a:
-# ~/.config/regalospremium/google-ads.yaml (chmod 600)
-# Desde 2026-09-09 Google Ads no requiere developer token (google-ads >= 32.0.0).
-# El acceso depende del proyecto Cloud regalospremium-ads-api y sus permisos IAM/Google Ads.
-# La organización bloquea crear JSON keys. No use client_secret ni refresh_token aquí.
-auth_mode: impersonated_service_account
-target_service_account: rp-google-ads-cli@regalospremium-ads-api.iam.gserviceaccount.com
-source_user_token_path: /home/USER/.config/regalospremium/gcp-user-token.json
+# Plantilla SIN secretos para Google Ads usando gcloud impersonation (modo vigente).
+# Copiar a ~/.config/regalospremium/google-ads.yaml y chmod 600.
+# Desde 2026-09-09 no se requiere developer token con google-ads >= 32.0.0.
+auth_mode: gcloud_impersonation
+target_service_account: rp-google-ads-cli@able-marking-493221-m5.iam.gserviceaccount.com
+gcloud_path: /home/USER/.local/gcloud-install/google-cloud-sdk/bin/gcloud
+gcloud_config_dir: /home/USER/.config/gcloud-rp-explorer
 customer_id: "5921822090"
-# Sólo si la service account accede por una cuenta Manager/MCC:
+# Sólo si accede mediante MCC:
 # login_customer_id: "INSERT_MANAGER_CUSTOMER_ID"
 use_proto_plus: true
-# Fallback heredado sólo si una JSON key ya existe y está permitida:
+
+# Fallback legado con token OAuth de usuario:
+# auth_mode: impersonated_service_account
+# target_service_account: service-account@project.iam.gserviceaccount.com
+# source_user_token_path: /home/USER/.config/regalospremium/gcp-user-token.json
+
+# Fallback JSON sólo si la política Cloud lo permite:
 # auth_mode: service_account_json
 # json_key_file_path: /home/USER/.config/regalospremium/service-account.json

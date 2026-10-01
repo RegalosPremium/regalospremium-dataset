@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import stat
+import subprocess
 from pathlib import Path
 from typing import Any
 
@@ -14,6 +15,7 @@ DEFAULT_CUSTOMER_ID = "5921822090"
 PLACEHOLDER_PREFIX = "INSERT_"
 ADWORDS_SCOPE = "https://www.googleapis.com/auth/adwords"
 AUTH_MODE_IMPERSONATED = "impersonated_service_account"
+AUTH_MODE_GCLOUD = "gcloud_impersonation"
 AUTH_MODE_JSON = "service_account_json"
 
 
@@ -52,8 +54,8 @@ def load_config(path: Path | None = None) -> dict[str, Any]:
 
     config = dict(data)
     config["auth_mode"] = str(config.get("auth_mode", AUTH_MODE_JSON)).strip()
-    if config["auth_mode"] not in (AUTH_MODE_IMPERSONATED, AUTH_MODE_JSON):
-        raise ValueError("auth_mode debe ser impersonated_service_account o service_account_json")
+    if config["auth_mode"] not in (AUTH_MODE_IMPERSONATED, AUTH_MODE_GCLOUD, AUTH_MODE_JSON):
+        raise ValueError("auth_mode debe ser impersonated_service_account, gcloud_impersonation o service_account_json")
     developer_token = str(config.get("developer_token", "")).strip()
     if developer_token and not developer_token.upper().startswith(PLACEHOLDER_PREFIX):
         config["developer_token"] = developer_token
@@ -65,6 +67,10 @@ def load_config(path: Path | None = None) -> dict[str, Any]:
     if config["auth_mode"] == AUTH_MODE_IMPERSONATED:
         config["target_service_account"] = _required_text(config, "target_service_account")
         config["source_user_token_path"] = _required_text(config, "source_user_token_path")
+    elif config["auth_mode"] == AUTH_MODE_GCLOUD:
+        config["target_service_account"] = _required_text(config, "target_service_account")
+        config["gcloud_path"] = _required_text(config, "gcloud_path")
+        config["gcloud_config_dir"] = _required_text(config, "gcloud_config_dir")
     else:
         config["json_key_file_path"] = _required_text(config, "json_key_file_path")
     return config
@@ -101,9 +107,21 @@ def validate_impersonation_token(config: dict[str, Any]) -> dict[str, str]:
     return {"auth_mode": AUTH_MODE_IMPERSONATED, "service_account_email": config["target_service_account"]}
 
 
+def validate_gcloud(config: dict[str, Any]) -> dict[str, str]:
+    gcloud = Path(config["gcloud_path"]).expanduser()
+    cfg = Path(config["gcloud_config_dir"]).expanduser()
+    if not gcloud.is_file():
+        raise FileNotFoundError(f"No existe gcloud: {gcloud}")
+    if not cfg.is_dir():
+        raise FileNotFoundError(f"No existe gcloud_config_dir: {cfg}")
+    return {"auth_mode": AUTH_MODE_GCLOUD, "service_account_email": config["target_service_account"]}
+
+
 def validate_auth(config: dict[str, Any]) -> dict[str, str]:
     if config["auth_mode"] == AUTH_MODE_IMPERSONATED:
         return validate_impersonation_token(config)
+    if config["auth_mode"] == AUTH_MODE_GCLOUD:
+        return validate_gcloud(config)
     return validate_key_file(config)
 
 
@@ -126,6 +144,25 @@ def create_impersonated_credentials(config: dict[str, Any]):
     )
 
 
+def create_gcloud_impersonated_credentials(config: dict[str, Any]):
+    """Mint a short-lived Ads-scoped token via the official gcloud CLI."""
+    from google.oauth2 import credentials as user_credentials
+    env = dict(os.environ)
+    env["CLOUDSDK_CONFIG"] = str(Path(config["gcloud_config_dir"]).expanduser())
+    cmd = [
+        str(Path(config["gcloud_path"]).expanduser()),
+        "auth", "print-access-token",
+        f"--impersonate-service-account={config['target_service_account']}",
+        f"--scopes={ADWORDS_SCOPE}",
+    ]
+    result = subprocess.run(cmd, env=env, capture_output=True, text=True, check=False, timeout=60)
+    token = result.stdout.strip()
+    if result.returncode != 0 or not token:
+        msg = result.stderr.strip().splitlines()[-1] if result.stderr.strip() else "gcloud no emitió token"
+        raise RuntimeError(f"Falló gcloud impersonation: {msg}")
+    return user_credentials.Credentials(token=token, scopes=[ADWORDS_SCOPE])
+
+
 def load_client(config: dict[str, Any]):
     """Create the Google Ads client lazily, using explicit keyless credentials."""
     try:
@@ -134,7 +171,10 @@ def load_client(config: dict[str, Any]):
         raise RuntimeError("Falta google-ads. Instale: .venv-ads/bin/pip install -r requirements-ads.txt") from exc
     if config["auth_mode"] == AUTH_MODE_JSON:
         return GoogleAdsClient.load_from_dict(config)
-    credentials = create_impersonated_credentials(config)
+    if config["auth_mode"] == AUTH_MODE_GCLOUD:
+        credentials = create_gcloud_impersonated_credentials(config)
+    else:
+        credentials = create_impersonated_credentials(config)
     return GoogleAdsClient(
         credentials=credentials,
         developer_token=config.get("developer_token"),

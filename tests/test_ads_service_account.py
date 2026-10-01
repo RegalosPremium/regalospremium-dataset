@@ -107,3 +107,28 @@ class ServiceAccountConfigTests(unittest.TestCase):
             target_scopes=["https://www.googleapis.com/auth/adwords"],
             lifetime=3600,
         )
+
+
+class GcloudModeTests(unittest.TestCase):
+    def test_load_and_validate_gcloud_mode(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            gcloud = root / "gcloud"
+            gcloud.write_text("#!/bin/sh\n", encoding="utf-8")
+            os.chmod(gcloud, 0o700)
+            cfgdir = root / "gcloud-config"
+            cfgdir.mkdir()
+            config_path = root / "google-ads.yaml"
+            config_path.write_text(
+                "auth_mode: gcloud_impersonation\n"
+                "target_service_account: sa@example.invalid\n"
+                f"gcloud_path: {gcloud}\n"
+                f"gcloud_config_dir: {cfgdir}\n"
+                "customer_id: '592-182-2090'\n",
+                encoding="utf-8",
+            )
+            config = module.load_config(config_path)
+            self.assertEqual(config["customer_id"], "5921822090")
+            info = module.validate_auth(config)
+            self.assertEqual(info["auth_mode"], module.AUTH_MODE_GCLOUD)
+            self.assertEqual(info["service_account_email"], "sa@example.invalid")
