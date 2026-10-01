@@ -4,7 +4,9 @@
 
 La organización de Google Cloud bloquea la creación de claves JSON de service account. La ruta vigente es, por tanto, **Service Account Impersonation**: `ventas@regalospremium.cl` obtiene credenciales de corta duración para `rp-google-ads-cli@regalospremium-ads-api.iam.gserviceaccount.com` mediante IAM Credentials API, con el scope `https://www.googleapis.com/auth/adwords`.
 
-El token OAuth Cloud local es privado y nunca debe versionarse, imprimirse ni pegarse en comandos. Este repositorio no lee secretos para validarlos: sólo comprueba que el archivo exista y tenga `chmod 600`; la librería de Google lo consume internamente al crear las credenciales. El developer token también es secreto y no se muestra en ninguna salida.
+El token OAuth Cloud local es privado y nunca debe versionarse, imprimirse ni pegarse en comandos. Este repositorio no lee secretos para validarlos: sólo comprueba que el archivo exista y tenga `chmod 600`; la librería de Google lo consume internamente al crear las credenciales.
+
+Desde el 2026-09-09, Google Ads ya no requiere developer token. Con `google-ads` 33.0.0 (y desde la versión 32.0.0), `developer_token` es opcional y no debe añadirse a la configuración nueva. El acceso depende del proyecto Cloud `regalospremium-ads-api`, de la IAM Credentials API y de los permisos IAM y Google Ads asignados a las identidades.
 
 La IAM Credentials API debe permanecer habilitada y `ventas@regalospremium.cl` debe mantener `roles/iam.serviceAccountTokenCreator` sobre la service account destino. Además, esa identidad debe disponer de acceso de sólo lectura a Google Ads `592-182-2090`, o al MCC correspondiente.
 
@@ -19,13 +21,12 @@ chmod 600 ~/.config/regalospremium/google-ads.yaml
 chmod 600 ~/.config/regalospremium/gcp-user-token.json
 ```
 
-Complete sólo `developer_token` en el YAML local. La configuración keyless vigente es:
+La configuración keyless vigente no requiere developer token:
 
 ```yaml
 auth_mode: impersonated_service_account
 target_service_account: rp-google-ads-cli@regalospremium-ads-api.iam.gserviceaccount.com
 source_user_token_path: /home/USUARIO/.config/regalospremium/gcp-user-token.json
-developer_token: SU_DEVELOPER_TOKEN
 customer_id: "5921822090"
 # login_customer_id: "MCC_SI_CORRESPONDE"
 use_proto_plus: true

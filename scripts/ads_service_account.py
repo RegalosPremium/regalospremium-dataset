@@ -54,7 +54,11 @@ def load_config(path: Path | None = None) -> dict[str, Any]:
     config["auth_mode"] = str(config.get("auth_mode", AUTH_MODE_JSON)).strip()
     if config["auth_mode"] not in (AUTH_MODE_IMPERSONATED, AUTH_MODE_JSON):
         raise ValueError("auth_mode debe ser impersonated_service_account o service_account_json")
-    config["developer_token"] = _required_text(config, "developer_token")
+    developer_token = str(config.get("developer_token", "")).strip()
+    if developer_token and not developer_token.upper().startswith(PLACEHOLDER_PREFIX):
+        config["developer_token"] = developer_token
+    else:
+        config.pop("developer_token", None)
     config["customer_id"] = clean_customer_id(config.get("customer_id", DEFAULT_CUSTOMER_ID))
     if config.get("login_customer_id"):
         config["login_customer_id"] = clean_customer_id(config["login_customer_id"])
@@ -133,7 +137,7 @@ def load_client(config: dict[str, Any]):
     credentials = create_impersonated_credentials(config)
     return GoogleAdsClient(
         credentials=credentials,
-        developer_token=config["developer_token"],
+        developer_token=config.get("developer_token"),
         login_customer_id=config.get("login_customer_id"),
         use_proto_plus=bool(config.get("use_proto_plus", True)),
     )

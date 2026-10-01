@@ -3,6 +3,7 @@ import json
 import os
 import sys
 import tempfile
+import types
 import unittest
 from pathlib import Path
 from unittest import mock
@@ -20,7 +21,7 @@ class ServiceAccountConfigTests(unittest.TestCase):
     def test_load_rejects_oauth(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "google-ads.yaml"
-            path.write_text("developer_token: token\njson_key_file_path: /tmp/key.json\nclient_id: no\n", encoding="utf-8")
+            path.write_text("json_key_file_path: /tmp/key.json\nclient_id: no\n", encoding="utf-8")
             with self.assertRaises(ValueError): module.load_config(path)
 
     def test_key_requires_0600_and_expected_shape(self):
@@ -45,15 +46,45 @@ class ServiceAccountConfigTests(unittest.TestCase):
                 "auth_mode: impersonated_service_account\n"
                 "target_service_account: sa@example.invalid\n"
                 f"source_user_token_path: {token_path}\n"
-                "developer_token: token\ncustomer_id: '592-182-2090'\n",
+                "customer_id: '592-182-2090'\n",
                 encoding="utf-8",
             )
             config = module.load_config(config_path)
             self.assertEqual(config["customer_id"], "5921822090")
+            self.assertNotIn("developer_token", config)
             self.assertEqual(module.validate_auth(config)["service_account_email"], "sa@example.invalid")
             os.chmod(token_path, 0o644)
             with self.assertRaises(PermissionError):
                 module.validate_auth(config)
+
+    def test_load_config_treats_developer_token_as_optional(self):
+        with tempfile.TemporaryDirectory() as directory:
+            directory_path = Path(directory)
+            config_path = directory_path / "google-ads.yaml"
+            config_path.write_text(
+                "auth_mode: service_account_json\n"
+                "json_key_file_path: /tmp/key.json\n"
+                "developer_token: INSERT_DEVELOPER_TOKEN\n",
+                encoding="utf-8",
+            )
+            self.assertNotIn("developer_token", module.load_config(config_path))
+
+    def test_load_keyless_client_passes_optional_developer_token_as_none(self):
+        credentials = object()
+        google_client = mock.Mock()
+        client_module = types.ModuleType("google.ads.googleads.client")
+        client_module.GoogleAdsClient = google_client
+        with (
+            mock.patch.object(module, "create_impersonated_credentials", return_value=credentials),
+            mock.patch.dict(sys.modules, {"google.ads.googleads.client": client_module}),
+        ):
+            module.load_client({"auth_mode": module.AUTH_MODE_IMPERSONATED})
+        google_client.assert_called_once_with(
+            credentials=credentials,
+            developer_token=None,
+            login_customer_id=None,
+            use_proto_plus=True,
+        )
 
     def test_impersonated_credentials_are_ads_scoped_without_network(self):
         source_credentials = object()
