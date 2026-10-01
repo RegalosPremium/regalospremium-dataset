@@ -6,7 +6,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from ads_service_account import clean_customer_id, default_config_path, load_client, load_config, validate_key_file
+from ads_service_account import clean_customer_id, default_config_path, load_client, load_config, validate_auth
 
 
 def parse_args():
@@ -21,7 +21,7 @@ def main() -> int:
     try:
         config = load_config(args.config)
         customer_id = clean_customer_id(args.customer_id or config["customer_id"])
-        key_info = validate_key_file(config)
+        auth_info = validate_auth(config)
         client = load_client(config)
         accessible = client.get_service("CustomerService").list_accessible_customers()
         ga = client.get_service("GoogleAdsService")
@@ -38,8 +38,8 @@ def main() -> int:
     except Exception as exc:
         print(f"FAIL: {exc}", file=sys.stderr)
         return 1
-    print("PASS: local service-account key validated")
-    print(f"service_account={key_info['service_account_email']}")
+    print(f"PASS: local auth validated mode={auth_info['auth_mode']}")
+    print(f"service_account={auth_info['service_account_email']}")
     print(f"accessible_customers={len(accessible.resource_names)}")
     print(f"customer_id={customer_id} active_campaigns={len(campaigns)}")
     for campaign in campaigns:

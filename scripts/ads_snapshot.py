@@ -7,7 +7,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from ads_service_account import clean_customer_id, default_config_path, load_client, load_config, validate_key_file
+from ads_service_account import clean_customer_id, default_config_path, load_client, load_config, validate_auth
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -46,7 +46,7 @@ def collect(ga, customer_id: str) -> dict[str, list[dict]]:
 def main() -> int:
     args = parse_args()
     config = load_config(args.config); customer_id = clean_customer_id(args.customer_id or config["customer_id"])
-    validate_key_file(config)
+    validate_auth(config)
     payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "mode": "READ_ONLY_SNAPSHOT", "customer_id": customer_id}
     payload.update(collect(load_client(config).get_service("GoogleAdsService"), customer_id))
     args.output.parent.mkdir(parents=True, exist_ok=True)
