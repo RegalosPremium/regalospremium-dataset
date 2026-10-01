@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 config/google-ads.yaml
+config/google-ads.local.yaml
+config/*service-account*.json
+config/*google-ads*.json
 .env
 reports/*.json
 reports/*.csv
@@ -14,3 +17,4 @@ config/prestashop-webservice.key
 data/ads/inbox/
 data/ads/processed/
 reports/ads/live/
+reports/ads/generic-dry-run.json

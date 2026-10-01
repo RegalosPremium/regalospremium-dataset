@@ -1,8 +1,10 @@
-# Copiar como config/google-ads.yaml. NO versionar credenciales.
-# Desde 2026-09-09 el acceso API se gestiona por proyecto de Google Cloud.
-client_id: INSERT_OAUTH_CLIENT_ID
-client_secret: INSERT_OAUTH_CLIENT_SECRET
-refresh_token: INSERT_REFRESH_TOKEN
-# Sólo si se usa una cuenta Manager/MCC:
-login_customer_id: INSERT_MANAGER_CUSTOMER_ID_IF_USED
+# Plantilla SIN secretos para Google Ads con service account.
+# Copiar fuera del repositorio, preferentemente a:
+# ~/.config/regalospremium/google-ads.yaml (chmod 600)
+# No usar el client_secret Desktop App ni OAuth interactivo para este flujo.
+developer_token: INSERT_DEVELOPER_TOKEN
+json_key_file_path: /home/USER/.config/regalospremium/service-account.json
+customer_id: "5921822090"
+# Sólo si la service account accede por una cuenta Manager/MCC:
+# login_customer_id: "INSERT_MANAGER_CUSTOMER_ID"
 use_proto_plus: true
