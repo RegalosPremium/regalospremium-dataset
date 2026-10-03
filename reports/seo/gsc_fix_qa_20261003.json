@@ -1,0 +1,152 @@
+[
+  {
+    "url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/mochila-picnic.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/mochilas/mochila-picnic-4-personas-accesorios-cooler.html",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/mochilas/mochila-picnic-4-personas-accesorios-cooler.html",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/mochilas/mochila-picnic-4-personas-accesorios-cooler.html",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/publicitarios-belleza-y-salud/deluxe-billetera-de-cuero-color-cafe-.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/billeteras-y-porta-documentos/billetera-deluxe-cuero-marron-broche.html",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/billeteras-y-porta-documentos/billetera-deluxe-cuero-marron-broche.html",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/billeteras-y-porta-documentos/billetera-deluxe-cuero-marron-broche.html",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/bolsa-algodon-manijas-colores-reutilizable.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-algodon-asas-colores.html",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-algodon-asas-colores.html",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-algodon-asas-colores.html",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/mesa-plegable-de-picnic.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/publicitarios-bamboo/set-escritura-bambu-boligrafo-portaminas-deluxe.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/regalos-corporativos-bambu/",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/merchandising-masivo/",
+    "first": 404,
+    "location": "",
+    "final": 404,
+    "final_url": "https://regalospremium.cl/merchandising-masivo/",
+    "expected_first": 404,
+    "expected_final": 404,
+    "expected_url": "https://regalospremium.cl/merchandising-masivo/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/mochila-netech.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-negro-cobre-tinta-azul.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/regalos-publicitarios-para-invierno/",
+    "first": 200,
+    "location": "",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/regalos-publicitarios-para-invierno/",
+    "expected_first": 200,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/regalos-publicitarios-para-invierno/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/publicitarios-ecofriendly/llavero-linterna-led-dinamo.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/llaveros-promocionales/llavero-linterna-led.html",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/llaveros-promocionales/llavero-linterna-led.html",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/llaveros-promocionales/llavero-linterna-led.html",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/publicitarios-bamboo/pendrive-4gb-de-bamboo.html",
+    "first": 301,
+    "location": "https://regalospremium.cl/regalos-corporativos-bambu/",
+    "final": 200,
+    "final_url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+    "expected_first": 301,
+    "expected_final": 200,
+    "expected_url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/",
+    "final": 200,
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/1_index_sitemap.xml",
+    "final": 200,
+    "ok": true,
+    "error": ""
+  },
+  {
+    "url": "https://regalospremium.cl/robots.txt",
+    "final": 200,
+    "ok": true,
+    "error": ""
+  }
+]

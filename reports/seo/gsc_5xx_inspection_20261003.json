@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://regalospremium.cl/roller-pen-titan.html",
+    "verdict": "NEUTRAL",
+    "coverageState": "Error de servidor (5xx)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-19T08:56:12Z",
+    "pageFetchState": "SERVER_ERROR",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "clicks": 0,
+    "impressions": 0
+  },
+  {
+    "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-duero.html",
+    "verdict": "NEUTRAL",
+    "coverageState": "Error de servidor (5xx)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-15T08:29:05Z",
+    "pageFetchState": "SERVER_ERROR",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "clicks": 0,
+    "impressions": 0
+  }
+]

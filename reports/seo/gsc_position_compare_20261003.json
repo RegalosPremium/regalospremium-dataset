@@ -1,0 +1,3746 @@
+{
+  "ranges": {
+    "last_28d_settled": {
+      "start": "2026-09-03",
+      "end": "2026-09-30",
+      "clicks": 24,
+      "impressions": 2433,
+      "ctr": 0.009864364981504316,
+      "position": 26.283189478010687
+    },
+    "prev_28d": {
+      "start": "2026-08-06",
+      "end": "2026-09-02",
+      "clicks": 43,
+      "impressions": 2789,
+      "ctr": 0.01541771244173539,
+      "position": 24.158121190390823
+    },
+    "sep_1_20": {
+      "start": "2026-09-01",
+      "end": "2026-09-20",
+      "clicks": 21,
+      "impressions": 1879,
+      "ctr": 0.011176157530601383,
+      "position": 26.120808940926025
+    },
+    "sep_21_30": {
+      "start": "2026-09-21",
+      "end": "2026-09-30",
+      "clicks": 7,
+      "impressions": 800,
+      "ctr": 0.00875,
+      "position": 22.76375
+    },
+    "august": {
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "clicks": 48,
+      "impressions": 2984,
+      "ctr": 0.0160857908847185,
+      "position": 25.324061662198392
+    },
+    "july": {
+      "start": "2026-07-01",
+      "end": "2026-07-31",
+      "clicks": 24,
+      "impressions": 2398,
+      "ctr": 0.010008340283569641,
+      "position": 24.263969974979148
+    },
+    "q3_to_sep30": {
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "clicks": 100,
+      "impressions": 8061,
+      "ctr": 0.012405408758218583,
+      "position": 24.940329983872967
+    },
+    "prev_qtr": {
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "clicks": 69,
+      "impressions": 5361,
+      "ctr": 0.012870733072188025,
+      "position": 24.392277560156685
+    }
+  },
+  "top_query": [
+    {
+      "keys": [
+        "mochila picnic"
+      ],
+      "clicks": 0,
+      "impressions": 83,
+      "ctr": 0,
+      "position": 13.036144578313253
+    },
+    {
+      "keys": [
+        "regalos corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 62,
+      "ctr": 0,
+      "position": 59.25806451612903
+    },
+    {
+      "keys": [
+        "carpeta portafolio"
+      ],
+      "clicks": 1,
+      "impressions": 45,
+      "ctr": 0.022222222222222223,
+      "position": 10.444444444444445
+    },
+    {
+      "keys": [
+        "regalos publicitarios"
+      ],
+      "clicks": 0,
+      "impressions": 36,
+      "ctr": 0,
+      "position": 52.833333333333336
+    },
+    {
+      "keys": [
+        "regalos promocionales"
+      ],
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 48.15151515151515
+    },
+    {
+      "keys": [
+        "mochilas grises"
+      ],
+      "clicks": 0,
+      "impressions": 30,
+      "ctr": 0,
+      "position": 45.2
+    },
+    {
+      "keys": [
+        "merchandising chile"
+      ],
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0,
+      "position": 52.3
+    },
+    {
+      "keys": [
+        "regalos corporativos premium"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 34.27777777777778
+    },
+    {
+      "keys": [
+        "regalos corporativos chile"
+      ],
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 61.11764705882353
+    },
+    {
+      "keys": [
+        "mochila picnic 4 personas"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 8.125
+    },
+    {
+      "keys": [
+        "bolsas tnt"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 71.625
+    },
+    {
+      "keys": [
+        "regalos premium"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 5.866666666666666
+    },
+    {
+      "keys": [
+        "regalos empresa"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 58.666666666666664
+    },
+    {
+      "keys": [
+        "botellas metálicas con logo"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 31.923076923076923
+    },
+    {
+      "keys": [
+        "regalos empresariales"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 58.69230769230769
+    },
+    {
+      "keys": [
+        "regalos para empresas"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 60.76923076923077
+    },
+    {
+      "keys": [
+        "productos ecologicos personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 78.15384615384616
+    },
+    {
+      "keys": [
+        "regalo corporativo"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 56.3
+    },
+    {
+      "keys": [
+        "bolsas tnt con logo"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 58.3
+    },
+    {
+      "keys": [
+        "regalos corporativos originales chile"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 66.1
+    },
+    {
+      "keys": [
+        "carpeta tipo portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 9.666666666666666
+    },
+    {
+      "keys": [
+        "regalos corporativos por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 40.44444444444444
+    },
+    {
+      "keys": [
+        "bolsas tnt personalizadas"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "keys": [
+        "cangoo"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9.375
+    },
+    {
+      "keys": [
+        "articulos publicitarios ecologicos"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 29.875
+    },
+    {
+      "keys": [
+        "regalospromocionales"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 50.25
+    },
+    {
+      "keys": [
+        "bolsas de yute personalizadas"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 51.125
+    },
+    {
+      "keys": [
+        "polera publicitaria"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 51.75
+    },
+    {
+      "keys": [
+        "regalo para clientes vip"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 76.125
+    },
+    {
+      "keys": [
+        "bolso picnic 4 personas"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 10.571428571428571
+    },
+    {
+      "keys": [
+        "regalos premium corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 27.428571428571427
+    },
+    {
+      "keys": [
+        "ropa corporativa premium"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 28.857142857142858
+    },
+    {
+      "keys": [
+        "regalos por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 40.857142857142854
+    },
+    {
+      "keys": [
+        "bolsas tnt pequeñas"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 51
+    },
+    {
+      "keys": [
+        "bolsas reutilizables tnt"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 51.857142857142854
+    },
+    {
+      "keys": [
+        "bolsas tnt para sublimar"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 53.57142857142857
+    },
+    {
+      "keys": [
+        "bolsas de algodón"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 65
+    },
+    {
+      "keys": [
+        "productos personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 77.42857142857143
+    },
+    {
+      "keys": [
+        "bolsas publicitarias impresas"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 10.166666666666666
+    },
+    {
+      "keys": [
+        "merchandising personalizado premium"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "keys": [
+        "regalos publicitarios por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 36.666666666666664
+    },
+    {
+      "keys": [
+        "mugs publicitarios"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 51.333333333333336
+    },
+    {
+      "keys": [
+        "regalos chile"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 52.666666666666664
+    },
+    {
+      "keys": [
+        "articulos promocionales de lujo"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 53.5
+    },
+    {
+      "keys": [
+        "bolsa tnt"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 53.666666666666664
+    },
+    {
+      "keys": [
+        "bolsos de playa"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 57.666666666666664
+    },
+    {
+      "keys": [
+        "gorras publicitarios"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 60
+    },
+    {
+      "keys": [
+        "bolsas de tnt"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 63
+    },
+    {
+      "keys": [
+        "regalos publicitarios chile"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 65.66666666666667
+    },
+    {
+      "keys": [
+        "pendrives corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 70.83333333333333
+    },
+    {
+      "keys": [
+        "langer credenciales"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 75.83333333333333
+    },
+    {
+      "keys": [
+        "regalo premium"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 1.2
+    },
+    {
+      "keys": [
+        "carpeta con bolsillo"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 43.2
+    },
+    {
+      "keys": [
+        "llaveros promocionales"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 47.4
+    },
+    {
+      "keys": [
+        "bolso de playa"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 56.4
+    },
+    {
+      "keys": [
+        "regalos corporativos gourmet"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 56.4
+    },
+    {
+      "keys": [
+        "bolsas tnt por mayor con logo"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 59.2
+    },
+    {
+      "keys": [
+        "bolsas de tnt con logo"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 60.6
+    },
+    {
+      "keys": [
+        "regalos corporativos en chile"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 67.4
+    },
+    {
+      "keys": [
+        "regalos personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 68
+    },
+    {
+      "keys": [
+        "regalos personalizados en chile"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 74
+    },
+    {
+      "keys": [
+        "regalos para clientes vip"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 76.4
+    },
+    {
+      "keys": [
+        "articulos promocionales ecologicos"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 78.6
+    },
+    {
+      "keys": [
+        "cuaderno antiguo"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "cooler gigante"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.75
+    },
+    {
+      "keys": [
+        "boligrafos promocionales"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "keys": [
+        "bolsas de papel yute"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "premium"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 24.75
+    },
+    {
+      "keys": [
+        "auriculares promocionales"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 38.25
+    },
+    {
+      "keys": [
+        "regalos publicitario"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 43.75
+    },
+    {
+      "keys": [
+        "bolsas de yute"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 44
+    },
+    {
+      "keys": [
+        "regalos personalizados.cl"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 51.25
+    },
+    {
+      "keys": [
+        "regalos de empresa"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 51.5
+    },
+    {
+      "keys": [
+        "llaveros de madera"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 57
+    },
+    {
+      "keys": [
+        "regalos corporativo"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 57.75
+    },
+    {
+      "keys": [
+        "detalles corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 60.75
+    },
+    {
+      "keys": [
+        "langer credencial"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 65.75
+    },
+    {
+      "keys": [
+        "regalos ejecutivos"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 66.75
+    },
+    {
+      "keys": [
+        "regalospublicitarios"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 67.5
+    },
+    {
+      "keys": [
+        "regalos corporativos tecnologicos"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 77
+    },
+    {
+      "keys": [
+        "premium merchandising"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "keys": [
+        "llavero premium"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 11.333333333333334
+    },
+    {
+      "keys": [
+        "yute bolsas al por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 31.333333333333332
+    },
+    {
+      "keys": [
+        "sacos de yute"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 32.33333333333333
+    },
+    {
+      "keys": [
+        "bolsa de algodon de 38x51cm"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 36.666666666666664
+    },
+    {
+      "keys": [
+        "set clásica promocional"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 36.666666666666664
+    },
+    {
+      "keys": [
+        "botellas plásticas con logo"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 37.333333333333336
+    },
+    {
+      "keys": [
+        "bolsa algodon 10x15"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 43.666666666666664
+    },
+    {
+      "keys": [
+        "bolsa tnt personalizada"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 47.666666666666664
+    },
+    {
+      "keys": [
+        "bolsa de algodon de color"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
+        "regalos con publicidad"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 50.333333333333336
+    },
+    {
+      "keys": [
+        "mochila gris"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 50.666666666666664
+    },
+    {
+      "keys": [
+        "llaveros publicitarios"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 51.666666666666664
+    },
+    {
+      "keys": [
+        "regalos deportivos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 51.666666666666664
+    },
+    {
+      "keys": [
+        "articulos corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 53.333333333333336
+    },
+    {
+      "keys": [
+        "merchandising premium"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 53.666666666666664
+    },
+    {
+      "keys": [
+        "regalos empresas"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 56
+    },
+    {
+      "keys": [
+        "regalos y publicidad"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 56.666666666666664
+    },
+    {
+      "keys": [
+        "regalo corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 58.333333333333336
+    },
+    {
+      "keys": [
+        "regalos corporativos personalizados chile"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 59.333333333333336
+    },
+    {
+      "keys": [
+        "obsequios corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 60.333333333333336
+    },
+    {
+      "keys": [
+        "regalos institucionales"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 61.333333333333336
+    },
+    {
+      "keys": [
+        "productos corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 62.666666666666664
+    },
+    {
+      "keys": [
+        "bolsas de algodon"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 64.66666666666666
+    },
+    {
+      "keys": [
+        "regalos corporativos viña del mar"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 67.33333333333333
+    },
+    {
+      "keys": [
+        "pendrives promocionales"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 67.66666666666667
+    },
+    {
+      "keys": [
+        "regalos corporativos verano"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 71.66666666666667
+    },
+    {
+      "keys": [
+        "bolsas tnt por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 78
+    },
+    {
+      "keys": [
+        "regalos corporativos de lujo"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 78
+    },
+    {
+      "keys": [
+        "regalos personalizados chile"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 78.33333333333333
+    },
+    {
+      "keys": [
+        "regalos corporativos puerto montt"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 80.66666666666667
+    },
+    {
+      "keys": [
+        "regalos corporativos premium chile"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "bolsa de yute grande"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "carpetas tipo portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "boligrafo metal"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "carpeta de portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "carpeta porta folio"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "carpeta portafolios"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "portafolio documentos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "soporte para power bank"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "carpetas portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "libreta de cuero"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "keys": [
+        "cuaderno con cierre"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 21.5
+    },
+    {
+      "keys": [
+        "botellas publicitarias"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "keys": [
+        "trofeos premium"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "keys": [
+        "regalos publicitarios ecológicos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 28.5
+    },
+    {
+      "keys": [
+        "bolsa de algodon con dibujo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "trofeo cristal circulo y reloj"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "regalo corporativo premium"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
+        "bolsa de algodones"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 41
+    },
+    {
+      "keys": [
+        "carpetas bolsillo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 41.5
+    },
+    {
+      "keys": [
+        "lanyard negro"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "keys": [
+        "accesorios bamboo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 44
+    },
+    {
+      "keys": [
+        "bolsa de algodón colores"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "keys": [
+        "chile regalos corporativos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "keys": [
+        "bolsa algodon"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
+        "regalos corporativos premium personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 48.5
+    },
+    {
+      "keys": [
+        "bolso de playa mujer"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "keys": [
+        "bolsa de algodon con cordon pequeña chile"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 49.5
+    },
+    {
+      "keys": [
+        "bolsa de algodon de colores"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 50.5
+    },
+    {
+      "keys": [
+        "accesorios playa"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 51
+    },
+    {
+      "keys": [
+        "regalos institucionales chile"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 51.5
+    },
+    {
+      "keys": [
+        "accesorios de playa"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 54
+    },
+    {
+      "keys": [
+        "regalos empresariales chile"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 54.5
+    },
+    {
+      "keys": [
+        "regalos pro"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 54.5
+    },
+    {
+      "keys": [
+        "pendrives con logo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 57
+    },
+    {
+      "keys": [
+        "mugs al por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 59.5
+    },
+    {
+      "keys": [
+        "regalos corporativos la serena"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 59.5
+    },
+    {
+      "keys": [
+        "bolsa de algodon mediana"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 62
+    },
+    {
+      "keys": [
+        "bolsa de algod"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 62.5
+    },
+    {
+      "keys": [
+        "bolsa de algodon 300 gramos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 65
+    },
+    {
+      "keys": [
+        "pendrive corporativo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "keys": [
+        "regalos gratis"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 70.5
+    },
+    {
+      "keys": [
+        "papelera ecológica chile"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "keys": [
+        "bolsa de algodon absorbente"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 83
+    },
+    {
+      "keys": [
+        "necesito imágenes"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "sin logos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "gorro sport"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "memo clip de escritorio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "regalos para taxistas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "short y polera"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "power bank premium"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "short 100 poliester"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "valor"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "carpeta para portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "carpetas de portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "cuaderno viejo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "mochila de picnic para 4 personas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "regalos para escritorio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "carpetas para portafolio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "lanyard grueso"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "polera y short"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "portafolio para documentos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "power bank 5v 1a"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "regalo antistress"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "destapador con correa"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "lanyard amarillo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "llavero funcional"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "portafolio carpeta"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "power bank usb 5v"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "botellas metalicas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "maletin duro portatil"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "fundas sublimadas para eventos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "keys": [
+        "bolsa de algodón morral 6 onzas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "costo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "donde lo venden en chile"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "precio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "gorro gilligan"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "keys": [
+        "mug conserve moi 32cl en color rosa metalico con el 40% de dto"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "keys": [
+        "bolsa algodon de rodeo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
+        "bolsa yute"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "yute natural"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "bolsa de feria algodon"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "enchufe portatil"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "regalos al por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "bolsa algodon 25x30"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
+        "saco de yute"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
+        "lapices bambú con logo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "mochila premium"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "algodon sintetico bolsas de 10 kilos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    }
+  ],
+  "top_page": [
+    {
+      "keys": [
+        "https://regalospremium.cl/"
+      ],
+      "clicks": 1,
+      "impressions": 501,
+      "ctr": 0.001996007984031936,
+      "position": 49.74850299401198
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mochilas/mochila-picnic-4-personas-accesorios-cooler.html"
+      ],
+      "clicks": 1,
+      "impressions": 125,
+      "ctr": 0.008,
+      "position": 11.816
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-tnt-publicitarias/"
+      ],
+      "clicks": 0,
+      "impressions": 120,
+      "ctr": 0,
+      "position": 45.458333333333336
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/carpetas-y-portafolios-publicitarios/"
+      ],
+      "clicks": 1,
+      "impressions": 118,
+      "ctr": 0.00847457627118644,
+      "position": 13.694915254237289
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-algodon-publicitarias/"
+      ],
+      "clicks": 0,
+      "impressions": 117,
+      "ctr": 0,
+      "position": 40.94871794871795
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-yute-publicitarias/"
+      ],
+      "clicks": 0,
+      "impressions": 85,
+      "ctr": 0,
+      "position": 20.08235294117647
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/lanyards-e-identificacion-empresa/"
+      ],
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": 0,
+      "position": 22.88888888888889
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/?page=2"
+      ],
+      "clicks": 0,
+      "impressions": 37,
+      "ctr": 0,
+      "position": 17.45945945945946
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/mochila-grey.html"
+      ],
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 45.696969696969695
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/power-bank-y-accesorios/"
+      ],
+      "clicks": 0,
+      "impressions": 32,
+      "ctr": 0,
+      "position": 12.40625
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cotizar-ropa-corporativa/"
+      ],
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 55.064516129032256
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/"
+      ],
+      "clicks": 1,
+      "impressions": 29,
+      "ctr": 0.034482758620689655,
+      "position": 55.172413793103445
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-ecologicos-premium/"
+      ],
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": 0,
+      "position": 45.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/"
+      ],
+      "clicks": 1,
+      "impressions": 27,
+      "ctr": 0.037037037037037035,
+      "position": 25.85185185185185
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-de-vidrio-empavonado-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": 0,
+      "position": 10.461538461538462
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0,
+      "position": 7.44
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mujer-playa/"
+      ],
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0,
+      "position": 48.88
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/vaso-ceramico-400cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 9.791666666666666
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 11.583333333333334
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 8.26086956521739
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/"
+      ],
+      "clicks": 2,
+      "impressions": 21,
+      "ctr": 0.09523809523809523,
+      "position": 9.095238095238095
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 14.571428571428571
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/coolers-publicitarios/"
+      ],
+      "clicks": 1,
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "position": 8.777777777777779
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bananos/"
+      ],
+      "clicks": 1,
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "position": 15.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/pendrive-publicitario/"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 60.666666666666664
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/"
+      ],
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 7.9411764705882355
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/poleras-y-shorts-publicitarios/"
+      ],
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.058823529411764705,
+      "position": 13.764705882352942
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-enlozado-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 11.4375
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/bolso-ejecutivo-eco-cuero-trevor.html"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 7.6
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/coolers-publicitarios/bolsa-termica-nonwoven-aluminio.html"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 12.4
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 45.6
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 10.071428571428571
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-a5-old-tapa-envejecida-cierre-imantado.html"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-promocionales-tecnologicos/"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 51.30769230769231
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/mug-termico-doble-pared-vacuum.html"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 8.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/medallas-trofeos-galvanos/"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 29.083333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cotizar-productos-para-sublimacion/"
+      ],
+      "clicks": 2,
+      "impressions": 11,
+      "ctr": 0.18181818181818182,
+      "position": 24.90909090909091
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 10.4
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-plastica-700cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/libreta-tapa-color-cinta-elastica.html"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/termo-botella-750cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 9.333333333333334
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas/botella-aluminio-400ml-tapa-gancho-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 10.11111111111111
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-botellas-termos/vaso-termico-bombilla-pampa-300cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 10.555555555555555
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-funcionales-y-destacadores-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 18.666666666666668
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/audio-publicitario/parlante-bluetooth-c85-multifuncion-con-fm-aux.html"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 5.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-para-automovil/"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 6.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-plastico-pet-palena.html"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7.625
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-metalico-negro-gold-rose-caja.html"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas/botella-plastica-700cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/bandolera-cangoo.html"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9.375
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-metalica-500cc-para-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9.875
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-schopero-empavonado-sublimacion.html"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 11.625
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-y-termos-para-sublimacion-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 33.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/libreta-a6-eco-cuero-hojas-lineadas.html"
+      ],
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": 0.14285714285714285,
+      "position": 9.285714285714286
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas/botella-termica-500ml-acero-bambu.html"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 9.285714285714286
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-para-hogar-belleza-y-salud/delantal-pechera-de-tnt.html"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 10.857142857142858
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-promocionales/"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 36.714285714285715
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/iniciar-sesion"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 41.285714285714285
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas/botella-termica-acero-500ml-doble-pared.html"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 6.666666666666667
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-ceramico-plateado-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-metalicos/llavero-en-cobre-black.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 8.833333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/power-bank-y-accesorios/power-bank-20000mah-pantalla-negro.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 8.833333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-vidrio-empavonado-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 9.333333333333334
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-cuerpo-plateado-publicitarios/boligrafo-plastico-wind-satin.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-ceramico-de-color-350cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 9.666666666666666
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-metalica-750cc-para-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/mug-termico-plastico-400cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-botellas-termos/?page=2"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 12.666666666666666
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mochilas/"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-a5-pu-cierre-imantado-porta-boligrafo.html"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 13.833333333333334
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/coolers-publicitarios/necessaire-colgante-doble-compartimento-poliester.html"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 5.2
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-de-viaje-publicitarios/bolso-deportivo-y-viaje-modelo-travel.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.6
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/mug-termico-doble-pared-350cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.2
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/jarro-cervecero-termico.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos/mug-termico-doble-pared-350cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 9.8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/soporte-celular-plegable-ajustable-premium.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 9.8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/trofeo-galvano-de-madera-y-cristal-lido.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/porta-notas-adhesivas-ecologico.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/mug-termico-acero-reciclado-personalizado-cappu.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 10.2
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-cervecero-de-vidrio-para-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 10.6
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-madera/llavero-madera-redondo-grabado-laser.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 10.8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/negocios-y-empresas/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/gilligan-poliester-para-ninos.html"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 17.4
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/audio-publicitario/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-cuero/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-para-deportes/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 42.2
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-madera/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 57.8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-corporativos-bambu/memo-clip-bambu-escritorio.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-a5-eco-cuero-hojas-lineadas.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 5.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-termica-chamonix.html"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/libreta-a5-tapa-simil-bambu-cierre-elastico.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 6.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.75
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-de-viaje-publicitarios/bolso-deportivo-pequeno.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-madera/llavero-bamboo-spin.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/coffee-mug-slim-250-cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/cuaderno-ecologico-medio-oficio.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/herramientas-y-asado/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.75
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/linea-ecologica-green/cuaderno-a5-osorno.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.75
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/hogar-gourmet-sommelier/set-vino-quesos-bambu-acero.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/libreta-ecologica-carton-reciclado-tapas-duras.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-promocionales-tecnologicos/?page=2"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-funcionales/llavero-led-linterna.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.75
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/libreta-ecologica-de-croquis.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-ceramico-fluorescente-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-whiteskine.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 16.75
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/medallas-trofeos-galvanos/trofeo-galvano-cristal-base-cobre-rune.html"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-ocio-y-pasatiempo/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 29.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cotizar-llaveros-promocionales/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 42.25
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-corporativos-bambu/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-madera/llavero-bambu-metal-regalo-corporativo.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/cuaderno-ecologico-sin-lineas.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-algodon-publicitarias/articulo-promocional-algodon-personalizado-barbados.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/set-de-oficina-cubo.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-ceramico-blanco-320cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/hogar-gourmet-sommelier/set-de-vasos-de-vidrio-oval.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.666666666666667
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-papel-publicitarias/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-550ml-tapa-rosca.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ecologicos-publicitarios/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas/botella-pet-550ml-tapa-rosca.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/accesorios-usb-promocional/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mochilas/mochila-morral-bicolor-cordon-tnt-polipropileno.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/power-bank-y-accesorios/cargador-inalambrico-led-usbc.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas/botella-deportiva-maraton-600cc-aluminio.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-ceramico-sublimacion-320cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/termo-sublimacion-800-acero-inoxidable.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-madera/llavero-madera-rectangular-grabado-laser.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/maletines-y-fundas/maletin-ejecutivo-eco-cuero-bronson.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9.666666666666666
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/termo-para-almuerzo-2-litros.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-flexible-pet-480cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-memo-semanal-workit.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/mug-termico-400.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10.666666666666666
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-cuero/llavero-metalico-auto.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramicos-plasticos/tazon-vidrio-empavonado-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/linea-ecologica-green/boligrafo-ecologico-bombay.html"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/set-de-oficina-andes.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos/vaso-termico-bombilla-pampa-300cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-a5-anillado-metalico-hojas-cuadriculadas.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 19.333333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/cuaderno-ecologico-cuadriculado-tapas-duras.html"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 19.333333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/promocionales-para-celular/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 19.666666666666668
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cotizar-productos-para-sublimacion/reloj-de-pared-sublimacion.html"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 21.333333333333332
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/maletines-y-fundas/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/audio-publicitario/parlante-bamboo-luces-led-bluetooth-caja-negra.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-termica-ally-acabado-mate.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-cuerpo-color-publicitarios/boligrafo-plastico-me-gusta.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-silverfield-one.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/audio-publicitario/auriculares-bluetooth-andes.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/the-green-life/cuaderno-a5-boston.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/lanyards-e-identificacion-empresa/lanyard-porta-credencial-con-colgante.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-cuero/llavero-destapador.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-yute-publicitarias/bolsa-de-yute-biosfera.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/gorra-premium-paneles-malla.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/mug-doble-pared-500ml-tapa-silicona.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalo-publicitario-antistress/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-balada.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/libreta-ejecutiva-carpeta-pu-caja-premium.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-cuero/llavero-rectangular-plano.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/libreta-ecologica-cambridge.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-funcionales-y-destacadores-publicitarios/boligrafo-plastico-3-en-1.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-ceramicos-plasticos/tazon-magico-sublimacion-320cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/pendrive-publicitario/usb-pen-drive-64gb-llave-metalica.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/billeteras-y-porta-documentos/billetera-deluxe-cuero-negro.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/mochila-outdoor-19l-multiproposito.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-funcionales/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/tazon-ceramico-bicolor-para-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos-publicitarios/tazon-enlozado-sublimacion-650cc.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-algodon-cordon-ajustable.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/linternas-led-publicitaria/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-funcionales/llavero-destapador-correa-negra.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-botellas-termos/botella-plegable-silicona-mosqueton.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/mugs-metalicos/mug-termico-mid-600cc-con-doble-pared-aislante.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-corporativos-bambu/soporte-para-celular-bambu-office.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/publicitarios-ecofriendly/comprar-libreta-ecologica.html"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-algodon-asas-colores.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-termica-500cc-para-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/trofeo-sail-madera-cristal.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/productos-eco-friendly-publicitarios/regla-madera-30cm-12pulgadas.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-y-lapices-eco-publicitarios/boligrafo-bamboo-verywood.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-y-lapices-eco-publicitarios/boligrafo-ecologico.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/boligrafo-plastico-otto.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-deportiva-termica-1l-acero.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-plastico-pet-hawaii-maui.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-usb-64gb-puntero-laser-premium.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/memo-set-office.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas-publicitarias/termo-blanco-1litro.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas/botella-deportiva-aluminio-750ml-buzz.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/power-bank-y-accesorios/powerbank-metalico-2200mah-usb-caja-negra.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-de-verano/abanico-plastico-fresh-air-full-color.html"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 13.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/botellas-metalicas/vaso-termico-metalico-mate-300ml-con-bombilla.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/llaveros-cuero/llavero-elegante-de-metal-y-eco-cuero.html"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 20
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/publicitarios-bamboo/soporte-para-celular-bambu-office.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 20.5
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-de-verano/abanico-plegable-para-sublimacion.html"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 61
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/publicitarios-belleza-y-salud/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 68
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-cuerpo-color-publicitarios/boligrafo-color-pulsador-tinta-azul.html"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-touch-screen/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/boligrafos-y-lapices-eco-publicitarios/lapiz-grafito-deluxe-madera-natural.html"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-canvas-algodon-grande-340g-reutilizable.html"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/gorra-triumph.html"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/cotizar-mueble-publicitario-terraza-y-jardin/techo-toldo-arana-2x2.html"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://regalospremium.cl/herramientas-y-asado/set-de-asado-bbq-tomahawk.html"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    }
+  ],
+  "strategic_queries": {
+    "regalos premium": {
+      "keys": [
+        "regalos premium"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 5.866666666666666
+    },
+    "regalos corporativos premium": {
+      "keys": [
+        "regalos corporativos premium"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 34.27777777777778
+    },
+    "regalos publicitarios por mayor": {
+      "keys": [
+        "regalos publicitarios por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 36.666666666666664
+    },
+    "regalos corporativos por mayor": {
+      "keys": [
+        "regalos corporativos por mayor"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 40.44444444444444
+    },
+    "regalos publicitarios": {
+      "keys": [
+        "regalos publicitarios"
+      ],
+      "clicks": 0,
+      "impressions": 36,
+      "ctr": 0,
+      "position": 52.833333333333336
+    },
+    "regalos para empresas": {
+      "keys": [
+        "regalos para empresas"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 60.76923076923077
+    },
+    "regalos corporativos chile": {
+      "keys": [
+        "regalos corporativos chile"
+      ],
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 61.11764705882353
+    },
+    "regalos publicitarios chile": {
+      "keys": [
+        "regalos publicitarios chile"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 65.66666666666667
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://regalospremium.cl/roller-pen-titan.html",
+    "status": 200,
+    "final": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/roller-pen-titan.html",
+    "canonical": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/roller-pen-titan.html",
+    "in_sitemap": true
+  },
+  {
+    "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-duero.html",
+    "status": 200,
+    "final": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-duero.html",
+    "canonical": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-duero.html",
+    "in_sitemap": false
+  },
+  {
+    "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-duero.html",
+    "status": 200,
+    "final": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-duero.html",
+    "canonical": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-duero.html",
+    "in_sitemap": true
+  }
+]

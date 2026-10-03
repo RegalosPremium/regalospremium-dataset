@@ -1,0 +1,247 @@
+[
+  {
+    "issue": "Duplicada: Google ha elegido una versión canónica diferente a la del usuario",
+    "url": "https://regalospremium.cl/botellas-metalicas-publicitarias/mug-termico-giant-1200cc-con-bombilla.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "Duplicada: Google ha elegido una versión canónica diferente a la del usuario",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T16:38:38Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://regalospremium.cl/botellas-metalicas-publicitarias/mug-termico-giant-1200cc-con-bombilla.html",
+    "userCanonical": "https://regalospremium.cl/botellas-metalicas-publicitarias/mug-termico-giant-1200cc-con-bombilla.html",
+    "referringUrls": [
+      "https://regalospremium.cl/mugs-botellas-termos/mug-termico-giant-1200cc-con-bombilla.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "Excluida por una etiqueta \"noindex\"",
+    "url": "https://regalospremium.cl/content/politica-de-privacidad",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "Excluida por una etiqueta \"noindex\"",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "BLOCKED_BY_META_TAG",
+    "lastCrawlTime": "2025-11-15T15:48:56Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://regalospremium.cl/content/politica-de-privacidad",
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/mugs-metalicos-publicitarios/mug-termico-blanco-sublimacion.html",
+      "https://www.regalospremium.cl/"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/mochila-picnic.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-09-19T16:19:12Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/publicitarios-belleza-y-salud/deluxe-billetera-de-cuero-color-cafe-.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-09-18T13:18:57Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+      "https://regalospremium.cl/belleza-y-salud/pastillero-trizone.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/bolsa-algodon-manijas-colores-reutilizable.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-09-01T20:32:46Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/funcionales-y-destacadores/destacador-imantado-capsula.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 2,
+    "sa_rows": 1
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/mesa-plegable-de-picnic.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-24T04:01:29Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/publicitarios-para-tiempo-libre/?order=product.name.desc&page=5",
+      "https://regalospremium.cl/regalos-publicitarios-de-verano/",
+      "https://regalospremium.cl/publicitarios-para-tiempo-libre/?page=2"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/publicitarios-bamboo/set-escritura-bambu-boligrafo-portaminas-deluxe.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-22T18:01:37Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/lapices-ecologicos/boligrafo-bambu-punta-touch.html",
+      "https://regalospremium.cl/publicitarios-bamboo/boligrafo-ejecutivo-bambu-enviro.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/merchandising-masivo/",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-21T05:00:05Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/1_es_0_sitemap.xml"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/mochila-netech.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-17T12:28:12Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/publicitarios-para-tiempo-libre/?order=product.name.desc&page=4",
+      "https://regalospremium.cl/"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-negro-cobre-tinta-azul.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-08-14T05:44:33Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-metalico-touch-tinta-azul.html",
+      "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos/boligrafo-roller-london.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 2,
+    "sa_rows": 1
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/regalos-publicitarios-para-invierno/",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-06-06T19:24:33Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/bolsos-de-viaje-publicitarios/bolso-deportivo-pequeno.html",
+      "https://regalospremium.cl/publicitarios-ecofriendly/cuaderno-ecologico-12-oficio.html",
+      "https://regalospremium.cl/muebles-y-terraza/canasto-plastico-15-lt-con-tapa.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/publicitarios-ecofriendly/llavero-linterna-led-dinamo.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-06-06T19:03:40Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/publicitarios-ecofriendly/linterna-led-con-dinamo.html",
+      "https://regalospremium.cl/publicitarios-electronicos/lampara-led-pixie.html"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  },
+  {
+    "issue": "No se ha encontrado (404)",
+    "url": "https://regalospremium.cl/publicitarios-bamboo/pendrive-4gb-de-bamboo.html",
+    "inspection_verdict": "NEUTRAL",
+    "coverageState": "No se ha encontrado (404)",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": "2026-05-14T00:10:33Z",
+    "pageFetchState": "NOT_FOUND",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "referringUrls": [
+      "https://regalospremium.cl/regalos-promocionales-tecnologicos/?page=2",
+      "https://regalospremium.cl/pendrive-publicitario/"
+    ],
+    "sa_clicks": 0,
+    "sa_impressions": 0,
+    "sa_rows": 0
+  }
+]

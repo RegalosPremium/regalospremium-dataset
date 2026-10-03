@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-termica-ally-acabado-mate.html",
+    "status": 200,
+    "final": "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-termica-ally-acabado-mate.html",
+    "h1": "Botella térmica \"ALLY\" acabado mate",
+    "ld_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "product_jsonld_count": 0,
+    "offer_jsonld_count": 0,
+    "product_offer_microdata": [],
+    "product_offer_microdata_count": 0
+  },
+  {
+    "url": "https://regalospremium.cl/mugs-botellas-termos/botella-termica-dos-tapas-500ml-personalizada.html",
+    "status": 200,
+    "final": "https://regalospremium.cl/botellas-metalicas-publicitarias/botella-termica-dos-tapas-500ml-personalizada.html",
+    "h1": "Botella térmica con dos tapas \"ROLLING TOP\"",
+    "ld_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "product_jsonld_count": 0,
+    "offer_jsonld_count": 0,
+    "product_offer_microdata": [],
+    "product_offer_microdata_count": 0
+  },
+  {
+    "url": "https://regalospremium.cl/mugs-botellas-termos/taza-con-cierre-mika.html",
+    "status": 200,
+    "final": "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/mugs-botellas-termos-taza-con-cierre-mika.html",
+    "h1": "Taza con Cierre \"MIKA\"",
+    "ld_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "product_jsonld_count": 0,
+    "offer_jsonld_count": 0,
+    "product_offer_microdata": [],
+    "product_offer_microdata_count": 0
+  }
+]
