@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-10-04T05:01:30.779784+00:00",
+  "created": [
+    {
+      "slug": "regalos-corporativos",
+      "id": 140,
+      "records": [
+        {
+          "id": 140,
+          "id_parent": "2",
+          "active": "1",
+          "name": "Regalos corporativos para empresas",
+          "link_rewrite": "regalos-corporativos",
+          "meta_title": "Regalos Corporativos para Empresas en Chile",
+          "meta_description": "Regalos corporativos personalizados para empresas en Chile. Opciones premium, pedidos por volumen y cotización B2B con su logo."
+        }
+      ],
+      "products": [
+        1481,
+        1490,
+        1467,
+        1459,
+        1431,
+        1398,
+        1486,
+        1213,
+        1491,
+        1483,
+        1469,
+        1212
+      ]
+    },
+    {
+      "slug": "regalos-publicitarios",
+      "id": 141,
+      "records": [
+        {
+          "id": 141,
+          "id_parent": "2",
+          "active": "1",
+          "name": "Regalos publicitarios personalizados",
+          "link_rewrite": "regalos-publicitarios",
+          "meta_title": "Regalos Publicitarios y Merchandising Corporativo",
+          "meta_description": "Regalos publicitarios y merchandising corporativo personalizados con logo para empresas en Chile. Cotización B2B y pedidos por volumen."
+        }
+      ],
+      "products": [
+        1292,
+        1377,
+        1483,
+        1431,
+        1476,
+        1300,
+        1400,
+        1329,
+        558,
+        1457,
+        1287,
+        1491
+      ]
+    }
+  ],
+  "existing": []
+}

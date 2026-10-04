@@ -50,5 +50,7 @@ family:termos,Termos,https://regalospremium.cl/botellas-metalicas-publicitarias/
 family:toallas-y-textil-hogar,Toallas y Textil Hogar,https://regalospremium.cl/cotizar-productos-para-sublimacion/,PRESTASHOP_DOMINANT_CATEGORY,READY_URL,Ecosystem resolution validated 2026-09-17
 intent:bamboo,Bamboo,https://regalospremium.cl/regalos-corporativos-bambu/,SEO_CANONICAL_CONSOLIDATED,READY_URL,301 desde publicitarios-bamboo validado 2026-09-30
 intent:bebidas,Bebidas,https://regalospremium.cl/mugs-botellas-termos/,SEO_B2B_LANDING,READY_URL,Landing Mugs corregida 2026-09-30
-intent:generico-corporativo,Genérico corporativo,https://regalospremium.cl/,CANONICAL_HOME_B2B,READY_URL,Home B2B para intención genérica
-intent:regalos-corporativos,Regalos corporativos,https://regalospremium.cl/,CANONICAL_HOME_B2B,READY_URL,Home B2B para regalos corporativos
+intent:generico-corporativo,Genérico corporativo,https://regalospremium.cl/regalos-corporativos/,SEO_INTENT_HUB,READY_URL,Hub corporativo publicado y validado HTTP 200/canonical 2026-10-04
+intent:regalos-corporativos,Regalos corporativos,https://regalospremium.cl/regalos-corporativos/,SEO_INTENT_HUB,READY_URL,Hub regalos corporativos publicado y validado 2026-10-04
+intent:regalos-publicitarios,Regalos publicitarios,https://regalospremium.cl/regalos-publicitarios/,SEO_INTENT_HUB,READY_URL,Hub regalos publicitarios publicado y validado 2026-10-04
+intent:merchandising-corporativo,Merchandising corporativo,https://regalospremium.cl/regalos-publicitarios/,SEO_INTENT_HUB,READY_URL,Intención consolidada en hub publicitario para evitar canibalización

@@ -23,10 +23,14 @@
     "impresión digital"
   ],
   "contacto_whatsapp": "https://wa.me/56944280900",
-  "dataset_actualizado": "2026-09-30",
+  "dataset_actualizado": "2026-10-04",
   "productos_activos": 1289,
   "familias_reales": 49,
   "claim_principal": "Dando identidad corporativa a empresas desde 2015.",
   "claim_secundario": "Más de una década ayudando a empresas a proyectar su identidad.",
-  "claim_producto": "Productos corporativos pensados para que tu marca se recuerde."
+  "claim_producto": "Productos corporativos pensados para que tu marca se recuerde.",
+  "landing_hubs_b2b": {
+    "regalos_corporativos": "https://regalospremium.cl/regalos-corporativos/",
+    "regalos_publicitarios": "https://regalospremium.cl/regalos-publicitarios/"
+  }
 }

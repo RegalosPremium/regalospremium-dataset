@@ -64,3 +64,12 @@ Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se pro
 - `scripts/validate_ecosystem_db.py`: QA de sincronización y drift.
 - `scripts/sync_prestashop_live.py`: refresco live read-only mediante Webservice PrestaShop.
 - `reports/prestashop/ecosystem_sync_latest.json`: último estado auditado.
+
+## Hubs SEO de intención B2B
+
+Desde 2026-10-04 las intenciones comerciales genéricas tienen propietarios canónicos separados:
+
+- https://regalospremium.cl/regalos-corporativos/: regalos corporativos, regalos para empresas, por mayor, premium y Chile.
+- https://regalospremium.cl/regalos-publicitarios/: regalos publicitarios, por mayor, merchandising corporativo y Chile.
+
+La home queda como entrada de marca/navegación y no como única propietaria de todas las intenciones genéricas.

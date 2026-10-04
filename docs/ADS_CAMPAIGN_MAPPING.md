@@ -45,10 +45,10 @@ El generador del blueprint consume este registro para que un rebuild no reabra d
 
 Se priorizan cuatro intenciones: `regalos corporativos`, `merchandising corporativo`, `regalos para empresas` y `merchandising empresarial`.
 
-- 24 keywords listas en exacta/frase en `data/ads/ads_generic_keywords.csv`.
+- 34 keywords listas en exacta/frase en `data/ads/ads_generic_keywords.csv`.
 - 15 headlines y 4 descriptions RSA en `data/ads/ads_rsa_generic_assets.csv`.
 - DSA restringido a URLs canónicas limpias mediante `ads_dsa_targets.csv` y `ads_dsa_exclusions.csv`.
-- Las intenciones `generico-corporativo` y `regalos-corporativos` resuelven a la home B2B.
+- Las intenciones `generico-corporativo` y `regalos-corporativos` resuelven a `/regalos-corporativos/`. `regalos-publicitarios` y `merchandising-corporativo` resuelven a `/regalos-publicitarios/`.
 - `bamboo` resuelve a `/regalos-corporativos-bambu/` y `bebidas` a `/mugs-botellas-termos/`.
 
 La publicación a Google Ads requiere credenciales privadas locales; el repositorio no almacena secretos.

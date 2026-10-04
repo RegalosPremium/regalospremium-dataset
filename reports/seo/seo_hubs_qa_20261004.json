@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "hubs": [
+    {
+      "id": 140,
+      "url": "https://regalospremium.cl/regalos-corporativos/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-corporativos/",
+      "canonical": "https://regalospremium.cl/regalos-corporativos/",
+      "h1": "Regalos corporativos para empresas",
+      "title": "Regalos Corporativos para Empresas en Chile",
+      "meta_description": "Regalos corporativos personalizados para empresas en Chile. Opciones premium, pedidos por volumen y cotización B2B con su logo.",
+      "noindex": false,
+      "api_product_associations": 12,
+      "in_sitemap": 1,
+      "terms_present": {
+        "regalos corporativos": true,
+        "regalos para empresas": true,
+        "regalos corporativos premium": true
+      },
+      "pass": true
+    },
+    {
+      "id": 141,
+      "url": "https://regalospremium.cl/regalos-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios/",
+      "canonical": "https://regalospremium.cl/regalos-publicitarios/",
+      "h1": "Regalos publicitarios personalizados",
+      "title": "Regalos Publicitarios y Merchandising Corporativo",
+      "meta_description": "Regalos publicitarios y merchandising corporativo personalizados con logo para empresas en Chile. Cotización B2B y pedidos por volumen.",
+      "noindex": false,
+      "api_product_associations": 12,
+      "in_sitemap": 1,
+      "terms_present": {
+        "regalos publicitarios": true,
+        "merchandising corporativo": true,
+        "regalos publicitarios por mayor": true
+      },
+      "pass": true
+    }
+  ]
+}

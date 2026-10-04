@@ -1,11 +1,11 @@
 keyword,intent,priority,target,source_signal,status
-regalos corporativos,GENERIC_B2B,A,HOME,GSC+competencia,ACTIVE
-regalos corporativos chile,GENERIC_B2B,A,HOME,GSC+competencia,ACTIVE
+regalos corporativos,GENERIC_B2B,A,regalos-corporativos,GSC+competencia,ACTIVE
+regalos corporativos chile,GENERIC_B2B,A,regalos-corporativos,GSC+competencia,ACTIVE
 regalos corporativos personalizados,GENERIC_B2B,A,HOME,competencia,ACTIVE
-regalos para empresas,GENERIC_B2B,A,HOME,GSC+competencia,ACTIVE
+regalos para empresas,GENERIC_B2B,A,regalos-corporativos,GSC+competencia,ACTIVE
 regalos empresariales,GENERIC_B2B,A,HOME,GSC+competencia,ACTIVE
 regalos empresariales chile,GENERIC_B2B,A,HOME,competencia,ACTIVE
-merchandising corporativo,GENERIC_B2B,A,HOME,competencia,ACTIVE
+merchandising corporativo,GENERIC_B2B,A,regalos-publicitarios,competencia,ACTIVE
 merchandising empresarial,GENERIC_B2B,A,HOME,competencia,ACTIVE
 merchandising para empresas,GENERIC_B2B,A,HOME,competencia,ACTIVE
 merchandising con logo,GENERIC_B2B,A,HOME,competencia,ACTIVE
@@ -18,7 +18,7 @@ kits de onboarding,ONBOARDING,A,LANDING_REQUIRED,competencia,ACTIVE
 welcome packs corporativos,ONBOARDING,A,LANDING_REQUIRED,competencia,ACTIVE
 regalos sustentables para empresas,ECO_B2B,B,productos-eco-friendly-publicitarios,competencia,ACTIVE
 merchandising tecnológico,TECH_B2B,B,regalos-promocionales-tecnologicos,competencia,ACTIVE
-regalos corporativos premium,PREMIUM_B2B,A,HOME,GSC+competencia,ACTIVE
+regalos corporativos premium,PREMIUM_B2B,A,regalos-corporativos,GSC+competencia,ACTIVE
 regalos corporativos para eventos,EVENTS_B2B,B,LANDING_REQUIRED,competencia,ACTIVE
 merchandising para ferias,EVENTS_B2B,B,LANDING_REQUIRED,competencia,ACTIVE
 regalos para colaboradores,HR_B2B,B,LANDING_REQUIRED,competencia,ACTIVE

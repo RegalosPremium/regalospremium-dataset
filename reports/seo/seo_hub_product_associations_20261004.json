@@ -1,0 +1,699 @@
+{
+  "timestamp": "2026-10-04T05:04:28.607690+00:00",
+  "results": [
+    {
+      "hub_category": 140,
+      "product_id": 1481,
+      "status": "PASS",
+      "before": {
+        "default": "44",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "42",
+          "44"
+        ]
+      },
+      "after": {
+        "default": "44",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "140",
+          "2",
+          "42",
+          "44"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1481_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1490,
+      "status": "PASS",
+      "before": {
+        "default": "43",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "41",
+          "43"
+        ]
+      },
+      "after": {
+        "default": "43",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "140",
+          "2",
+          "41",
+          "43"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1490_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1467,
+      "status": "PASS",
+      "before": {
+        "default": "43",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "42",
+          "43"
+        ]
+      },
+      "after": {
+        "default": "43",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "140",
+          "2",
+          "42",
+          "43"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1467_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1459,
+      "status": "PASS",
+      "before": {
+        "default": "44",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "44"
+        ]
+      },
+      "after": {
+        "default": "44",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "140",
+          "2",
+          "44"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1459_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1431,
+      "status": "PASS",
+      "before": {
+        "default": "122",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "122",
+          "2",
+          "41"
+        ]
+      },
+      "after": {
+        "default": "122",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "122",
+          "140",
+          "2",
+          "41"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1431_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1398,
+      "status": "PASS",
+      "before": {
+        "default": "34",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "31",
+          "34",
+          "41"
+        ]
+      },
+      "after": {
+        "default": "34",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "140",
+          "2",
+          "31",
+          "34",
+          "41"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1398_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1486,
+      "status": "PASS",
+      "before": {
+        "default": "132",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "132",
+          "2",
+          "38"
+        ]
+      },
+      "after": {
+        "default": "132",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "132",
+          "140",
+          "2",
+          "38"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1486_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1213,
+      "status": "PASS",
+      "before": {
+        "default": "63",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "2",
+          "43",
+          "63"
+        ]
+      },
+      "after": {
+        "default": "63",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "140",
+          "2",
+          "43",
+          "63"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1213_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1491,
+      "status": "PASS",
+      "before": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "134",
+          "2",
+          "38"
+        ]
+      },
+      "after": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "134",
+          "140",
+          "2",
+          "38"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1491_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1483,
+      "status": "PASS",
+      "before": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "126",
+          "134",
+          "2",
+          "38"
+        ]
+      },
+      "after": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "126",
+          "134",
+          "140",
+          "2",
+          "38"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1483_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1469,
+      "status": "PASS",
+      "before": {
+        "default": "122",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "114",
+          "122",
+          "126",
+          "2"
+        ]
+      },
+      "after": {
+        "default": "122",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "114",
+          "122",
+          "126",
+          "140",
+          "2"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1469_before_hub_140.xml"
+    },
+    {
+      "hub_category": 140,
+      "product_id": 1212,
+      "status": "PASS",
+      "before": {
+        "default": "57",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "2",
+          "57",
+          "63"
+        ]
+      },
+      "after": {
+        "default": "57",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "140",
+          "2",
+          "57",
+          "63"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1212_before_hub_140.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1292,
+      "status": "PASS",
+      "before": {
+        "default": "16",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "15",
+          "16",
+          "2"
+        ]
+      },
+      "after": {
+        "default": "16",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "141",
+          "15",
+          "16",
+          "2"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1292_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1377,
+      "status": "PASS",
+      "before": {
+        "default": "62",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "2",
+          "62",
+          "80",
+          "81"
+        ]
+      },
+      "after": {
+        "default": "62",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "141",
+          "2",
+          "62",
+          "80",
+          "81"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1377_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1483,
+      "status": "PASS",
+      "before": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "126",
+          "134",
+          "140",
+          "2",
+          "38"
+        ]
+      },
+      "after": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "126",
+          "134",
+          "140",
+          "141",
+          "2",
+          "38"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1483_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1431,
+      "status": "PASS",
+      "before": {
+        "default": "122",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "122",
+          "140",
+          "2",
+          "41"
+        ]
+      },
+      "after": {
+        "default": "122",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "122",
+          "140",
+          "141",
+          "2",
+          "41"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1431_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1476,
+      "status": "PASS",
+      "before": {
+        "default": "36",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "31",
+          "36"
+        ]
+      },
+      "after": {
+        "default": "36",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "141",
+          "2",
+          "31",
+          "36"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1476_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1300,
+      "status": "PASS",
+      "before": {
+        "default": "61",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "2",
+          "57",
+          "61"
+        ]
+      },
+      "after": {
+        "default": "61",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "141",
+          "2",
+          "57",
+          "61"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1300_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1400,
+      "status": "PASS",
+      "before": {
+        "default": "83",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "2",
+          "41",
+          "83"
+        ]
+      },
+      "after": {
+        "default": "83",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "141",
+          "2",
+          "41",
+          "83"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1400_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1329,
+      "status": "PASS",
+      "before": {
+        "default": "74",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "124",
+          "2",
+          "74",
+          "78"
+        ]
+      },
+      "after": {
+        "default": "74",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "124",
+          "141",
+          "2",
+          "74",
+          "78"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1329_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 558,
+      "status": "PASS",
+      "before": {
+        "default": "74",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "2",
+          "41",
+          "74"
+        ]
+      },
+      "after": {
+        "default": "74",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "141",
+          "2",
+          "41",
+          "74"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_558_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1457,
+      "status": "PASS",
+      "before": {
+        "default": "127",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "126",
+          "127",
+          "2",
+          "64"
+        ]
+      },
+      "after": {
+        "default": "127",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "126",
+          "127",
+          "141",
+          "2",
+          "64"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1457_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1287,
+      "status": "PASS",
+      "before": {
+        "default": "31",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "2",
+          "31",
+          "35"
+        ]
+      },
+      "after": {
+        "default": "31",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "141",
+          "2",
+          "31",
+          "35"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1287_before_hub_141.xml"
+    },
+    {
+      "hub_category": 141,
+      "product_id": 1491,
+      "status": "PASS",
+      "before": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "134",
+          "140",
+          "2",
+          "38"
+        ]
+      },
+      "after": {
+        "default": "134",
+        "active": "1",
+        "indexed": "1",
+        "cats": [
+          "112",
+          "134",
+          "140",
+          "141",
+          "2",
+          "38"
+        ]
+      },
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1491_before_hub_141.xml"
+    }
+  ]
+}
