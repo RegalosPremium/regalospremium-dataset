@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "url": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/",
+      "http": 200,
+      "target": "/regalos-corporativos/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/"
+    },
+    {
+      "url": "https://regalospremium.cl/carpetas-y-portafolios-publicitarios/",
+      "http": 200,
+      "target": "/regalos-corporativos/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/carpetas-y-portafolios-publicitarios/"
+    },
+    {
+      "url": "https://regalospremium.cl/power-bank-y-accesorios/",
+      "http": 200,
+      "target": "/regalos-corporativos/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/power-bank-y-accesorios/"
+    },
+    {
+      "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/",
+      "http": 200,
+      "target": "/regalos-publicitarios/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/"
+    },
+    {
+      "url": "https://regalospremium.cl/coolers-publicitarios/",
+      "http": 200,
+      "target": "/regalos-publicitarios/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/coolers-publicitarios/"
+    },
+    {
+      "url": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/",
+      "http": 200,
+      "target": "/regalos-publicitarios/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/"
+    },
+    {
+      "url": "https://regalospremium.cl/lanyards-e-identificacion-empresa/",
+      "http": 200,
+      "target": "/regalos-publicitarios/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/lanyards-e-identificacion-empresa/"
+    },
+    {
+      "url": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/",
+      "http": 200,
+      "target": "/regalos-publicitarios/",
+      "link_present": true,
+      "canonical": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/"
+    }
+  ]
+}

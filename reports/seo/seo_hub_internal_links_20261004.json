@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-04T14:53:48.174926+00:00",
+  "results": [
+    {
+      "category_id": 44,
+      "status": "PASS",
+      "target": "regalos-corporativos",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_44_before.xml"
+    },
+    {
+      "category_id": 43,
+      "status": "PASS",
+      "target": "regalos-corporativos",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_43_before.xml"
+    },
+    {
+      "category_id": 34,
+      "status": "PASS",
+      "target": "regalos-corporativos",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_34_before.xml"
+    },
+    {
+      "category_id": 122,
+      "status": "PASS",
+      "target": "regalos-publicitarios",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_122_before.xml"
+    },
+    {
+      "category_id": 62,
+      "status": "PASS",
+      "target": "regalos-publicitarios",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_62_before.xml"
+    },
+    {
+      "category_id": 114,
+      "status": "PASS",
+      "target": "regalos-publicitarios",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_114_before.xml"
+    },
+    {
+      "category_id": 74,
+      "status": "PASS",
+      "target": "regalos-publicitarios",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_74_before.xml"
+    },
+    {
+      "category_id": 15,
+      "status": "PASS",
+      "target": "regalos-publicitarios",
+      "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/internal_links/category_15_before.xml"
+    }
+  ]
+}
