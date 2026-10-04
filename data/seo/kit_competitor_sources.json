@@ -1,0 +1,32 @@
+{
+  "welcome": [
+    {"name":"Regalos Evalyn - Kit Bienvenida","url":"https://regalosevalyn.cl/kit-bienvenida-corporativo/"},
+    {"name":"Línea Merch - Kits y onboarding","url":"https://lineamerch.cl/"},
+    {"name":"Merchi - Catálogo corporativo","url":"https://merchi.cl/regalos-corporativos"}
+  ],
+  "remote": [
+    {"name":"Regalos Evalyn - Kit Bienvenida","url":"https://regalosevalyn.cl/kit-bienvenida-corporativo/"},
+    {"name":"Merchi - Soporte móvil","url":"https://merchi.cl/regalos-corporativos/tecnologia/accesorios-moviles/soportes-para-celular/soporte-para-ipad-celular"},
+    {"name":"Merchi - Organizador escritorio","url":"https://merchi.cl/regalos-corporativos/escritura-oficina/oficina-e-identificacion/organizadores/organizador-layout"}
+  ],
+  "recognition": [
+    {"name":"Línea Merch - Clientes VIP y colaboradores","url":"https://lineamerch.cl/"},
+    {"name":"Merchi - Catálogo corporativo","url":"https://merchi.cl/regalos-corporativos"},
+    {"name":"Regalos Evalyn - Kit Bienvenida","url":"https://regalosevalyn.cl/kit-bienvenida-corporativo/"}
+  ],
+  "technology": [
+    {"name":"Línea Merch - Merch tecnológico","url":"https://lineamerch.cl/"},
+    {"name":"Regalos Evalyn - Kit tecnológico","url":"https://regalosevalyn.cl/kit-bienvenida-corporativo/"},
+    {"name":"Merchi - Catálogo tecnología","url":"https://merchi.cl/regalos-corporativos"}
+  ],
+  "identification": [
+    {"name":"Merchi - Tarjetero RFID","url":"https://merchi.cl/regalos-corporativos/mochilas-bolsos/organizadores-y-accesorios/porta-tarjetas/tarjetero-wizard"},
+    {"name":"Merchi - Llavero carabiner","url":"https://merchi.cl/regalos-corporativos/herramientas-multiuso/llaveros/llavero-carabiner"},
+    {"name":"Merchi - Catálogo oficina e identificación","url":"https://merchi.cl/regalos-corporativos"}
+  ],
+  "executive": [
+    {"name":"Merchi - Carpeta ejecutiva","url":"https://merchi.cl/regalos-corporativos/escritura-oficina/oficina-e-identificacion/carpetas-y-portadocumentos/carpeta-ejecutiva"},
+    {"name":"Merchi - Tarjetero RFID","url":"https://merchi.cl/regalos-corporativos/mochilas-bolsos/organizadores-y-accesorios/porta-tarjetas/tarjetero-wizard"},
+    {"name":"Línea Merch - Clientes VIP","url":"https://lineamerch.cl/"}
+  ]
+}
