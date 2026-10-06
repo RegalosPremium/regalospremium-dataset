@@ -1,17 +1,22 @@
 {
+  "status": "PASS",
   "index_url": "https://regalospremium.cl/1_index_sitemap.xml",
   "child_sitemaps": [
     {
       "url": "https://regalospremium.cl/1_es_0_sitemap.xml",
       "http_status": 200,
-      "last_modified": "Thu, 17 Sep 2026 22:54:47 GMT",
-      "url_count": 1372
+      "last_modified": "Tue, 06 Oct 2026 17:10:59 GMT",
+      "url_count": 1399
     }
   ],
-  "live_urls": 1372,
-  "live_unique_urls": 1370,
+  "live_urls": 1399,
+  "live_unique_urls": 1399,
+  "sitemap_duplicate_urls": 0,
   "catalog_products": 1289,
-  "catalog_unique_urls": 1285,
+  "catalog_unique_urls": 1289,
+  "catalog_duplicate_urls": 0,
+  "covered_exact_url": 1289,
+  "missing_exact_url": 0,
   "covered_by_slug": 1289,
   "missing_by_slug": 0
 }

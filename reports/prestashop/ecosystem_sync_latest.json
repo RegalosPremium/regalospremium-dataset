@@ -27,5 +27,7 @@
   "anomalies": {
     "MISSING_DEFAULT_CATEGORY": 11,
     "ORPHAN_PRODUCT_CATEGORY_LINK": 10
-  }
+  },
+  "evidence_status": "HISTORICAL_SUPERSEDED",
+  "superseded_by": "reports/seo/seo_risk_closure_20261006.md"
 }

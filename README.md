@@ -53,7 +53,7 @@ Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se pro
 - `data/ads/ads_campaign_blueprint.csv`: blueprint que cubre las 49 familias y las intenciones transversales.
 - `scripts/ads_url_sync.py`: sincronizador de cambios de URL con Google Ads, dry-run por defecto.
 - `scripts/validate_ads_mapping.py`: validación de consistencia Ads/taxonomía.
-- `data/ads/ads_generic_keywords.csv`: 24 keywords genéricas B2B priorizadas en exacta/frase.
+- `data/ads/ads_generic_keywords.csv`: 17 keywords genéricas B2B en 34 combinaciones exacta/frase.
 - `data/ads/ads_rsa_generic_assets.csv`: activos RSA validados por longitud.
 - `data/ads/ads_dsa_targets.csv` y `ads_dsa_exclusions.csv`: superficies DSA permitidas/excluidas.
 - `data/seo_redirects.csv`: redirecciones SEO aplicadas y excepciones en cuarentena.
@@ -73,3 +73,7 @@ Desde 2026-10-04 las intenciones comerciales genéricas tienen propietarios can�
 - https://regalospremium.cl/regalos-publicitarios/: regalos publicitarios, por mayor, merchandising corporativo y Chile.
 
 La home queda como entrada de marca/navegación y no como única propietaria de todas las intenciones genéricas.
+
+La cobertura se controla en `data/seo/seo_hub_family_coverage.csv`: las 49 familias tienen exactamente un hub propietario. La selección editorial se registra en `data/seo/seo_hub_product_selection.csv`: 12 productos exclusivos por hub.
+
+`scripts/validate_seo_hubs.py` comprueba cobertura completa, ausencia de productos compartidos y consistencia entre el registro SEO, Ads, DSA y los dos hubs. `scripts/audit_live_sitemap.py` exige URLs exactas, sin duplicados y con cobertura de los 1.289 productos activos.

@@ -1,0 +1,251 @@
+{
+  "timestamp": "2026-10-06T17:04:21.760679+00:00",
+  "status": "PASS",
+  "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_riskfix_20261006_140402",
+  "changes": [
+    {
+      "product_id": 1431,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "41",
+          "112",
+          "122",
+          "141"
+        ],
+        "slug": "boligrafo-metalico-bambu-personalizado-kim"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "41",
+          "112",
+          "122",
+          "141"
+        ],
+        "slug": "boligrafo-metalico-bambu-personalizado-kim"
+      }
+    },
+    {
+      "product_id": 1483,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "38",
+          "112",
+          "126",
+          "134",
+          "140"
+        ],
+        "slug": "tazon-termico-encobrizado-veta-250cc"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "38",
+          "112",
+          "126",
+          "134",
+          "140"
+        ],
+        "slug": "tazon-termico-encobrizado-veta-250cc"
+      }
+    },
+    {
+      "product_id": 1491,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "38",
+          "112",
+          "134",
+          "140"
+        ],
+        "slug": "set-de-mate-cordoba"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "38",
+          "112",
+          "134",
+          "140"
+        ],
+        "slug": "set-de-mate-cordoba"
+      }
+    },
+    {
+      "product_id": 1502,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "11",
+          "12",
+          "14",
+          "112",
+          "140"
+        ],
+        "slug": "set-ecologico-bamboo-personalizado-viva"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "11",
+          "12",
+          "14",
+          "112",
+          "140"
+        ],
+        "slug": "set-ecologico-bamboo-personalizado-viva"
+      }
+    },
+    {
+      "product_id": 1487,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "66",
+          "112",
+          "126",
+          "141"
+        ],
+        "slug": "llavero-encobrizado-cupra"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "66",
+          "112",
+          "126",
+          "141"
+        ],
+        "slug": "llavero-encobrizado-cupra"
+      }
+    },
+    {
+      "product_id": 1495,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "11",
+          "14",
+          "112",
+          "141"
+        ],
+        "slug": "boligrafo-ecologico-element-2-fibra-trigo"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "11",
+          "14",
+          "112",
+          "141"
+        ],
+        "slug": "boligrafo-ecologico-element-2-fibra-trigo"
+      }
+    },
+    {
+      "product_id": 1186,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "38",
+          "78",
+          "81",
+          "135"
+        ],
+        "slug": "mug-metalico-bambu-aurus-m56"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "38",
+          "78",
+          "81",
+          "135"
+        ],
+        "slug": "mug-metalico-bambu-aurus-m56"
+      }
+    },
+    {
+      "product_id": 1187,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "38",
+          "79",
+          "80",
+          "81",
+          "133"
+        ],
+        "slug": "botella-pet-700ml-tapa-acero-translucida-premium"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "38",
+          "79",
+          "80",
+          "81",
+          "133"
+        ],
+        "slug": "botella-pet-tapa-acero-vivid-m44"
+      }
+    },
+    {
+      "product_id": 1251,
+      "status": "PASS",
+      "before": {
+        "categories": [
+          "2",
+          "31",
+          "32"
+        ],
+        "slug": "parlante-cana-trigo-life-b98"
+      },
+      "after": {
+        "categories": [
+          "2",
+          "31",
+          "32"
+        ],
+        "slug": "parlante-cana-trigo-life-b98"
+      }
+    }
+  ],
+  "http": [
+    {
+      "product_id": 1186,
+      "url": "https://regalospremium.cl/mugs-ecologicos-publicitarios/mug-metalico-bambu-aurus-m56.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/mugs-ecologicos-publicitarios/mug-metalico-bambu-aurus-m56.html",
+      "canonical": "https://regalospremium.cl/mugs-ecologicos-publicitarios/mug-metalico-bambu-aurus-m56.html",
+      "status": "PASS"
+    },
+    {
+      "product_id": 1187,
+      "url": "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-tapa-acero-vivid-m44.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-tapa-acero-vivid-m44.html",
+      "canonical": "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-tapa-acero-vivid-m44.html",
+      "status": "PASS"
+    },
+    {
+      "product_id": 1251,
+      "url": "https://regalospremium.cl/audio-publicitario/parlante-cana-trigo-life-b98.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/audio-publicitario/parlante-cana-trigo-life-b98.html",
+      "canonical": "https://regalospremium.cl/audio-publicitario/parlante-cana-trigo-life-b98.html",
+      "status": "PASS"
+    }
+  ]
+}

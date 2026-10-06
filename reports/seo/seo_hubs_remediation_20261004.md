@@ -1,5 +1,7 @@
 # Implementación hubs SEO B2B — 2026-10-04
 
+> Evidencia histórica. La selección de productos y el sitemap vigentes fueron reemplazados por `reports/seo/seo_riskfix_20261006.json`, `reports/seo/seo_hubs_qa_20261006.json` y `reports/sitemap/sitemap_audit_latest.json`.
+
 ## Producción
 
 Se crearon dos categorías/landings canónicas en PrestaShop:

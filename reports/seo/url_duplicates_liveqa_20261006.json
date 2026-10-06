@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "duplicate_id": "DUP-1",
+      "product_id": "333",
+      "url": "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-alto-sublimacion-296cc-y19.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-alto-sublimacion-296cc-y19.html",
+      "canonical": "https://regalospremium.cl/mugs-ceramica-plastico-publicitarios/tazon-alto-sublimacion-296cc-y19.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-1",
+      "product_id": "334",
+      "url": "https://regalospremium.cl/cotizar-productos-para-sublimacion/taza-de-cafe-corriente.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cotizar-productos-para-sublimacion/taza-de-cafe-corriente.html",
+      "canonical": "https://regalospremium.cl/cotizar-productos-para-sublimacion/taza-de-cafe-corriente.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-2",
+      "product_id": "1156",
+      "url": "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/boligrafo-plastico-croma.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/boligrafo-plastico-croma.html",
+      "canonical": "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/boligrafo-plastico-croma.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-2",
+      "product_id": "1159",
+      "url": "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/boligrafo-blanco-bilbo.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/boligrafo-blanco-bilbo.html",
+      "canonical": "https://regalospremium.cl/boligrafos-cuerpo-blanco-publicitarios/boligrafo-blanco-bilbo.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-3",
+      "product_id": "1186",
+      "url": "https://regalospremium.cl/mugs-ecologicos-publicitarios/mug-metalico-bambu-aurus-m56.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/mugs-ecologicos-publicitarios/mug-metalico-bambu-aurus-m56.html",
+      "canonical": "https://regalospremium.cl/mugs-ecologicos-publicitarios/mug-metalico-bambu-aurus-m56.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-3",
+      "product_id": "1187",
+      "url": "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-tapa-acero-vivid-m44.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-tapa-acero-vivid-m44.html",
+      "canonical": "https://regalospremium.cl/botellas-plasticas-publicitarias/botella-pet-tapa-acero-vivid-m44.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-4",
+      "product_id": "1251",
+      "url": "https://regalospremium.cl/audio-publicitario/parlante-cana-trigo-life-b98.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/audio-publicitario/parlante-cana-trigo-life-b98.html",
+      "canonical": "https://regalospremium.cl/audio-publicitario/parlante-cana-trigo-life-b98.html",
+      "status": "PASS"
+    },
+    {
+      "duplicate_id": "DUP-4",
+      "product_id": "1252",
+      "url": "https://regalospremium.cl/audio-publicitario/parlante-bluetooth-c84-led-multifuncion.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/audio-publicitario/parlante-bluetooth-c84-led-multifuncion.html",
+      "canonical": "https://regalospremium.cl/audio-publicitario/parlante-bluetooth-c84-led-multifuncion.html",
+      "status": "PASS"
+    }
+  ]
+}

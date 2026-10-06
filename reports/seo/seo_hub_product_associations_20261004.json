@@ -695,5 +695,7 @@
       },
       "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hubs_20261004/products/product_1491_before_hub_141.xml"
     }
-  ]
+  ],
+  "scope": "HISTORICAL_SUPERSEDED",
+  "superseded_by": "reports/seo/seo_riskfix_20261006.json"
 }

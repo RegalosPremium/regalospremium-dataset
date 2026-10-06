@@ -1,0 +1,111 @@
+{
+  "time_utc": "2026-10-06T17:13:07.150358+00:00",
+  "site": {
+    "siteUrl": "https://regalospremium.cl/",
+    "permissionLevel": "siteFullUser"
+  },
+  "before_http": 200,
+  "before": [
+    {
+      "path": "https://regalospremium.cl/1_index_sitemap.xml",
+      "lastSubmitted": "2026-10-04T05:09:49.835Z",
+      "isPending": false,
+      "isSitemapsIndex": true,
+      "lastDownloaded": "2026-10-04T05:41:13.812Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "1373",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "6894",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://regalospremium.cl/1_es_0_sitemap.xml",
+      "lastSubmitted": "2026-10-04T05:09:48.739Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-10-04T06:34:55.940Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "1373",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "6894",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "submitted": [
+    {
+      "sitemap": "https://regalospremium.cl/1_index_sitemap.xml",
+      "http_status": 204,
+      "body": ""
+    },
+    {
+      "sitemap": "https://regalospremium.cl/1_es_0_sitemap.xml",
+      "http_status": 204,
+      "body": ""
+    }
+  ],
+  "after_http": 200,
+  "after": [
+    {
+      "path": "https://regalospremium.cl/1_es_0_sitemap.xml",
+      "lastSubmitted": "2026-10-06T17:13:05.439Z",
+      "isPending": true,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-10-04T06:34:55.940Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "1373",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "6894",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://regalospremium.cl/1_index_sitemap.xml",
+      "lastSubmitted": "2026-10-06T17:13:03.905Z",
+      "isPending": true,
+      "isSitemapsIndex": true,
+      "lastDownloaded": "2026-10-04T05:41:13.812Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "1373",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "6894",
+          "indexed": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -52,9 +52,11 @@ RP | Search | Intención,Bamboo,intent:bamboo,USO_CAMPAÑA,,,Bamboo,107,DECISION
 RP | Search | Intención,Bebidas,intent:bebidas,USO_CAMPAÑA,Hogar y Bebidas,,Bebidas,5,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/mugs-botellas-termos/,SEO_B2B_LANDING
 RP | Search | Intención,Día de la Madre,intent:dia-de-la-madre,USO_CAMPAÑA,,,Día de la Madre,3,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
 RP | Search | Intención,Fin de Año,intent:fin-de-ano,USO_CAMPAÑA,,,Fin de Año,29,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
-RP | Search | Intención,Genérico corporativo,intent:generico-corporativo,USO_CAMPAÑA,,,Genérico corporativo,13,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/,CANONICAL_HOME_B2B
+RP | Search | Intención,Genérico corporativo,intent:generico-corporativo,USO_CAMPAÑA,,,Genérico corporativo,13,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-corporativos/,SEO_INTENT_HUB
 RP | Search | Intención,Ocio y Pasatiempo,intent:ocio-y-pasatiempo,USO_CAMPAÑA,,,Ocio y Pasatiempo,1,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
 RP | Search | Intención,Promocionales,intent:promocionales,USO_CAMPAÑA,,,Promocionales,183,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
-RP | Search | Intención,Regalos corporativos,intent:regalos-corporativos,USO_CAMPAÑA,,,Regalos corporativos,333,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/,CANONICAL_HOME_B2B
+RP | Search | Intención,Regalos corporativos,intent:regalos-corporativos,USO_CAMPAÑA,,,Regalos corporativos,333,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-corporativos/,SEO_INTENT_HUB
 RP | Search | Intención,Tecnología,intent:tecnologia,USO_CAMPAÑA,Tecnología,,Tecnología,8,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
 RP | Search | Intención,Verano,intent:verano,USO_CAMPAÑA,,,Verano,39,PRESTASHOP_LANDING,WAIT_PRESTASHOP_URL,,
+RP | Search | Intención,Regalos publicitarios,intent:regalos-publicitarios,USO_CAMPAÑA,,,Regalos publicitarios,,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios/,SEO_INTENT_HUB
+RP | Search | Intención,Merchandising corporativo,intent:merchandising-corporativo,USO_CAMPAÑA,,,Merchandising corporativo,,DECISION_REGISTRY,READY_URL,https://regalospremium.cl/regalos-publicitarios/,SEO_INTENT_HUB

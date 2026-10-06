@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-import argparse,sqlite3,sys
+import argparse,csv,json,sqlite3,sys
+from pathlib import Path
 from urllib.parse import urlsplit
-p=argparse.ArgumentParser();p.add_argument('--db',default='var/ecosystem.db');a=p.parse_args()
+ROOT=Path(__file__).resolve().parents[1]
+with (ROOT/'data/ads/ads_campaign_blueprint.csv').open(encoding='utf-8',newline='') as f: expected_blue=len(list(csv.DictReader(f)))
+with (ROOT/'data/ads/ads_intent_mapping.csv').open(encoding='utf-8',newline='') as f: expected_kw=len(list(csv.DictReader(f)))
+expected_families=json.loads((ROOT/'data/categorias.json').read_text(encoding='utf-8'))['familias_reales']
+p=argparse.ArgumentParser();p.add_argument('--db',default=str(ROOT/'var/ecosystem.db'));a=p.parse_args()
 c=sqlite3.connect(a.db); errors=[]
 def one(q): return c.execute(q).fetchone()[0]
 status=c.execute('SELECT status FROM sync_runs ORDER BY run_id DESC LIMIT 1').fetchone()[0]
@@ -15,10 +20,10 @@ drift_gh=one('SELECT COUNT(*) FROM taxonomy_products t LEFT JOIN products p USIN
 if status!='PASS': errors.append(f'last sync status={status}')
 if active!=tax or active_catalog!=active: errors.append('active PrestaShop / taxonomy count mismatch')
 if drift_ps or drift_gh: errors.append(f'catalog drift ps={drift_ps} github={drift_gh}')
-if families!=49: errors.append(f'family count={families}')
-if blue_prod!=49: errors.append(f'product blueprint count={blue_prod}')
-if blue!=59: errors.append(f'blueprint total={blue}')
-if kw!=3362: errors.append(f'ads keyword count={kw}')
+if families!=expected_families: errors.append(f'family count={families}, expected={expected_families}')
+if blue_prod!=expected_families: errors.append(f'product blueprint count={blue_prod}, expected={expected_families}')
+if blue!=expected_blue: errors.append(f'blueprint total={blue}, expected={expected_blue}')
+if kw!=expected_kw: errors.append(f'ads keyword count={kw}, expected={expected_kw}')
 for u, in c.execute('SELECT resolved_url FROM ads_blueprint WHERE resolved_url IS NOT NULL'):
  q=urlsplit(u)
  if q.scheme!='https' or q.netloc!='regalospremium.cl': errors.append(f'bad resolved URL {u}')

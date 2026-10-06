@@ -22,7 +22,7 @@ HUBS=[
   "description":"""<p>En <strong>Regalos Premium</strong> reunimos regalos corporativos para empresas que buscan reconocer, fidelizar y fortalecer su identidad de marca. Esta selección B2B incluye alternativas para clientes, colaboradores, campañas internas, eventos y acciones de relacionamiento.</p>
 <p>Trabajamos <strong>regalos para empresas</strong> personalizados con logo y pedidos por volumen, desde opciones de uso diario hasta <strong>regalos corporativos premium</strong>. Cotizamos cada proyecto según producto, cantidad y técnica de marcaje, con atención local y despacho en Chile.</p>
 <p>Explore también <a href="/cuadernos-libretas-memo-set-publicitarios/">cuadernos y libretas corporativas</a>, <a href="/carpetas-y-portafolios-publicitarios/">carpetas y portafolios</a>, <a href="/power-bank-y-accesorios/">power banks y accesorios</a>, <a href="/regalos-corporativos-bambu/">regalos corporativos de bambú</a> y <a href="/boligrafos-metalicos-y-ejecutivos-publicitarios/">bolígrafos ejecutivos</a>.</p>""",
-  "products":[1481,1490,1467,1459,1431,1398,1486,1213,1491,1483,1469,1212]
+  "products":[1481,1490,1467,1459,1398,1486,1213,1491,1483,1469,1212,1502]
  },
  {
   "slug":"regalos-publicitarios",
@@ -32,7 +32,7 @@ HUBS=[
   "description":"""<p>Los <strong>regalos publicitarios</strong> permiten mantener una marca presente en clientes, equipos y eventos mediante productos útiles y personalizables. Esta selección reúne artículos promocionales para campañas de marketing, ferias, activaciones y acciones corporativas.</p>
 <p>Desarrollamos <strong>merchandising corporativo</strong> con logo para empresas y <strong>regalos publicitarios por mayor</strong>, cotizados según cantidad, producto y técnica de marcaje. Atendemos proyectos B2B en Chile sin publicar precios unitarios, porque cada requerimiento se evalúa de acuerdo con su volumen y personalización.</p>
 <p>Revise categorías como <a href="/mugs-metalicos-publicitarios/">mugs metálicos</a>, <a href="/coolers-publicitarios/">coolers</a>, <a href="/boligrafos-y-lapices-publicitarios/">bolígrafos y lápices</a>, <a href="/lanyards-e-identificacion-empresa/">lanyards e identificación</a>, <a href="/bolsas-publicitarias-con-logotipo/">bolsas publicitarias</a> y <a href="/regalos-promocionales-tecnologicos/">tecnología promocional</a>.</p>""",
-  "products":[1292,1377,1483,1431,1476,1300,1400,1329,558,1457,1287,1491]
+  "products":[1292,1377,1431,1476,1300,1400,1329,558,1457,1287,1487,1495]
  }
 ]
 
