@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-10-15T15:23:19.954156+00:00",
+  "scope": "Sequential bounded checks after quote CTA and Smarty configuration changes; stop on HTTP 508; no messages sent",
+  "checks": [
+    {
+      "url": "https://regalospremium.cl/",
+      "http": 200,
+      "elapsed_seconds": 0.449,
+      "final_url": "https://regalospremium.cl/",
+      "canonical": "https://regalospremium.cl/",
+      "quote_blocks": 0,
+      "footer_quote_visible": false,
+      "telephone_link_present": false
+    },
+    {
+      "url": "https://regalospremium.cl/contactenos",
+      "http": 200,
+      "elapsed_seconds": 0.395,
+      "final_url": "https://regalospremium.cl/contactenos",
+      "canonical": null,
+      "quote_blocks": 0,
+      "footer_quote_visible": false,
+      "telephone_link_present": false
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-corporativos/",
+      "http": 200,
+      "elapsed_seconds": 0.802,
+      "final_url": "https://regalospremium.cl/regalos-corporativos/",
+      "canonical": "https://regalospremium.cl/regalos-corporativos/",
+      "quote_blocks": 0,
+      "footer_quote_visible": false,
+      "telephone_link_present": false
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios/",
+      "http": 200,
+      "elapsed_seconds": 0.816,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios/",
+      "canonical": "https://regalospremium.cl/regalos-publicitarios/",
+      "quote_blocks": 0,
+      "footer_quote_visible": false,
+      "telephone_link_present": false
+    },
+    {
+      "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-aluminio-personalizado-regalos-corporativos-morrison.html",
+      "http": 200,
+      "elapsed_seconds": 0.442,
+      "final_url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-aluminio-personalizado-regalos-corporativos-morrison.html",
+      "canonical": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-aluminio-personalizado-regalos-corporativos-morrison.html",
+      "quote_blocks": 1,
+      "footer_quote_visible": false,
+      "telephone_link_present": false
+    },
+    {
+      "url": "https://regalospremium.cl/mapa%20del%20sitio",
+      "http": 200,
+      "elapsed_seconds": 0.63,
+      "final_url": "https://regalospremium.cl/mapa%20del%20sitio",
+      "canonical": null,
+      "quote_blocks": 0,
+      "footer_quote_visible": false,
+      "telephone_link_present": false
+    },
+    {
+      "url": "https://regalospremium.cl/index.php?fc=module&module=stproductcategoriesslider&controller=window&id_st_product_categories_slider=1&batch=0",
+      "http": 200,
+      "elapsed_seconds": 0.37,
+      "carousel_ok": true,
+      "product_count": 13,
+      "html_present": true
+    }
+  ],
+  "final_product_check": {
+    "timestamp": "2026-10-15T15:32:12.274782+00:00",
+    "url": "https://regalospremium.cl/boligrafos-metalicos-y-ejecutivos-publicitarios/boligrafo-aluminio-personalizado-regalos-corporativos-morrison.html",
+    "http": 200,
+    "quote_blocks": 1,
+    "main_summary_generic_opening_present": false,
+    "screenshot": "reports/seo/quote_entrypoint_20261015.jpg"
+  }
+}

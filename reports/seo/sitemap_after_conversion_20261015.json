@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-15T15:28:14.535125+00:00",
+  "status": "PASS",
+  "native_urls": 1396,
+  "unique_urls": 1396,
+  "active_products": 1309,
+  "missing_products": [],
+  "product_lastmod": {
+    "2026-10-15T12:27:19-03:00": 1309
+  }
+}

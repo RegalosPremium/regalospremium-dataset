@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-10-15T15:20:18.717800+00:00",
+  "configuration": "PS_SMARTY_FORCE_COMPILE",
+  "before": "2",
+  "after": "1",
+  "meaning": "Force compile every request -> recompile when template changes",
+  "backup": "/home/maxdaguzan/RegalosPremium_Backups/smarty_compile_20261015",
+  "status": "APPLIED; frontend checks required",
+  "filesystem_permissions_repaired": false
+}

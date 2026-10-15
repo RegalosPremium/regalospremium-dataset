@@ -1,5 +1,7 @@
 # Regalos Premium — Dataset B2B de regalos corporativos en Chile
 
+Validación del 15-10-2026: [SEO, conversión y pendientes del hosting](reports/seo/seo_conversion_review_20261015.md). Incluye 763 inspecciones GSC, cotización contextual en 1.309 fichas, limpieza de texto repetido y sitemap de 1.396 URLs; distingue cambios publicados de caché pendiente y decisiones de indexación de Google.
+
 Repositorio estructurado del catálogo de [Regalos Premium](https://regalospremium.cl), empresa chilena especializada en regalos corporativos, merchandising corporativo, regalos para empresas y productos personalizados para empresas.
 
 ## Regalos corporativos para empresas
