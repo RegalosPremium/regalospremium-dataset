@@ -13,14 +13,17 @@ if len(ids)!=len(set(ids)): errors.append("duplicate product_id")
 if any(not p["url"].startswith("https://regalospremium.cl/") for p in products): errors.append("non-canonical host detected")
 classified=sum(bool(p["familia"]) for p in products)
 review=sum(p["classification_status"]=="REVIEW_UNCLASSIFIED" for p in products)
+if review: errors.append(f"unclassified products: {review}")
 if classified+review!=len(products): errors.append("classification accounting mismatch")
 if review!=tax["productos_en_revision"]: errors.append("review count differs from taxonomy")
 family_pairs={(p["macroarea"],p["familia"]) for p in products if p["familia"]}
 if len(family_pairs)!=tax["familias_reales"]: errors.append("family count differs from taxonomy")
+tax_pairs={(a['macroarea'],f) for a in tax['taxonomia'] for f in a['familias']}
+if family_pairs != tax_pairs: errors.append('catalog taxonomy pairs differ from declared taxonomy')
 url_counts=collections.Counter(p["url"] for p in products)
 dups=[(u,n) for u,n in url_counts.items() if n>1]
 print(f"products={len(products)} families={len(family_pairs)} review={review} unique_urls={len(url_counts)}")
 if dups:
-    print(f"WARNING: {len(dups)} pre-existing duplicate URL values", file=sys.stderr)
+    errors.append(f"duplicate URL values: {len(dups)}")
 for e in errors: print("ERROR:",e,file=sys.stderr)
 sys.exit(1 if errors else 0)

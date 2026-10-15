@@ -28,6 +28,7 @@ for u, in c.execute('SELECT resolved_url FROM ads_blueprint WHERE resolved_url I
  q=urlsplit(u)
  if q.scheme!='https' or q.netloc!='regalospremium.cl': errors.append(f'bad resolved URL {u}')
 anom=one('SELECT COUNT(*) FROM prestashop_anomalies')
+if anom: errors.append(f'unresolved PrestaShop anomalies={anom}')
 unresolved=[r[0] for r in c.execute("SELECT family FROM ads_blueprint WHERE intent_class='PRODUCTO' AND resolved_url IS NULL ORDER BY family")]
 print(f'products={products} active={active} taxonomy={tax} families={families} ads_keywords={kw} blueprint={blue} resolved_product_landings={resolved} anomalies={anom}')
 print('unresolved_product_families=',', '.join(unresolved) if unresolved else 'NONE')

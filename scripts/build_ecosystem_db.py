@@ -70,7 +70,7 @@ def main():
   db.execute('INSERT INTO url_registry VALUES(?,?,?,?,?,1)',(r['url'],'GITHUB','PRODUCT',f'product:{pid}','CANONICAL'))
  with (ROOT/'data/ads/ads_campaign_blueprint.csv').open(encoding='utf-8',newline='') as f: bp=list(csv.DictReader(f))
  for r in bp:
-  db.execute('INSERT INTO ads_blueprint VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',(r['entity_key'],r['campaign'],r['ad_group'],r['intent_class'],r['macroarea'],r['familia'],r['theme'],int(r['keyword_count']),r['landing_source'],r['activation_state'],r.get('resolved_url') or None,r.get('resolution_method') or None))
+  db.execute('INSERT INTO ads_blueprint VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',(r['entity_key'],r['campaign'],r['ad_group'],r['intent_class'],r['macroarea'],r['familia'],r['theme'],int(r['keyword_count'] or 0),r['landing_source'],r['activation_state'],r.get('resolved_url') or None,r.get('resolution_method') or None))
  with (ROOT/'data/ads/ads_intent_mapping.csv').open(encoding='utf-8',newline='') as f: kw=list(csv.DictReader(f))
  for r in kw:
   ek=None
@@ -113,7 +113,7 @@ def main():
  missing_ps=[int(r['product_id']) for r in gh if not db.execute('SELECT 1 FROM products WHERE product_id=?',(int(r['product_id']),)).fetchone()]
  active_ids={r[0] for r in db.execute('SELECT product_id FROM products WHERE active=1')}; gh_ids={int(r['product_id']) for r in gh}
  missing_gh=sorted(active_ids-gh_ids)
- status='PASS' if not missing_ps and not missing_gh else 'DRIFT'
+ status='PASS' if not missing_ps and not missing_gh and counts['prestashop_anomalies']==0 else 'DRIFT'
  db.execute('INSERT INTO sync_runs(started_at,source,products_total,products_active,github_products,status,notes) VALUES(?,?,?,?,?,?,?)',(datetime.now(timezone.utc).isoformat(),'PRESTASHOP+GITHUB+ADS',counts['products_total'],counts['products_active'],counts['github_products'],status,json.dumps({'github_not_prestashop':missing_ps,'active_prestashop_not_github':missing_gh})))
  for k,v in counts.items(): db.execute('INSERT INTO meta VALUES(?,?)',(k,str(v)))
  db.commit()

@@ -1,13 +1,53 @@
 {
+  "timestamp": "2026-10-15T14:22:38.332929+00:00",
   "status": "PASS",
-  "fetched_products": 1325,
-  "active_products": 1289,
-  "github_products": 1289,
-  "api_products": 1325,
-  "new_products": [],
-  "activated": [],
-  "deactivated": [],
+  "fetched_products": 1519,
+  "active_products": 1309,
+  "github_products": 1309,
   "active_prestashop_not_github": [],
   "github_not_active_prestashop": [],
-  "unknown_category_ids": []
+  "missing_default_categories": [],
+  "orphan_product_category_links": [
+    {
+      "category_id": 2,
+      "product_id": "805"
+    },
+    {
+      "category_id": 2,
+      "product_id": "844"
+    },
+    {
+      "category_id": 2,
+      "product_id": "845"
+    },
+    {
+      "category_id": 2,
+      "product_id": "846"
+    },
+    {
+      "category_id": 2,
+      "product_id": "847"
+    },
+    {
+      "category_id": 2,
+      "product_id": "848"
+    },
+    {
+      "category_id": 2,
+      "product_id": "849"
+    },
+    {
+      "category_id": 2,
+      "product_id": "850"
+    },
+    {
+      "category_id": 2,
+      "product_id": "851"
+    },
+    {
+      "category_id": 71,
+      "product_id": "855"
+    }
+  ],
+  "anomaly_status": "RISK"
 }

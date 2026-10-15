@@ -1,0 +1,461 @@
+{
+  "timestamp": "2026-10-15T14:24:05.971077+00:00",
+  "scope": "Sequential targeted HTTP checks; stop on first hosting HTTP 508",
+  "requested_count": 45,
+  "completed_count": 45,
+  "status": "PASS",
+  "checks": [
+    {
+      "url": "https://regalospremium.cl/regalos-corporativos/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-corporativos/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-corporativos/",
+      "noindex": false,
+      "campaign_text": true,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios/",
+      "noindex": false,
+      "campaign_text": true,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/boligrafos-y-lapices-eco-publicitarios/set-de-escritura-de-bambu.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/boligrafos-y-lapices-eco-publicitarios/set-de-escritura-de-bambu.html",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/boligrafos-y-lapices-eco-publicitarios/set-de-escritura-de-bambu.html",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-corporativos-bambu/set-de-escritura-de-bamboo.html",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+      "redirects": [
+        301
+      ],
+      "canonical": "https://regalospremium.cl/regalos-corporativos-bambu/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios-de-verano/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-de-verano/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-de-verano/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios-para-automovil/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-para-automovil/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-para-automovil/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/hogar-gourmet-sommelier/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/hogar-gourmet-sommelier/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/hogar-gourmet-sommelier/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalo-publicitario-antistress/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalo-publicitario-antistress/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalo-publicitario-antistress/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/publicitarios-belleza-y-salud/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/publicitarios-belleza-y-salud/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/publicitarios-belleza-y-salud/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/audio-publicitario/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/audio-publicitario/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/audio-publicitario/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/billeteras-y-porta-documentos/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/billeteras-y-porta-documentos/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/billeteras-y-porta-documentos/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/bolsas-publicitarias-con-logotipo/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/bolsos-y-mochilas-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/botellas-metalicas-publicitarias/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/botellas-metalicas-publicitarias/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/botellas-metalicas-publicitarias/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/accesorios-usb-promocional/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/accesorios-usb-promocional/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/accesorios-usb-promocional/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-promocionales-tecnologicos/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-promocionales-tecnologicos/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-promocionales-tecnologicos/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/carpetas-y-portafolios-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/carpetas-y-portafolios-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/carpetas-y-portafolios-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/cotizar-ropa-corporativa/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cotizar-ropa-corporativa/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/cotizar-ropa-corporativa/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/coolers-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/coolers-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/coolers-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/cotizar-productos-para-sublimacion/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cotizar-productos-para-sublimacion/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/cotizar-productos-para-sublimacion/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/comprar-gorros-y-jockeys-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/herramientas-y-asado/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/herramientas-y-asado/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/herramientas-y-asado/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios-ocio-y-pasatiempo/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-ocio-y-pasatiempo/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-ocio-y-pasatiempo/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/lanyards-e-identificacion-empresa/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/lanyards-e-identificacion-empresa/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/lanyards-e-identificacion-empresa/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/linternas-led-publicitaria/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/linternas-led-publicitaria/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/linternas-led-publicitaria/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/cotizar-llaveros-promocionales/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cotizar-llaveros-promocionales/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/cotizar-llaveros-promocionales/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/boligrafos-y-lapices-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/maletines-y-fundas/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/maletines-y-fundas/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/maletines-y-fundas/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/medallas-trofeos-galvanos-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/publicitarios-para-computacion/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/publicitarios-para-computacion/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/publicitarios-para-computacion/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/mugs-botellas-termos/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/mugs-botellas-termos/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/mugs-botellas-termos/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-para-negocios-y-empresas/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/cotizar-packaging-publicitario/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cotizar-packaging-publicitario/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/cotizar-packaging-publicitario/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/paraguas-y-capas-de-agua/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/paraguas-y-capas-de-agua/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/paraguas-y-capas-de-agua/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-publicitarios-para-deportes/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-para-deportes/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-para-deportes/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/pendrive-publicitario/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/pendrive-publicitario/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/pendrive-publicitario/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/poleras-y-shorts-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/poleras-y-shorts-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/poleras-y-shorts-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/power-bank-y-accesorios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/power-bank-y-accesorios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/power-bank-y-accesorios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/relojes-y-calculadoras-publicitarios/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/relojes-y-calculadoras-publicitarios/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/relojes-y-calculadoras-publicitarios/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/promocionales-para-celular/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/promocionales-para-celular/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/promocionales-para-celular/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/regalos-corporativos-bambu/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/regalos-corporativos-bambu/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/cotizar-mueble-publicitario-terraza-y-jardin/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/cotizar-mueble-publicitario-terraza-y-jardin/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/cotizar-mueble-publicitario-terraza-y-jardin/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    },
+    {
+      "url": "https://regalospremium.cl/publicitarios-electronicos/",
+      "http": 200,
+      "final_url": "https://regalospremium.cl/publicitarios-electronicos/",
+      "redirects": [],
+      "canonical": "https://regalospremium.cl/publicitarios-electronicos/",
+      "noindex": false,
+      "campaign_text": false,
+      "status": "PASS"
+    }
+  ]
+}

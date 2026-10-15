@@ -1,33 +1,18 @@
 {
-  "products_total": 1325,
-  "products_active": 1289,
-  "github_products": 1289,
+  "timestamp": "2026-10-15T14:22:38.332929+00:00",
+  "status": "RISK",
+  "scope": "Current API catalog/default categories/category associations; not stale local database snapshot",
+  "products_total": 1519,
+  "products_active": 1309,
+  "github_products": 1309,
   "categories": 92,
-  "orphan_category_ids": [
-    26,
-    28,
-    90
-  ],
-  "prestashop_anomalies": 21,
-  "ads_keywords": 3362,
-  "ads_blueprint": 59,
-  "status": "PASS",
-  "github_not_prestashop": [],
-  "active_prestashop_not_github": [],
-  "db": "var/ecosystem.db",
-  "resolved_product_landings": 43,
-  "unresolved_product_families": [
-    "Bolsos",
-    "Bolsos de Viaje",
-    "Chaquetas y Polar",
-    "Pelotas",
-    "Relojes",
-    "Sets de Regalo"
-  ],
+  "prestashop_anomalies": 10,
+  "orphan_category_ids": [],
   "anomalies": {
-    "MISSING_DEFAULT_CATEGORY": 11,
+    "MISSING_DEFAULT_CATEGORY": 0,
     "ORPHAN_PRODUCT_CATEGORY_LINK": 10
   },
-  "evidence_status": "HISTORICAL_SUPERSEDED",
-  "superseded_by": "reports/seo/seo_risk_closure_20261006.md"
+  "resolved_product_landings": 51,
+  "unresolved_product_families": [],
+  "evidence": "reports/prestashop/live_sync_latest.json"
 }

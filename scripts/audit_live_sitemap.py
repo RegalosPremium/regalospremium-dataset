@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import csv,json,urllib.request
+import csv,json,urllib.request,hashlib,datetime
+from validate_sitemap import compare
 from pathlib import Path
 from urllib.parse import urlsplit
 from xml.etree import ElementTree as ET
@@ -40,8 +41,13 @@ for p in products:
     if rec['slug'] and rec['slug'] not in live_slugs:missing_slug.append(rec)
 
 catalog_urls=[p['url'] for p in products]
-status='PASS' if not missing_exact and len(catalog_urls)==len(set(catalog_urls)) and len(live)==len(live_set) else 'FAIL'
+distributed=compare(products,(ROOT/'dist/sitemap-products.xml').read_bytes())
+status='PASS' if not missing_exact and len(catalog_urls)==len(set(catalog_urls)) and len(live)==len(live_set) and distributed['status']=='PASS' else 'RISK'
 report={
+'timestamp':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+'scope':'Sitemap membership only; does not establish HTTP/canonical/indexability or Google indexation',
+'catalog_sha256':hashlib.sha256((ROOT/'data/productos.csv').read_bytes()).hexdigest(),
+'distributed_sitemap':distributed,
 'status':status,'index_url':BASE+'/1_index_sitemap.xml','child_sitemaps':child_meta,
 'live_urls':len(live),'live_unique_urls':len(live_set),'sitemap_duplicate_urls':len(live)-len(live_set),
 'catalog_products':len(products),'catalog_unique_urls':len(set(catalog_urls)),'catalog_duplicate_urls':len(catalog_urls)-len(set(catalog_urls)),
@@ -52,3 +58,5 @@ outdir=ROOT/'reports/sitemap';outdir.mkdir(parents=True,exist_ok=True)
 with (outdir/'missing_live_sitemap_products.csv').open('w',encoding='utf-8',newline='') as f:
     w=csv.DictWriter(f,fieldnames=['product_id','reference','nombre','slug','canonical_url'],lineterminator='\n');w.writeheader();w.writerows(missing_exact)
 print(json.dumps(report,ensure_ascii=False,indent=2))
+
+raise SystemExit(0 if status=='PASS' else 1)

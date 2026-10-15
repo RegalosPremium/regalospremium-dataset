@@ -27,10 +27,44 @@ if set(coverage_pairs)!=tax_pairs:
 if any(r['owner_url'] not in OWNERS or r['status']!='ACTIVE' for r in coverage):
     errors.append('invalid family owner or status')
 
+owners={(r['macroarea'],r['familia']):r['owner_url'] for r in coverage}
+full=read('data/seo/seo_hub_catalog_coverage.csv')
+if len(full)!=len(products) or len({r['product_id'] for r in full})!=len(full):
+    errors.append('full product coverage count or duplicate ID')
+if {r['product_id'] for r in full}!=set(by_id): errors.append('full coverage IDs differ from catalog')
+for r in full:
+    p=by_id.get(r['product_id'],{})
+    if any(r[k]!=p.get(k) for k in ('reference','macroarea','familia')) or r['product_url']!=p.get('url'):
+        errors.append(f"product coverage drift {r['product_id']}")
+    if r['owner_url']!=owners.get((r['macroarea'],r['familia'])):
+        errors.append(f"product owner drift {r['product_id']}")
+exceptions=read('data/seo/seo_hub_editorial_exceptions.csv')
+exception_map={(r['product_id'],r['hub_url']):r for r in exceptions}
+if len(exception_map)!=len(exceptions): errors.append('duplicate editorial exception')
+used_exceptions=set()
+family_links=read('data/seo/seo_hub_family_links.csv')
+if len(family_links)!=len(tax_pairs) or {(r['macroarea'],r['familia']) for r in family_links}!=tax_pairs:
+    errors.append('family navigation coverage differs from taxonomy')
+for r in family_links:
+    p=by_id.get(r['representative_product_id'],{})
+    if (p.get('macroarea'),p.get('familia'))!=(r['macroarea'],r['familia']) or p.get('url')!=r['product_url']:
+        errors.append(f"family representative drift {r['familia']}")
+    if r['owner_url']!=owners.get((r['macroarea'],r['familia'])):
+        errors.append(f"family link owner drift {r['familia']}")
 selection=read('data/seo/seo_hub_product_selection.csv')
 selected={}
 for r in selection:
     selected.setdefault(r['hub_url'],[]).append(r['product_id'])
+    p=by_id.get(r['product_id'],{})
+    if r['status']!='ACTIVE' or r['hub_category']!={CORP:'140',PUB:'141'}.get(r['hub_url']):
+        errors.append(f"invalid selected status/category {r['product_id']}")
+    if r['familia']!=p.get('familia'): errors.append(f"selection family drift {r['product_id']}")
+    owner=owners.get((p.get('macroarea'),p.get('familia')))
+    if owner!=r['hub_url']:
+        key=(r['product_id'],r['hub_url']);e=exception_map.get(key,{})
+        if e.get('family_owner_url')!=owner or not e.get('reason','').strip():
+            errors.append(f"undocumented editorial owner exception {r['product_id']}")
+        used_exceptions.add(key)
     if r['product_id'] not in by_id:
         errors.append(f'unknown selected product {r["product_id"]}')
     elif by_id[r['product_id']]['reference']!=r['reference']:
@@ -43,6 +77,8 @@ for owner in OWNERS:
         errors.append(f'{owner}: expected 12 unique products')
 if set(selected.get(CORP,[])) & set(selected.get(PUB,[])):
     errors.append('product overlap between hubs')
+
+if used_exceptions!=set(exception_map): errors.append('unused editorial exception')
 
 intent=read('data/seo/seo_intent_hubs_20261004.csv')
 intent_map={}

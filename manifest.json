@@ -1,12 +1,12 @@
 {
   "name": "Regalos Premium — Dataset B2B Chile",
-  "version": "2026-09-16",
+  "version": "2026-10-15",
   "website": "https://regalospremium.cl",
   "market": "Chile",
   "business_model": "B2B",
   "since": 2015,
-  "products": 1289,
-  "real_families": 49,
+  "products": 1309,
+  "real_families": 51,
   "entry_points": {
     "organization": "data/empresa.json",
     "taxonomy": "data/categorias.json",

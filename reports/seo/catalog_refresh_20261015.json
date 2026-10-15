@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-10-15T14:09:03.178643+00:00",
+  "source": "PrestaShop Webservice",
+  "products": 1309,
+  "added_ids": [
+    "1509",
+    "1510",
+    "1512",
+    "1514",
+    "1516",
+    "1517",
+    "1518",
+    "1519",
+    "1520",
+    "1521",
+    "1522",
+    "1523",
+    "1524",
+    "1525",
+    "1526",
+    "1527",
+    "1528",
+    "1529",
+    "1530",
+    "1531",
+    "1532",
+    "1533",
+    "1534",
+    "1535"
+  ],
+  "classified_previous_review": 45,
+  "families": 51,
+  "url_changes": [],
+  "url_status": "Canonical candidates from live API; full HTTP crawl interrupted on hosting HTTP 508",
+  "consolidated_duplicate_ids": [
+    "30",
+    "418",
+    "1396",
+    "1430"
+  ]
+}

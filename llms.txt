@@ -23,3 +23,8 @@
 ## Hubs comerciales B2B
 - Regalos corporativos para empresas: https://regalospremium.cl/regalos-corporativos/
 - Regalos publicitarios y merchandising corporativo: https://regalospremium.cl/regalos-publicitarios/
+
+## Campañas temáticas
+- Disponemos de campañas temáticas para promociones específicas, con selección de productos y personalización según objetivo, público y ocasión.
+- Fin de año, Día de la Madre, verano, tecnología, actividades recreativas y acciones promocionales. Consultar por volumen; sin precios públicos.
+- Registro: data/seo/thematic_campaigns.csv.

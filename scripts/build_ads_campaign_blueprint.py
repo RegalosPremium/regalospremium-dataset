@@ -26,9 +26,13 @@ for (macro,theme),n in sorted(themes.items(),key=lambda x:(x[0][1].lower(),x[0][
  ek=f'intent:{slug(theme)}'; d=decisions.get(ek,{})
  state=d.get('activation_state') or 'WAIT_PRESTASHOP_URL'
  out.append({'campaign':'RP | Search | Intención','ad_group':theme,'entity_key':ek,'intent_class':'USO_CAMPAÑA','macroarea':macro,'familia':'','theme':theme,'keyword_count':n,'landing_source':'DECISION_REGISTRY' if d else 'PRESTASHOP_LANDING','activation_state':state,'resolved_url':d.get('resolved_url',''),'resolution_method':d.get('resolution_method','')})
+existing={r['entity_key'] for r in out}
+for ek,d in sorted(decisions.items()):
+ if ek.startswith('intent:') and ek not in existing:
+  out.append({'campaign':'RP | Search | Intención','ad_group':d['familia'],'entity_key':ek,'intent_class':'USO_CAMPAÑA','macroarea':'','familia':'','theme':d['familia'],'keyword_count':0,'landing_source':'DECISION_REGISTRY','activation_state':d['activation_state'],'resolved_url':d['resolved_url'],'resolution_method':d['resolution_method']})
 fields=['campaign','ad_group','entity_key','intent_class','macroarea','familia','theme','keyword_count','landing_source','activation_state','resolved_url','resolution_method']
 with (ROOT/'data/ads/ads_campaign_blueprint.csv').open('w',encoding='utf-8',newline='') as f:
- w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(out)
+ w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n"); w.writeheader(); w.writerows(out)
 product=[x for x in out if x['intent_class']=='PRODUCTO']
 print('blueprint_rows',len(out),'product_adgroups',len(product),'ready',sum(x['activation_state']=='READY_URL' for x in product),'hold',sum(x['activation_state'].startswith('HOLD_') for x in product),'campaigns',len({x['campaign'] for x in out}))
 for c in sorted({x['campaign'] for x in out}): print(c,sum(x['campaign']==c for x in out))

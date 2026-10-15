@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-10-15T14:25:23.906930+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "source_product_id": "30",
+      "target_product_id": "356",
+      "url": "https://regalospremium.cl/productos-eco-friendly-publicitarios/cuaderno-ecologico-tapa-dura-con-lapiz.html",
+      "http": 200,
+      "redirects": [
+        301
+      ],
+      "final_url": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-ecologico-tapa-dura.html",
+      "canonical": "https://regalospremium.cl/cuadernos-libretas-memo-set-publicitarios/cuaderno-ecologico-tapa-dura.html",
+      "status": "PASS"
+    },
+    {
+      "source_product_id": "418",
+      "target_product_id": "539",
+      "url": "https://regalospremium.cl/publicitarios-belleza-y-salud/comprar-necessaire-sublimacion.html",
+      "http": 200,
+      "redirects": [
+        301
+      ],
+      "final_url": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/necessaire-sublimacion.html",
+      "canonical": "https://regalospremium.cl/regalos-publicitarios-para-viajes-y-vacaciones/necessaire-sublimacion.html",
+      "status": "PASS"
+    },
+    {
+      "source_product_id": "1396",
+      "target_product_id": "1292",
+      "url": "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-algodon-fuelle-promocional.html",
+      "http": 200,
+      "redirects": [
+        301
+      ],
+      "final_url": "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-de-algodon-reutilizable-fuelle-personalizada.html",
+      "canonical": "https://regalospremium.cl/bolsas-de-algodon-publicitarias/bolsa-de-algodon-reutilizable-fuelle-personalizada.html",
+      "status": "PASS"
+    },
+    {
+      "source_product_id": "1430",
+      "target_product_id": "1302",
+      "url": "https://regalospremium.cl/boligrafos-color-metalizado-publicitarios/boligrafo-aluminio-reciclado-bambu-rpet-personalizado-balu.html",
+      "http": 200,
+      "redirects": [
+        301
+      ],
+      "final_url": "https://regalospremium.cl/boligrafos-color-metalizado-publicitarios/boligrafo-aluminio-reciclado-y-bambu-balu.html",
+      "canonical": "https://regalospremium.cl/boligrafos-color-metalizado-publicitarios/boligrafo-aluminio-reciclado-y-bambu-balu.html",
+      "status": "PASS"
+    }
+  ]
+}

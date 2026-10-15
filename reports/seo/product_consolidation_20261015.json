@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-10-15T14:19:42.435147+00:00",
+  "status": "PASS",
+  "backup": "/home/maxdaguzan/RegalosPremium_Backups/product_consolidation_20261015",
+  "checks": [
+    {
+      "source_product_id": 30,
+      "target_product_id": 356,
+      "reference": "N18",
+      "before_sha256": "9648253cbcd73d1e4bf570d892ab0692d620b675f7774e07f2c10976a04e92b9",
+      "status": "PASS",
+      "after_sha256": "82d73663309fece61f331820bcae6b84838925b705902f089ae4598d5645d6bb"
+    },
+    {
+      "source_product_id": 418,
+      "target_product_id": 539,
+      "reference": "Y84",
+      "before_sha256": "17b5e1222a87f75fe3ec7ce92dbb09e08c7b55f2bf9c75ab439beeda8d7f44e8",
+      "status": "PASS",
+      "after_sha256": "e7cbab98dce990f2440067383d96119f08761345bfde56d80d2d2fe07c02a86e"
+    },
+    {
+      "source_product_id": 1396,
+      "target_product_id": 1292,
+      "reference": "C585",
+      "before_sha256": "945b456a30c7812f9805f71fb285b0a2cd3ee28a9d31f5932575de1f4032f99e",
+      "status": "PASS",
+      "after_sha256": "5b65ec0939c3dcfaf78b180f3b2cbe96ff8ef555d2036b1f42af605294a51d55"
+    },
+    {
+      "source_product_id": 1430,
+      "target_product_id": 1302,
+      "reference": "BP325-TA",
+      "before_sha256": "4820bafec4f4df1b548c6d1b3a4ce6e656729b7176b2c7d3503539ab29e11992",
+      "status": "PASS",
+      "after_sha256": "03b2eaafe7f1a714dd2d7cfe50ead74dc1c4e91a4eaf7fbbd2635b3abaa83361"
+    }
+  ],
+  "basis": "Same normalized reference/name, dimensions and materials reviewed via Webservice; no combinations. Deactivated copies kept with built-in 301-product redirect; no deletion."
+}

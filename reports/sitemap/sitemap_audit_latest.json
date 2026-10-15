@@ -1,22 +1,35 @@
 {
+  "timestamp": "2026-10-15T14:22:08.811984+00:00",
+  "scope": "Sitemap membership only; does not establish HTTP/canonical/indexability or Google indexation",
+  "catalog_sha256": "6a8b355c2cc4f9016eeb1f4c1731a4c9e147ec41ea2edd899029e5c1eee6e27c",
+  "distributed_sitemap": {
+    "status": "PASS",
+    "scope": "distributed sitemap/catalog equality; not HTTP or Google indexation",
+    "catalog_products": 1309,
+    "sitemap_urls": 1309,
+    "catalog_duplicates": 0,
+    "sitemap_duplicates": 0,
+    "missing": [],
+    "extra": []
+  },
   "status": "PASS",
   "index_url": "https://regalospremium.cl/1_index_sitemap.xml",
   "child_sitemaps": [
     {
       "url": "https://regalospremium.cl/1_es_0_sitemap.xml",
       "http_status": 200,
-      "last_modified": "Tue, 06 Oct 2026 17:10:59 GMT",
-      "url_count": 1399
+      "last_modified": "Thu, 15 Oct 2026 14:21:07 GMT",
+      "url_count": 1396
     }
   ],
-  "live_urls": 1399,
-  "live_unique_urls": 1399,
+  "live_urls": 1396,
+  "live_unique_urls": 1396,
   "sitemap_duplicate_urls": 0,
-  "catalog_products": 1289,
-  "catalog_unique_urls": 1289,
+  "catalog_products": 1309,
+  "catalog_unique_urls": 1309,
   "catalog_duplicate_urls": 0,
-  "covered_exact_url": 1289,
+  "covered_exact_url": 1309,
   "missing_exact_url": 0,
-  "covered_by_slug": 1289,
+  "covered_by_slug": 1309,
   "missing_by_slug": 0
 }

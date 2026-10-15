@@ -16,7 +16,7 @@ Fuente analizada: export histórico de palabras clave del 9 de junio al 6 de jul
 
 Las keywords de producto se conectan a la taxonomía canónica `macroárea -> familia`.
 Los materiales y temporadas no crean nuevas familias. Se conservan como intención transversal.
-El blueprint incluye las 49 familias; las que no tienen demanda histórica quedan en `HOLD_NO_HISTORICAL_KEYWORDS`.
+El blueprint vigente incluye las 51 familias. La disponibilidad de destino se registra por separado de la demanda histórica y no activa anuncios por sí sola.
 
 ## Resolución de URLs
 
@@ -52,3 +52,10 @@ Se priorizan cuatro intenciones: `regalos corporativos`, `merchandising corporat
 - `bamboo` resuelve a `/regalos-corporativos-bambu/` y `bebidas` a `/mugs-botellas-termos/`.
 
 La publicación a Google Ads requiere credenciales privadas locales; el repositorio no almacena secretos.
+
+
+## Actualización 15-10-2026
+
+La taxonomía vigente contiene 51 familias: incorpora Iluminación y Quitasoles como objetos base y clasifica los 45 productos antes pendientes. Las decisiones de navegación de las familias y las seis intenciones temáticas usan URLs existentes; el generador conserva también las decisiones sin keywords históricas. No crea landings por temporada ni activa inversión en Google Ads.
+
+Las cifras y decisiones de las secciones fechadas anteriores son históricas; para el estado vigente consultar `reports/seo/seo_followup_20261015.md`.

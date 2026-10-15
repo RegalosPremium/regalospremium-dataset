@@ -5,7 +5,11 @@ from xml.etree.ElementTree import Element, SubElement, ElementTree, register_nam
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"dist/sitemap-products.xml"
 with (ROOT/"data/productos.csv").open(encoding="utf-8-sig",newline="") as f:
-    urls={r["url"] for r in csv.DictReader(f) if r["url"]}
+    products=list(csv.DictReader(f))
+    values=[r["url"] for r in products]
+    if any(not u for u in values) or len(values)!=len(set(values)):
+        raise SystemExit("Catalog contains empty or duplicate URLs; refusing sitemap build")
+    urls=set(values)
 exclude=set()
 redirects=ROOT/"data/seo_redirects.csv"
 if redirects.exists():
@@ -13,7 +17,9 @@ if redirects.exists():
         for r in csv.DictReader(f):
             if r.get("status")=="QUARANTINE" and "*" not in r.get("old_url",""):
                 exclude.add(r["old_url"])
-urls=sorted(urls-exclude)
+if urls & exclude:
+    raise SystemExit("Active catalog URL is quarantined; resolve it before building")
+urls=sorted(urls)
 ns="http://www.sitemaps.org/schemas/sitemap/0.9"
 register_namespace("",ns)
 root=Element(f"{{{ns}}}urlset")

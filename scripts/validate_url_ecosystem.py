@@ -54,8 +54,22 @@ for r in registry:
             date.fromisoformat(r.get('resolved_date',''))
         except ValueError:
             errors.append(f'{did}: invalid resolved_date')
+if actual: errors.append('duplicate catalog URLs remain; registered HOLD is not a pass')
 if open_registered != actual:
     errors.append('open duplicate registry does not exactly match catalog duplicates')
+
+resolutions=read(Path('data/seo/product_duplicate_resolutions.csv'))
+source_ids=set()
+for r in resolutions:
+    source=r['source_product_id']; target=r['target_product_id']
+    if source in source_ids: errors.append(f'duplicate consolidation source {source}')
+    source_ids.add(source)
+    if source in by_id or target not in by_id:
+        errors.append(f'consolidation source still active or target missing {source}->{target}')
+    if by_id.get(target,{}).get('url')!=r['new_url']:
+        errors.append(f'consolidation target URL drift {target}')
+    if r['status']!='APPLIED_301_PRODUCT' or not good_url(r['old_url']) or not good_url(r['new_url']) or r['old_url']==r['new_url']:
+        errors.append(f'invalid consolidation resolution {source}')
 
 queue=read(Path('data/url_changes.csv'))
 change_ids=set()

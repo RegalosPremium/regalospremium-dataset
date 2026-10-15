@@ -45,8 +45,8 @@ for r in decisions:
   if u: errors.append(f"HOLD decision has URL: {r['entity_key']}")
   if not method: errors.append(f"HOLD decision without method: {r['entity_key']}")
  else: errors.append(f"unclosed decision state {r['entity_key']}: {state}")
-for r in blue_product:
- if r['activation_state'].startswith('WAIT_'): errors.append(f"open product landing: {r['entity_key']}")
+for r in blueprint:
+ if r['activation_state'].startswith(('WAIT_','HOLD_')): errors.append(f"open product landing: {r['entity_key']}")
 ready=sum(r['activation_state']=='READY_URL' for r in blue_product); hold=sum(r['activation_state'].startswith('HOLD_') for r in blue_product)
 print(f"ads_keywords={len(rows)} groups={len(groups)} urls={len(urls)} product={sum(r['intent_class']=='PRODUCTO' for r in rows)} campaign={sum(r['intent_class']=='USO_CAMPAÑA' for r in rows)} discard={sum(r['intent_class']=='DESCARTAR' for r in rows)} blueprint={len(blueprint)} families={len(blue_families)} ready={ready} hold={hold}")
 for e in errors: print('ERROR:',e,file=sys.stderr)

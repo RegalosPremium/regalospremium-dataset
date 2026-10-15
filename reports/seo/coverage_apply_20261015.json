@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-15T14:20:02.379408+00:00",
+  "status": "PASS",
+  "backup": "/home/maxdaguzan/RegalosPremium_Backups/seo_hub_links_20261015",
+  "categories": [
+    {
+      "category_id": 140,
+      "removed_dangling_ids": [],
+      "family_links": 23,
+      "mode": "APPLY",
+      "before_sha256": "3e968205ee543da4061f0e6b59cf96c9cfd284badf80656171db5e9cad8fe820",
+      "status": "PASS",
+      "after_sha256": "54a9bb25e5fa357dedee7eebf47d29ca49a023a0548bfafeb46fa3f02cee30ea"
+    },
+    {
+      "category_id": 141,
+      "removed_dangling_ids": [],
+      "family_links": 28,
+      "mode": "APPLY",
+      "before_sha256": "b24b2a2355aef78dd0297e9b250bee3bf6c308305e00d72b1eb2496450809707",
+      "status": "PASS",
+      "after_sha256": "6d1c7dba4eb311f437564909d72dc92f024d63c12383db2ecb26a6e8f8f358d5"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Cierre de riesgos SEO — 2026-10-06
 
+> Evidencia histórica del 06-10-2026. Estado y correcciones vigentes: `reports/seo/seo_followup_20261015.md`. Este reporte no certifica el estado actual.
+
 ## PASS
 
 - Hubs PrestaShop: categorías 140 y 141 responden HTTP 200, canonical propio, indexables y presentes una vez en sitemap.

@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-15T14:21:08.073149+00:00",
+  "status": "PASS",
+  "backup": "/home/maxdaguzan/RegalosPremium_Backups/sitemap_riskfix_20261015_112105",
+  "cron_http": 200,
+  "cron_final_url": "https://regalospremium.cl/module/gsitemap/cron",
+  "sitemaps": {
+    "1_index_sitemap.xml": {
+      "http": 200,
+      "bytes": 239,
+      "last_modified": "Thu, 15 Oct 2026 14:21:07 GMT"
+    },
+    "1_es_0_sitemap.xml": {
+      "http": 200,
+      "bytes": 1308649,
+      "last_modified": "Thu, 15 Oct 2026 14:21:07 GMT"
+    }
+  }
+}

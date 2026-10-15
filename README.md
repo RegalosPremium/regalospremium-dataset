@@ -50,7 +50,7 @@ Los cambios de URL del catálogo se registran en `data/url_changes.csv` y se pro
 ### Google Ads y ecosistema de URLs
 
 - `data/ads/ads_intent_mapping.csv`: mapeo histórico de keywords a intención y familia.
-- `data/ads/ads_campaign_blueprint.csv`: blueprint que cubre las 49 familias y las intenciones transversales.
+- `data/ads/ads_campaign_blueprint.csv`: blueprint que cubre las 51 familias y las intenciones transversales.
 - `scripts/ads_url_sync.py`: sincronizador de cambios de URL con Google Ads, dry-run por defecto.
 - `scripts/validate_ads_mapping.py`: validación de consistencia Ads/taxonomía.
 - `data/ads/ads_generic_keywords.csv`: 17 keywords genéricas B2B en 34 combinaciones exacta/frase.
@@ -74,6 +74,20 @@ Desde 2026-10-04 las intenciones comerciales genéricas tienen propietarios can�
 
 La home queda como entrada de marca/navegación y no como única propietaria de todas las intenciones genéricas.
 
-La cobertura se controla en `data/seo/seo_hub_family_coverage.csv`: las 49 familias tienen exactamente un hub propietario. La selección editorial se registra en `data/seo/seo_hub_product_selection.csv`: 12 productos exclusivos por hub.
+La cobertura se controla en `data/seo/seo_hub_family_coverage.csv`: las 51 familias tienen exactamente un hub propietario. La selección editorial se registra en `data/seo/seo_hub_product_selection.csv`: 12 productos exclusivos por hub.
 
-`scripts/validate_seo_hubs.py` comprueba cobertura completa, ausencia de productos compartidos y consistencia entre el registro SEO, Ads, DSA y los dos hubs. `scripts/audit_live_sitemap.py` exige URLs exactas, sin duplicados y con cobertura de los 1.289 productos activos.
+`scripts/validate_seo_hubs.py` comprueba cobertura completa, ausencia de productos compartidos y consistencia entre el registro SEO, Ads, DSA y los dos hubs. `scripts/audit_live_sitemap.py` exige URLs exactas, sin duplicados y con cobertura de todos los productos activos del catálogo vigente.
+
+
+## Campañas temáticas para promociones específicas
+
+Tenemos disponibles campañas temáticas para promociones específicas. Seleccionamos productos y personalización según objetivo, público y ocasión: fin de año, Día de la Madre, verano, tecnología, actividades recreativas y acciones promocionales. Cotización B2B por volumen, sin precios públicos. El registro está en `data/seo/thematic_campaigns.csv`; disponibilidad comercial no significa que una campaña esté activada en Google Ads.
+
+## Control de cobertura
+
+- `data/seo/seo_hub_catalog_coverage.csv`: asignación de cada producto activo a una familia y a su hub propietario.
+- `data/seo/seo_hub_family_links.csv`: navegación por todas las familias mediante categorías existentes y un producto representativo por familia.
+- Los 12 productos editoriales de cada hub son una selección, no la totalidad del catálogo. Las excepciones de uso comercial se documentan en `data/seo/seo_hub_editorial_exceptions.csv`; no transfieren la propiedad SEO de la familia.
+- `scripts/validate_sitemap.py`: igualdad exacta del catálogo con `dist/sitemap-products.xml`, sin duplicados, ausencias ni URLs sobrantes.
+- `scripts/audit_live_sitemap.py`: pertenencia al sitemap del dominio. Su PASS no prueba HTTP/canonical de todas las fichas ni indexación en Google.
+- Los reportes fechados son evidencia histórica. El estado vigente se documenta en `reports/seo/seo_followup_20261015.md`.

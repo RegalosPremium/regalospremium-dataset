@@ -4,8 +4,8 @@
   "mercado": "Chile",
   "modelo": "B2B por mayor con cotizacion personalizada",
   "claim": "Dando identidad corporativa a empresas desde 2015.",
-  "familias_reales": 49,
-  "productos_en_revision": 45,
+  "familias_reales": 51,
+  "productos_en_revision": 0,
   "taxonomia": [
     {
       "macroarea": "Bolsos y Viaje",
@@ -26,7 +26,8 @@
       "familias": [
         "Accesorios de Automóvil",
         "Artículos Deportivos",
-        "Herramientas"
+        "Herramientas",
+        "Quitasoles"
       ]
     },
     {
@@ -87,6 +88,7 @@
         "Audífonos y Auriculares",
         "Cables y Adaptadores",
         "Cargadores",
+        "Iluminación",
         "Linternas",
         "Mouse y Teclados",
         "Parlantes",
