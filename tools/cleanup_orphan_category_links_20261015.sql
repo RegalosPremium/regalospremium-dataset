@@ -1,4 +1,6 @@
--- Prepared repair for a production DB administrator. Not applied via Webservice.
+-- Repair completed by a guarded MariaDB transaction on 2026-10-15.
+-- Evidence: reports/prestashop/orphan_repair_20261015.json.
+-- This file remains a ROLLBACK-only rehearsal for review; rerunning should find zero rows.
 -- Replace ps_ only if the production table prefix differs.
 -- Save the first SELECT output with id_category, id_product and position before applying.
 START TRANSACTION;

@@ -22,6 +22,6 @@ python3 -m unittest discover -s tests -p test_seo_integrity.py
 
 ## Límites abiertos
 
-Persisten diez asociaciones a productos inexistentes en PrestaShop, que la API no permite retirar. El rastreo HTTP completo se interrumpió por respuestas 508 del hosting; no se certifica indexabilidad de todas las fichas. El nuevo sitemap fue aceptado por GSC y su procesamiento depende de Google.
+Las diez asociaciones a productos inexistentes se eliminaron por MariaDB directo con respaldo y transacción InnoDB. MariaDB y Webservice verifican cero asociaciones huérfanas; los 1.309 productos activos se conservaron. El rastreo HTTP completo se interrumpió por respuestas 508 del hosting; no se certifica indexabilidad de todas las fichas. El nuevo sitemap fue aceptado por GSC y su procesamiento depende de Google.
 
 Evidencia, respaldos y detalle: `reports/seo/seo_followup_20261015.md`.

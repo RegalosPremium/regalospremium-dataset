@@ -16,9 +16,9 @@ Base: commit 1a869e1713cb65dfe0521be5292fe8079cb6a223. Catálogo contrastado con
 - README, manifest, empresa, llms.txt, documentación de indexación y QA actualizados. Validadores endurecidos: los duplicados y productos sin clasificación son errores; cobertura completa de productos y navegación por familias; excepciones editoriales explícitas; coherencia del sitemap distribuido; anomalías DB impiden un PASS global.
 - Cinco validadores locales, compilación Python y cuatro pruebas de regresión PASS. Comprobación HTTP secuencial de 45 destinos PASS; QA público de ambos hubs PASS.
 
-## RISK / PENDING que no se consideran cerrados
+## Seguimiento posterior por MariaDB y límites externos
 
-- RISK: diez asociaciones huérfanas siguen en producción: categoría 2→productos 805,844,845,846,847,848,849,850,851; categoría 71→855. Categorías predeterminadas inexistentes: cero. El intento por Webservice no tuvo efecto en las asociaciones; se restauró la categoría y no se continuó por esa vía. Se requiere acceso de escritura a la DB o una operación administrativa que admita retirarlas. Reparación acotada preparada en tools/cleanup_orphan_category_links_20261015.sql, con ROLLBACK por defecto. No aplicada.
+- PASS: las diez asociaciones huérfanas se eliminaron por MariaDB directo en una transacción InnoDB: respaldo de las diez filas y restauración SQL disponibles; guardas de cantidad, inexistencia de producto y conservación de 1.309 activos. COMMIT tras confirmar cero huérfanas. Lectura independiente de MariaDB y API PrestaShop confirman cero. Evidencia: reports/prestashop/orphan_repair_20261015.json.
 - RISK: el hosting devolvió HTTP 508 («Límite de Procesos de Entrada alcanzado») durante el rastreo completo. Se detuvo la carga concurrente; los controles puntuales secuenciales posteriores pasaron. No se acredita HTTP/canonical/indexabilidad o ausencia de contenido similar para las 1.309 fichas completas. La corrección de capacidad requiere diagnóstico del hosting, no cambiar cifras de un reporte.
 - PENDING: los nuevos reenvíos GSC quedan isPending=true inmediatamente tras HTTP 204. El procesamiento y las decisiones de indexación dependen de Google; no se prometen ni se simulan.
 

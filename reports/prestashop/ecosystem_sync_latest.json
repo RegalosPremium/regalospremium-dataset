@@ -1,18 +1,19 @@
 {
-  "timestamp": "2026-10-15T14:22:38.332929+00:00",
-  "status": "RISK",
+  "timestamp": "2026-10-15T14:34:26.538399+00:00",
+  "status": "PASS",
   "scope": "Current API catalog/default categories/category associations; not stale local database snapshot",
   "products_total": 1519,
   "products_active": 1309,
   "github_products": 1309,
   "categories": 92,
-  "prestashop_anomalies": 10,
+  "prestashop_anomalies": 0,
   "orphan_category_ids": [],
   "anomalies": {
     "MISSING_DEFAULT_CATEGORY": 0,
-    "ORPHAN_PRODUCT_CATEGORY_LINK": 10
+    "ORPHAN_PRODUCT_CATEGORY_LINK": 0
   },
   "resolved_product_landings": 51,
   "unresolved_product_families": [],
-  "evidence": "reports/prestashop/live_sync_latest.json"
+  "evidence": "reports/prestashop/live_sync_latest.json",
+  "repair_evidence": "reports/prestashop/orphan_repair_20261015.json"
 }

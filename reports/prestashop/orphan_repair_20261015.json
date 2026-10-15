@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-10-15T14:33:46.064679+00:00",
+  "status": "PASS",
+  "server": "int5.cpanelhost.cl",
+  "method": "Direct MariaDB; InnoDB transaction with exact-row guards",
+  "backup": "/home/maxdaguzan/RegalosPremium_Backups/mariadb_orphans_20261015",
+  "backup_sha256": "dcf2474354747197a6cbf1ecf034f5d6935e80ba6761e8c33009a024bcd390c8",
+  "removed_rows": [
+    {
+      "id_category": 2,
+      "id_product": 805,
+      "position": 753
+    },
+    {
+      "id_category": 2,
+      "id_product": 844,
+      "position": 788
+    },
+    {
+      "id_category": 2,
+      "id_product": 845,
+      "position": 789
+    },
+    {
+      "id_category": 2,
+      "id_product": 846,
+      "position": 790
+    },
+    {
+      "id_category": 2,
+      "id_product": 847,
+      "position": 791
+    },
+    {
+      "id_category": 2,
+      "id_product": 848,
+      "position": 792
+    },
+    {
+      "id_category": 2,
+      "id_product": 849,
+      "position": 793
+    },
+    {
+      "id_category": 2,
+      "id_product": 850,
+      "position": 794
+    },
+    {
+      "id_category": 2,
+      "id_product": 851,
+      "position": 795
+    },
+    {
+      "id_category": 71,
+      "id_product": 855,
+      "position": 55
+    }
+  ],
+  "transaction": {
+    "engine": "InnoDB",
+    "before": 10,
+    "removed": 10,
+    "remaining_orphans": 0,
+    "active_products": 1309,
+    "action": "COMMIT"
+  },
+  "independent_verification": {
+    "remaining_orphans": 0
+  }
+}
